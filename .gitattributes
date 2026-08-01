@@ -1,0 +1,9 @@
+# Normalise text in the repo, leave generated binaries strictly alone.
+* text=auto eol=lf
+
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.ico  binary

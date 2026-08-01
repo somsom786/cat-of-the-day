@@ -1,0 +1,631 @@
+/* ===========================================================================
+   CAT OF THE DAY -- stylesheet
+   1998 personal homepage. Angelfire fan shrine, not "tasteful 90s-inspired".
+   No webfonts, no third-party requests, no build step.
+   =========================================================================== */
+
+:root {
+  --void:  #000080;   /* Windows navy -- page background */
+  --paper: #FFFFCC;   /* cream content panel */
+  --hot:   #FF00FF;   /* magenta -- decorative ONLY, never body text */
+  --acid:  #00FF00;   /* lime -- accents, counter digits */
+  --wire:  #C0C0C0;   /* silver chrome -- bevels */
+  --ink:   #000000;
+
+  /* Win95 chrome derivatives */
+  --wire-lit:  #FFFFFF;
+  --wire-mid:  #DFDFDF;
+  --wire-dim:  #808080;
+
+  --display: "Comic Sans MS", "Comic Neue", cursive;
+  --body:    "Times New Roman", Times, serif;
+  --mono:    "Courier New", Courier, monospace;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  background-color: var(--void);
+  background-image: url("bg.svg");
+  background-repeat: repeat;
+  background-size: 64px 64px;
+}
+
+body {
+  margin: 0;
+  padding: 18px 10px 40px;
+  font-family: var(--body);
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+/* ---------------------------------------------------------------------------
+   The panel
+   --------------------------------------------------------------------------- */
+
+.panel {
+  width: 760px;
+  max-width: 100%;
+  margin: 0 auto;
+  background: var(--paper);
+  border: 5px outset var(--wire);
+  padding: 14px 20px 22px;
+}
+
+hr {
+  border: none;
+  border-top: 3px ridge var(--wire);
+  margin: 18px 0;
+  height: 0;
+}
+
+hr.thin { border-top: 2px ridge var(--wire); margin: 12px 0; }
+
+a {
+  color: var(--void);
+  text-decoration: underline;
+}
+a:visited { color: #551a8b; }
+a:hover, a:focus-visible { background: var(--acid); color: var(--ink); }
+
+:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px var(--hot);
+}
+
+/* ---------------------------------------------------------------------------
+   Header
+   --------------------------------------------------------------------------- */
+
+.crown {
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--ink);
+  margin: 2px 0 6px;
+}
+
+h1 {
+  font-family: var(--display);
+  font-size: 54px;
+  line-height: 1.02;
+  text-align: center;
+  color: var(--hot);
+  text-shadow: 4px 4px 0 var(--ink);
+  margin: 6px 0 4px;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 0.5px var(--ink);
+}
+
+.subtitle {
+  text-align: center;
+  font-family: var(--display);
+  font-size: 17px;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+
+.subtitle .star { color: var(--hot); }
+
+/* Blinking "NEW!" -- period-correct, and killed by reduced motion. */
+.blink {
+  font-family: var(--display);
+  color: var(--hot);
+  animation: blink 1.1s steps(1, end) infinite;
+}
+@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+/* ---------------------------------------------------------------------------
+   Marquee -- CSS animation, not the deprecated <marquee> element
+   --------------------------------------------------------------------------- */
+
+.marquee {
+  overflow: hidden;
+  background: var(--ink);
+  border: 3px inset var(--wire);
+  padding: 5px 0;
+  margin: 10px 0 4px;
+}
+
+.marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  font-family: var(--display);
+  font-size: 17px;
+  color: var(--acid);
+  animation: scroll-left 26s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track span { padding-right: 60px; }
+.marquee-track .pink { color: var(--hot); }
+
+@keyframes scroll-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* ---------------------------------------------------------------------------
+   THE SIGNATURE ELEMENT -- fake Windows 95 image viewer
+   --------------------------------------------------------------------------- */
+
+.viewer {
+  background: var(--wire);
+  border: 3px outset var(--wire);
+  padding: 3px;
+  margin: 6px 0 0;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.45);
+}
+
+.viewer-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  /* Silver gradient title bar, as briefed. */
+  background: linear-gradient(90deg, #9a9a9a 0%, #c0c0c0 42%, #eaeaea 100%);
+  border: 2px outset var(--wire);
+  padding: 3px 3px 3px 6px;
+}
+
+.viewer-icon { flex: 0 0 auto; display: block; }
+
+.viewer-title {
+  flex: 1 1 auto;
+  font-family: var(--mono);
+  font-weight: bold;
+  font-size: 13px;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.55);
+}
+
+.viewer-btns { flex: 0 0 auto; display: flex; gap: 2px; }
+
+/* Non-functional by design -- they are chrome, not controls, so they are
+   inert spans and stay out of the tab order. */
+.viewer-btns span {
+  width: 20px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  background: var(--wire);
+  border: 2px outset var(--wire);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  color: var(--ink);
+  user-select: none;
+}
+
+.viewer-menu {
+  display: flex;
+  gap: 14px;
+  padding: 3px 8px;
+  background: var(--wire);
+  border-bottom: 2px groove var(--wire);
+  font-family: var(--body);
+  font-size: 13px;
+  color: var(--ink);
+}
+.viewer-menu u { text-decoration: underline; }
+
+.viewer-canvas {
+  border: 3px inset var(--wire);
+  background: var(--wire-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  /* checkerboard "transparent area" of every 90s image editor */
+  background-image:
+    linear-gradient(45deg, #a8a8a8 25%, transparent 25%, transparent 75%, #a8a8a8 75%),
+    linear-gradient(45deg, #a8a8a8 25%, transparent 25%, transparent 75%, #a8a8a8 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 8px 8px;
+}
+
+.viewer-canvas img {
+  display: block;
+  max-width: 100%;
+  max-height: min(64vh, 620px);
+  width: auto;
+  height: auto;
+  border: 1px solid var(--ink);
+  /* The LQIP paints here instantly and the real file lands on top of it. */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.viewer-status {
+  display: flex;
+  gap: 4px;
+  margin-top: 3px;
+  font-family: var(--mono);
+  font-size: 12px;
+}
+
+.viewer-status span {
+  border: 2px inset var(--wire);
+  padding: 2px 7px;
+  background: var(--wire);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.viewer-status .grow { flex: 1 1 auto; }
+
+/* ---------------------------------------------------------------------------
+   Chunky beveled navigation -- same chrome as the viewer
+   --------------------------------------------------------------------------- */
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+  margin: 12px 0 6px;
+}
+
+.btn {
+  font-family: var(--mono);
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--ink);
+  background: var(--wire);
+  border: 4px outset var(--wire);
+  padding: 9px 14px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.btn:hover { background: #d4d4d4; color: var(--ink); }
+.btn:active:not([aria-disabled="true"]) {
+  border-style: inset;
+  padding: 10px 13px 8px 15px;
+}
+
+.btn[aria-disabled="true"] {
+  color: var(--wire-dim);
+  text-shadow: 1px 1px 0 var(--wire-lit);
+  cursor: not-allowed;
+}
+.btn[aria-disabled="true"]:hover { background: var(--wire); }
+
+.btn-wide { flex: 1 1 100%; }
+
+.controls-secondary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 8px 0 0;
+}
+
+/* ---------------------------------------------------------------------------
+   Caption / metadata
+   --------------------------------------------------------------------------- */
+
+.caption {
+  text-align: center;
+  margin: 14px 0 4px;
+}
+
+.caption .day {
+  font-family: var(--display);
+  font-size: 26px;
+  color: var(--ink);
+  margin: 0 0 2px;
+}
+
+.caption .meta {
+  font-family: var(--mono);
+  font-size: 13px;
+  margin: 0;
+}
+
+.prose { margin: 12px 2px; }
+.prose p { margin: 10px 0; }
+
+/* ---------------------------------------------------------------------------
+   Hit counter
+   --------------------------------------------------------------------------- */
+
+.counter-box { text-align: center; margin: 16px 0 6px; }
+
+.counter-label {
+  font-family: var(--display);
+  font-size: 15px;
+  margin: 0 0 5px;
+  color: var(--ink);
+}
+
+.odometer {
+  display: inline-flex;
+  gap: 3px;
+  background: var(--ink);
+  border: 4px inset var(--wire);
+  padding: 6px 7px;
+}
+
+.odometer b {
+  font-family: var(--mono);
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+  color: var(--acid);
+  background: #001100;
+  border: 1px solid #004400;
+  padding: 3px 6px;
+  min-width: 25px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.counter-disclaimer {
+  font-family: var(--mono);
+  font-size: 11px;
+  margin: 5px 0 0;
+  color: var(--ink);
+}
+
+/* ---------------------------------------------------------------------------
+   Under construction -- authored here, not a downloaded GIF
+   --------------------------------------------------------------------------- */
+
+.construction {
+  margin: 16px auto 6px;
+  max-width: 460px;
+  border: 3px outset var(--wire);
+  background: var(--wire);
+  padding: 7px;
+  text-align: center;
+}
+
+.hazard {
+  height: 16px;
+  border: 2px inset var(--wire);
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ffcc00 0 12px,
+    #000000 12px 24px
+  );
+  background-size: 34px 34px;
+  animation: hazard-crawl 1.1s linear infinite;
+}
+
+@keyframes hazard-crawl {
+  from { background-position: 0 0; }
+  to   { background-position: 34px 0; }
+}
+
+.construction-mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 4px;
+}
+
+.construction-text {
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--ink);
+  animation: blink 1.4s steps(1, end) infinite;
+}
+
+.digger {
+  transform-box: fill-box;
+  transform-origin: 50% 90%;
+  animation: digger-bob 0.9s ease-in-out infinite alternate;
+}
+@keyframes digger-bob {
+  from { transform: translateY(0) rotate(-6deg); }
+  to   { transform: translateY(-3px) rotate(8deg); }
+}
+
+/* ---------------------------------------------------------------------------
+   88x31 buttons
+   --------------------------------------------------------------------------- */
+
+.buttons88 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 14px 0 4px;
+  padding: 0;
+  list-style: none;
+}
+
+.buttons88 li { line-height: 0; }
+.buttons88 svg {
+  display: block;
+  border: 2px outset var(--wire);
+  image-rendering: pixelated;
+}
+
+/* ---------------------------------------------------------------------------
+   Archive grid
+   --------------------------------------------------------------------------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+  padding: 0;
+  margin: 14px 0;
+  list-style: none;
+}
+
+.grid a {
+  display: block;
+  text-decoration: none;
+  background: var(--wire);
+  border: 3px outset var(--wire);
+  padding: 4px;
+  color: var(--ink);
+}
+
+.grid a:hover, .grid a:focus-visible { background: var(--acid); }
+
+.grid img {
+  display: block;
+  width: 100%;
+  height: 116px;
+  object-fit: cover;
+  border: 2px inset var(--wire);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid .cap {
+  display: block;
+  font-family: var(--mono);
+  font-size: 11px;
+  text-align: center;
+  padding: 3px 0 1px;
+}
+
+.grid .cap b { display: block; font-size: 12px; }
+
+/* ---------------------------------------------------------------------------
+   Footer
+   --------------------------------------------------------------------------- */
+
+.footer {
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 12px;
+  margin-top: 14px;
+}
+
+.footer p { margin: 6px 0; }
+
+.webring {
+  font-family: var(--display);
+  font-size: 15px;
+  text-align: center;
+  margin: 12px 0;
+}
+
+.guestbook {
+  display: block;
+  text-align: center;
+  font-family: var(--display);
+  font-size: 22px;
+  color: var(--void);
+  margin: 14px 0 6px;
+}
+
+.motion-toggle {
+  font-family: var(--mono);
+  font-size: 12px;
+  background: var(--wire);
+  border: 3px outset var(--wire);
+  padding: 5px 10px;
+  cursor: pointer;
+  color: var(--ink);
+}
+.motion-toggle:active { border-style: inset; }
+
+/* ---------------------------------------------------------------------------
+   404
+   --------------------------------------------------------------------------- */
+
+.big404 {
+  font-family: var(--display);
+  font-size: 92px;
+  text-align: center;
+  color: var(--hot);
+  text-shadow: 5px 5px 0 var(--ink);
+  margin: 10px 0 0;
+}
+
+/* ---------------------------------------------------------------------------
+   Accessibility helpers
+   --------------------------------------------------------------------------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--paper);
+  border: 3px outset var(--wire);
+  padding: 8px 14px;
+  font-family: var(--mono);
+  z-index: 10;
+}
+.skip-link:focus { left: 8px; top: 8px; }
+
+/* Reduced motion: system preference OR the manual toggle.
+   Everything decorative stops; nothing becomes unreadable. */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track,
+  .hazard,
+  .digger,
+  .blink,
+  .construction-text {
+    animation: none !important;
+  }
+  .marquee-track { padding-left: 0; }
+}
+
+html.no-motion .marquee-track,
+html.no-motion .hazard,
+html.no-motion .digger,
+html.no-motion .blink,
+html.no-motion .construction-text {
+  animation: none !important;
+}
+html.no-motion .marquee-track { padding-left: 0; }
+
+/* ---------------------------------------------------------------------------
+   Narrow screens -- the panel collapses, the chrome stays
+   --------------------------------------------------------------------------- */
+
+@media (max-width: 560px) {
+  body { padding: 10px 6px 28px; font-size: 16px; }
+  .panel { padding: 10px 10px 16px; border-width: 4px; }
+  h1 { font-size: 34px; text-shadow: 3px 3px 0 var(--ink); }
+  .subtitle { font-size: 14px; }
+  .viewer-menu { font-size: 12px; gap: 10px; }
+  .viewer-title { font-size: 11px; }
+  .viewer-canvas img { max-height: 54vh; }
+  .viewer-status { flex-wrap: wrap; font-size: 11px; }
+  .controls { gap: 6px; }
+  .btn { font-size: 13px; padding: 10px 8px; flex: 1 1 100%; }
+  .caption .day { font-size: 20px; }
+  .odometer b { font-size: 22px; min-width: 20px; padding: 3px 4px; }
+  .big404 { font-size: 56px; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 8px; }
+  .grid img { height: 96px; }
+}
+
+@media (max-width: 400px) {
+  h1 { font-size: 28px; }
+  .odometer { padding: 4px 5px; }
+  .odometer b { font-size: 19px; min-width: 17px; padding: 2px 3px; }
+  .viewer-menu { gap: 7px; font-size: 11px; }
+}

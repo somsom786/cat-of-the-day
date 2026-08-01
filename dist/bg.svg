@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" shape-rendering="geometricPrecision">
+  <!-- Hand-authored 64x64 tile. Navy void with paw prints and sparkles.
+       Not a downloaded 90s GIF: every path here was written by hand. -->
+  <rect width="64" height="64" fill="#000080"/>
+  <defs>
+    <g id="paw">
+      <ellipse cx="0" cy="3.2" rx="5.2" ry="4.2"/>
+      <ellipse cx="-4.6" cy="-3.1" rx="2.1" ry="2.6"/>
+      <ellipse cx="-1.6" cy="-5.2" rx="2.0" ry="2.6"/>
+      <ellipse cx="1.7" cy="-5.2" rx="2.0" ry="2.6"/>
+      <ellipse cx="4.7" cy="-3.1" rx="2.1" ry="2.6"/>
+    </g>
+    <g id="star">
+      <path d="M0,-3.4 L0.9,-0.9 L3.4,0 L0.9,0.9 L0,3.4 L-0.9,0.9 L-3.4,0 L-0.9,-0.9 Z"/>
+    </g>
+  </defs>
+  <g fill="#1c1caa">
+    <use href="#paw" transform="translate(16,15) rotate(-14)"/>
+    <use href="#paw" transform="translate(48,47) rotate(11)"/>
+  </g>
+  <g fill="#2626c8">
+    <use href="#star" transform="translate(47,14)"/>
+    <use href="#star" transform="translate(15,46)"/>
+  </g>
+  <g fill="#15159a">
+    <rect x="31" y="0" width="1" height="64"/>
+    <rect x="0" y="31" width="64" height="1"/>
+  </g>
+</svg>

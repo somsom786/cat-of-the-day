@@ -1,0 +1,74 @@
+name: Daily cat
+
+# Rebuilds the site once a day so a new permalink exists for the new day and
+# index.html points at the new cat. This NEVER reruns curation -- curate.py
+# needs the Cats.* source blocks, which are deliberately not in this repo.
+# It only re-reads data/manifest.json and regenerates HTML.
+
+on:
+  schedule:
+    # 00:05 UTC, five minutes after the day rolls over for the date maths.
+    - cron: "5 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "tools/build.py"
+      - "data/**"
+      - ".github/workflows/daily.yml"
+
+# A scheduled run and a manual run must never interleave: both commit to the
+# same branch, and a race would leave the repo with a half-written day.
+concurrency:
+  group: daily-cat-build
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild the site (HTML only -- no curation)
+        run: python tools/build.py
+
+      - name: Commit the new day
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist data
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nothing changed today."
+          else
+            git commit -m "Cat of the day: $(date -u +%Y-%m-%d)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Only needed if you deploy with an API token. If you connected
+      # Cloudflare Pages directly to this GitHub repo (the simpler route),
+      # the push above already triggers the deploy and this step is skipped
+      # automatically because the secret is absent.
+      - name: Deploy to Cloudflare Pages
+        if: env.CLOUDFLARE_API_TOKEN != ''
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=cat-of-the-day
