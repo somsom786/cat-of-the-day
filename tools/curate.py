@@ -595,6 +595,25 @@ def main() -> int:
             out.append(r)
         return out, d
 
+    # Manual blocklist. Automated scoring cannot tell a cat photo from a
+    # picture of a joke about a cat, so there is a hand-maintained escape
+    # hatch. Keyed by srcHash because cat ids are positional and get
+    # reassigned on every recuration.
+    blocked = set()
+    blocklist_path = DATA_DIR / "blocklist.json"
+    if blocklist_path.exists():
+        try:
+            doc = json.loads(blocklist_path.read_text(encoding="utf-8"))
+            blocked = {b["srcHash"] for b in doc.get("blocked", []) if b.get("srcHash")}
+        except (json.JSONDecodeError, OSError, KeyError, TypeError) as exc:
+            print(f"  WARNING: data/blocklist.json unreadable ({exc}) -- ignoring it")
+    if blocked:
+        before = len(valid)
+        valid = [r for r in valid if r["src_hash"] not in blocked]
+        n_blocked = before - len(valid)
+        drops["manually blocklisted"] = n_blocked
+        print(f"  blocklist   : {len(blocked)} hash(es) listed, {n_blocked} matched")
+
     survivors, fdrops = apply_filters(valid, SHORT_EDGE_MIN)
     drops.update(fdrops)
     print(f"  passed filters at {SHORT_EDGE_MIN}px short edge: {len(survivors):,}")

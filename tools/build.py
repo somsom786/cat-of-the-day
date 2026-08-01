@@ -95,15 +95,13 @@ def svg_88x31(kind: str) -> str:
     if kind == "netscape":
         return (head + 'aria-label="Best viewed in Netscape">'
                 '<rect width="88" height="31" fill="#000000"/>'
-                '<rect x="0" y="0" width="27" height="31" fill="#000080"/>'
-                '<text x="13.5" y="23" fill="#00FF00" font-family="Courier New,monospace"'
-                ' font-size="20" font-weight="bold" text-anchor="middle">N</text>'
-                '<text x="30" y="12" fill="#00FF00" font-family="Courier New,monospace"'
-                ' font-size="7">BEST VIEWED</text>'
-                '<text x="30" y="20" fill="#FFFFFF" font-family="Courier New,monospace"'
-                ' font-size="7">IN</text>'
-                '<text x="30" y="28" fill="#FF00FF" font-family="Courier New,monospace"'
-                ' font-size="8" font-weight="bold">NETSCAPE</text>'
+                '<rect x="0" y="0" width="24" height="31" fill="#000080"/>'
+                '<text x="12" y="23" fill="#00FF00" font-family="Courier New,monospace"'
+                ' font-size="21" font-weight="bold" text-anchor="middle">N</text>'
+                '<text x="27" y="14" fill="#FFFFFF" font-family="Courier New,monospace"'
+                ' font-size="8" font-weight="bold">BEST VIEWED IN</text>'
+                '<text x="27" y="26" fill="#00FF00" font-family="Courier New,monospace"'
+                ' font-size="11" font-weight="bold">NETSCAPE</text>'
                 '</svg>')
 
     if kind == "notepad":
@@ -117,41 +115,44 @@ def svg_88x31(kind: str) -> str:
                 '<rect x="7" y="21" width="8" height="1.5"/>'
                 '</g>'
                 '<text x="27" y="14" fill="#000000" font-family="Courier New,monospace"'
-                ' font-size="7">MADE WITH</text>'
-                '<text x="27" y="25" fill="#000000" font-family="Courier New,monospace"'
-                ' font-size="10" font-weight="bold">NOTEPAD</text>'
+                ' font-size="8" font-weight="bold">MADE WITH</text>'
+                '<text x="27" y="26" fill="#000000" font-family="Courier New,monospace"'
+                ' font-size="11" font-weight="bold">NOTEPAD</text>'
                 '</svg>')
 
     if kind == "cats":
+        # Toe pads pulled clear of the main pad -- at 88x31 an overlapping paw
+        # just renders as a green blob.
         return (head + 'aria-label="Powered by cats">'
                 '<rect width="88" height="31" fill="#FF00FF"/>'
-                '<rect x="0" y="0" width="28" height="31" fill="#000000"/>'
-                '<g fill="#00FF00" transform="translate(14,18)">'
-                '<ellipse cx="0" cy="3" rx="6" ry="4.6"/>'
-                '<ellipse cx="-5.2" cy="-3.4" rx="2.3" ry="2.9"/>'
-                '<ellipse cx="-1.8" cy="-5.8" rx="2.2" ry="2.9"/>'
-                '<ellipse cx="1.9" cy="-5.8" rx="2.2" ry="2.9"/>'
-                '<ellipse cx="5.3" cy="-3.4" rx="2.3" ry="2.9"/>'
+                '<rect x="0" y="0" width="26" height="31" fill="#000000"/>'
+                '<g fill="#00FF00" transform="translate(13,19)">'
+                '<ellipse cx="0" cy="2.6" rx="5.4" ry="4.1"/>'
+                '<ellipse cx="-5.6" cy="-4.6" rx="1.9" ry="2.4"/>'
+                '<ellipse cx="-1.9" cy="-6.8" rx="1.9" ry="2.4"/>'
+                '<ellipse cx="1.9" cy="-6.8" rx="1.9" ry="2.4"/>'
+                '<ellipse cx="5.6" cy="-4.6" rx="1.9" ry="2.4"/>'
                 '</g>'
-                '<text x="31" y="14" fill="#000000" font-family="Courier New,monospace"'
-                ' font-size="7" font-weight="bold">POWERED BY</text>'
-                '<text x="31" y="26" fill="#000000" font-family="Courier New,monospace"'
-                ' font-size="11" font-weight="bold">CATS!</text>'
+                '<text x="29" y="14" fill="#000000" font-family="Courier New,monospace"'
+                ' font-size="8" font-weight="bold">POWERED BY</text>'
+                '<text x="29" y="27" fill="#000000" font-family="Courier New,monospace"'
+                ' font-size="12" font-weight="bold">CATS!</text>'
                 '</svg>')
 
     # kind == "noai"
     return (head + 'aria-label="No AI cats here">'
             '<rect width="88" height="31" fill="#000000"/>'
-            '<g transform="translate(15,15.5)">'
-            '<circle r="10.5" fill="none" stroke="#FF00FF" stroke-width="3"/>'
-            '<line x1="-7.4" y1="7.4" x2="7.4" y2="-7.4" stroke="#FF00FF" stroke-width="3"/>'
+            '<g transform="translate(14,15.5)">'
+            '<circle r="10" fill="none" stroke="#FF00FF" stroke-width="2.6"/>'
             '<text x="0" y="4" fill="#FFFFFF" font-family="Courier New,monospace"'
-            ' font-size="10" font-weight="bold" text-anchor="middle">AI</text>'
+            ' font-size="11" font-weight="bold" text-anchor="middle">AI</text>'
+            '<line x1="-7.1" y1="7.1" x2="7.1" y2="-7.1" stroke="#FF00FF"'
+            ' stroke-width="2.6"/>'
             '</g>'
-            '<text x="29" y="13" fill="#00FF00" font-family="Courier New,monospace"'
-            ' font-size="8" font-weight="bold">NO AI CATS</text>'
-            '<text x="29" y="24" fill="#00FF00" font-family="Courier New,monospace"'
-            ' font-size="8" font-weight="bold">HERE. EVER.</text>'
+            '<text x="27" y="14" fill="#00FF00" font-family="Courier New,monospace"'
+            ' font-size="9" font-weight="bold">NO AI CATS</text>'
+            '<text x="27" y="26" fill="#00FF00" font-family="Courier New,monospace"'
+            ' font-size="9" font-weight="bold">HERE. EVER.</text>'
             '</svg>')
 
 
@@ -240,8 +241,10 @@ def marquee() -> str:
         else '<span>' + e(txt) + '</span>'
         for txt, pink in CAT_FACTS
     )
+    # Emitted twice: the CSS translates the track by exactly -50%, so the
+    # second copy lands where the first began and the band is never empty.
     return ('<div class="marquee" aria-hidden="true">'
-            f'<div class="marquee-track">{spans}</div></div>')
+            f'<div class="marquee-track">{spans}{spans}</div></div>')
 
 
 def masthead(sub: str) -> str:
@@ -380,7 +383,7 @@ def nav(cfg: dict, day: int) -> str:
     else:
         prev = ('<a class="btn" data-nav-prev aria-disabled="true" role="link"'
                 ' title="This is the very first cat. There is no yesterday.">'
-                '&lsaquo;&lsaquo; NO CATS BEFORE THIS</a>')
+                '&lsaquo;&lsaquo; NO EARLIER CATS</a>')
 
     if next_ok:
         nxt = (f'<a class="btn" data-nav-next href="/cat/{iso(day_to_date(day+1))}/"'
@@ -426,8 +429,12 @@ def cat_page(cfg: dict, day: int, *, is_index: bool) -> str:
         + marquee()
         + '<hr>'
         + '<main id="main">'
+        # The window and its controls are one unit and share a width, so the
+        # buttons stay visually attached to the window they drive.
+        + f'<div class="viewer-unit" style="--ar:{round(entry["w"]/entry["h"], 4)}">'
         + viewer(entry, alt, cfg["have_avif"], hero=True)
         + nav(cfg, day)
+        + '</div>'
         + '<div class="caption">'
         + f'<p class="day">{e(pretty(d))}</p>'
         + f'<p class="meta">DAY {day_no} OF THE CAT PROJECT &middot; '

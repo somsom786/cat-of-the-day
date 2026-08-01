@@ -130,34 +130,53 @@ h1 {
   margin: 10px 0 4px;
 }
 
+/* The track holds the fact list twice. Translating exactly -50% therefore
+   lands the second copy precisely where the first started, so the band is
+   full at every moment and the loop has no visible seam. (Scrolling a single
+   copy from off-screen right leaves the bar empty most of the time, which
+   just reads as broken.) */
 .marquee-track {
   display: inline-block;
   white-space: nowrap;
-  padding-left: 100%;
   font-family: var(--display);
   font-size: 17px;
   color: var(--acid);
-  animation: scroll-left 26s linear infinite;
+  animation: scroll-left 42s linear infinite;
   will-change: transform;
 }
 
-.marquee-track span { padding-right: 60px; }
+.marquee-track span { padding-right: 58px; }
 .marquee-track .pink { color: var(--hot); }
 
 @keyframes scroll-left {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
 
 /* ---------------------------------------------------------------------------
    THE SIGNATURE ELEMENT -- fake Windows 95 image viewer
    --------------------------------------------------------------------------- */
 
+/* The window sizes itself to the picture, the way an image viewer actually
+   does. --ar (width/height of the cat) is stamped on by the generator, so the
+   window can work out how wide the image will be once it has been capped to
+   --img-max-h and hug it. Without this, a 3:4 phone photo -- and the source
+   collection is mostly those -- sits marooned in a sea of checkerboard. */
+.viewer-unit {
+  --img-max-h: min(64vh, 620px);
+  --chrome: 40px;
+  width: calc(var(--img-max-h) * var(--ar, 1) + var(--chrome));
+  min-width: min(100%, 370px);
+  max-width: 100%;
+  margin: 6px auto 0;
+}
+
 .viewer {
+  width: 100%;
   background: var(--wire);
   border: 3px outset var(--wire);
   padding: 3px;
-  margin: 6px 0 0;
+  margin: 0;
   box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.45);
 }
 
@@ -234,7 +253,7 @@ h1 {
 .viewer-canvas img {
   display: block;
   max-width: 100%;
-  max-height: min(64vh, 620px);
+  max-height: var(--img-max-h, min(64vh, 620px));
   width: auto;
   height: auto;
   border: 1px solid var(--ink);
@@ -270,9 +289,12 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  justify-content: space-between;
   margin: 12px 0 6px;
 }
+
+/* Equal halves. Pinned to opposite edges of a 760px panel they read as two
+   unrelated widgets rather than one pair of viewer controls. */
+.controls .btn { flex: 1 1 0; min-width: 0; }
 
 .btn {
   font-family: var(--mono);
@@ -589,7 +611,6 @@ h1 {
   .construction-text {
     animation: none !important;
   }
-  .marquee-track { padding-left: 0; }
 }
 
 html.no-motion .marquee-track,
@@ -599,7 +620,6 @@ html.no-motion .blink,
 html.no-motion .construction-text {
   animation: none !important;
 }
-html.no-motion .marquee-track { padding-left: 0; }
 
 /* ---------------------------------------------------------------------------
    Narrow screens -- the panel collapses, the chrome stays

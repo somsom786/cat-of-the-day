@@ -1,0 +1,9 @@
+{
+  "_comment": "Source images to exclude from curation, keyed by srcHash (the SHA256 of the source file, which is also in data/manifest.json). Keyed by hash rather than cat id on purpose: cat ids are positional and get reassigned every time you recurate, but srcHash is stable forever. Re-run `python tools/curate.py` after editing.",
+  "blocked": [
+    {
+      "srcHash": "0e2758bb2b16112d066d3adf994bd0df2ddd2aaec2f17ca21ed4ff5a7b064ada",
+      "why": "Meme-style image caption burned into the photo, including censored profanity. Not a cat photo so much as a picture of a joke."
+    }
+  ]
+}

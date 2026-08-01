@@ -238,6 +238,37 @@ total fits. **Quality drops before the cat count does.**
 
 ---
 
+## Throwing out a specific cat
+
+Scoring can measure sharpness and resolution. It cannot tell a photo of a cat
+from a photo of a joke about a cat — a meme caption burned into the pixels
+scores like any other sharp, well-exposed image.
+
+`data/blocklist.json` is the manual escape hatch:
+
+```json
+{
+  "blocked": [
+    { "srcHash": "0e2758bb...", "why": "caption burned into the image" }
+  ]
+}
+```
+
+Find the hash in `data/manifest.json` (`srcHash` on the entry), add it, and
+rerun `python tools/curate.py`.
+
+**Keyed by `srcHash`, not by cat id, on purpose.** Cat ids are positional —
+`cat-0785` means "785th by score" and gets reassigned to a completely different
+photo the moment anything upstream changes. `srcHash` is the SHA256 of the
+source file and is stable forever.
+
+One image ships blocked already. It was found by looking at the archive grid,
+not by any automated check — an edge-band detector flagged 20 candidates and
+all 20 were false positives (dark walls, white blankets) while missing the real
+one. If you spot others, this is the file to add them to.
+
+---
+
 ## What is committed and what is not
 
 `.gitignore` excludes `Cats.*/`, `tools/.cache/`, and `*.7z` / `*.zip` / `*.rar`.
