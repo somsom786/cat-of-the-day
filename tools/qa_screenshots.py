@@ -96,10 +96,14 @@ def main() -> int:
 
         nav = browser.new_page(viewport={"width": 1200, "height": 900})
         goto(nav, root + "/cat/2026-08-02/")
+        if "TODAY'S CAT" not in nav.locator("[data-nav-next]").inner_text():
+            failures.append("yesterday forward label")
         nav.keyboard.press("ArrowLeft")
         nav.wait_for_url("**/cat/2026-08-01/")
         if not nav.url.endswith("/cat/2026-08-01/"):
             failures.append("arrow previous")
+        if "TOMORROW'S CAT" not in nav.locator("[data-nav-next]").inner_text():
+            failures.append("older forward label")
 
         browser.close()
 

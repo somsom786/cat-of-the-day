@@ -503,8 +503,9 @@ def nav(cfg: dict, day: int) -> str:
                 '&lsaquo;&lsaquo; NO EARLIER CATS</a>')
 
     if next_ok:
+        next_label = "TODAY'S CAT" if day + 1 == today else "TOMORROW'S CAT"
         nxt = (f'<a class="btn" data-nav-next href="/cat/{iso(day_to_date(day+1))}/"'
-               ' rel="next">TOMORROW\'S CAT &rsaquo;&rsaquo;</a>')
+               f' rel="next">{next_label} &rsaquo;&rsaquo;</a>')
     else:
         # The joke lands exactly where it should: at the edge of time.
         nxt = ('<a class="btn" data-nav-next aria-disabled="true" role="link"'
