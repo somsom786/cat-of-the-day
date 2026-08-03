@@ -58,7 +58,36 @@ python tools/curate.py --no-encode --shortlist 2000
 This writes the ignored local `data/survivors.json`. It does not modify the
 raw source or `dist/img/`.
 
-## Phase 1.5: AgentRouter vision triage
+## Personality-first manual review (current build)
+
+The current published image set was selected by visual inspection, not by
+technical image quality. `tools/manual_review.py` makes a contact sheet for
+every decodable image under `cat-pictures`—all 5,925 in the current archive—
+with no short-edge, aspect-ratio, sharpness, colour, or portrait filter. The
+reviewer deliberately keeps the blurry, tiny, badly timed, and geometrically
+weird cats that have personality.
+
+The checked-in review page is:
+
+```powershell
+python tools/manual_review.py
+Start-Process tools/review/index.html
+```
+
+The local selection used for the current build is source-keyed and reproducible:
+
+```powershell
+python tools/make_picks.py --indices-file tools/review/selected-indices.txt
+python tools/manual_encode.py --picks tools/review/picks.json --workers 12
+python tools/build.py
+```
+
+`manual_encode.py` is intentionally separate from the heuristic encoder. It
+re-encodes only the hand-picked sources, strips metadata, writes the manifest
+and deterministic order, and checks the 250 MB image budget. The current set
+contains 979 manually selected cats and 2,937 generated image files.
+
+## Phase 1.5: AgentRouter vision triage (optional)
 
 This script uses the separate OpenAI-compatible AgentRouter endpoint at
 `https://agentrouter.org/v1`. It does not use the Claude Code connection or
@@ -111,8 +140,9 @@ Encode the reviewed selection (all picks are used unless `--keep` is supplied):
 python tools/curate.py --picks tools/review/picks.json
 ```
 
-If the vision pass is unavailable, the completed local build uses the
-deterministic heuristic fallback:
+If you choose not to use the vision pass, the manual review path above is the
+preferred fallback. The older deterministic heuristic fallback is still
+available for an unattended run:
 
 ```powershell
 python tools/curate.py --keep 800
@@ -120,7 +150,7 @@ python tools/curate.py --keep 800
 
 That fallback is explicitly reported; it does not pretend to contain AI
 captions or vision scores. A later reviewed run replaces the same manifest
-and image tree.
+and image tree. The current build did not make an AgentRouter call.
 
 ## Build and preview
 
@@ -183,8 +213,9 @@ the site.
 ## Cloudflare Pages
 
 Cloudflare Pages is the intended host. Its relevant limits are **20,000 files
-per deployment** and **25 MiB per file**. The current 800-cat fallback is
-2,400 image files and the largest generated file is far below 25 MiB.
+per deployment** and **25 MiB per file**. The current manual set is 979 cats,
+2,937 image files, and 2,951 files total including pages; it is comfortably
+inside those limits and the largest generated file is far below 25 MiB.
 
 ### Connect the repository
 

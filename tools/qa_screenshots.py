@@ -1,15 +1,20 @@
 """Small local visual/functional smoke test used by the final handoff."""
 
+import argparse
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
 
-ROOT = "http://127.0.0.1:8765"
 OUT = Path(__file__).resolve().parent.parent / "qa"
 
 
 def main() -> int:
+    ap = argparse.ArgumentParser(description="Run local Cat of the Day browser smoke tests")
+    ap.add_argument("--base", default="http://127.0.0.1:8765",
+                    help="preview origin, for example http://127.0.0.1:8766")
+    args = ap.parse_args()
+    root = args.base.rstrip("/")
     OUT.mkdir(exist_ok=True)
     failures = []
     with sync_playwright() as playwright:
@@ -18,10 +23,10 @@ def main() -> int:
                                 device_scale_factor=1)
         external = []
         page.on("request", lambda request: external.append(request.url)
-                if "127.0.0.1:8765" not in request.url
+                if not request.url.startswith(root)
                 and request.url.startswith(("http://", "https://")) else None)
 
-        page.goto(ROOT + "/", wait_until="networkidle")
+        page.goto(root + "/", wait_until="networkidle")
         page.screenshot(path=str(OUT / "index-desktop.png"), full_page=True)
         if page.locator("h1").inner_text() != "CAT OF THE DAY!":
             failures.append("index h1")
@@ -34,7 +39,7 @@ def main() -> int:
         if page.locator(".viewer-caption").count() != 1:
             failures.append("viewer caption")
 
-        page.goto(ROOT + "/archive/", wait_until="networkidle")
+        page.goto(root + "/archive/", wait_until="networkidle")
         page.screenshot(path=str(OUT / "archive-desktop.png"), full_page=True)
         if page.locator(".grid img").count() < 1:
             failures.append("archive grid")
@@ -43,13 +48,13 @@ def main() -> int:
 
         mobile = browser.new_page(viewport={"width": 380, "height": 844},
                                   device_scale_factor=1)
-        mobile.goto(ROOT + "/", wait_until="networkidle")
+        mobile.goto(root + "/", wait_until="networkidle")
         mobile.screenshot(path=str(OUT / "index-mobile-380.png"), full_page=True)
         if mobile.locator("body").bounding_box()["width"] > 380:
             failures.append("mobile horizontal overflow")
 
         nav = browser.new_page(viewport={"width": 1200, "height": 900})
-        nav.goto(ROOT + "/cat/2026-08-02/", wait_until="networkidle")
+        nav.goto(root + "/cat/2026-08-02/", wait_until="networkidle")
         nav.keyboard.press("ArrowLeft")
         nav.wait_for_url("**/cat/2026-08-01/")
         if not nav.url.endswith("/cat/2026-08-01/"):

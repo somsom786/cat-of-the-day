@@ -17,6 +17,10 @@ Cats.*/
 tools/.cache/
 tools/review/picks.json
 tools/review/thumbs/
+tools/review/manual-thumbs/
+tools/review/manual-sheets/
+tools/review/manual-pool.json
+tools/review/selected-indices.txt
 data/survivors.json
 qa/
 tools/__pycache__/
