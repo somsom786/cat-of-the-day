@@ -1,7 +1,8 @@
 name: Daily cat
 
 # Rebuilds the site once a day so a new permalink exists for the new day and
-# index.html points at the new cat. This NEVER reruns curation -- curate.py
+# index.html points at the new cat and build.py emits its social card. This
+# NEVER reruns curation -- curate.py
 # needs the cat-pictures source blocks, which are deliberately not in this repo.
 # It only re-reads data/manifest.json and regenerates HTML.
 
@@ -45,7 +46,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Rebuild the site (HTML only -- no curation)
+      - name: Install static-card dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-comic-neue
+          python -m pip install "pillow>=10,<13"
+
+      - name: Rebuild the site (HTML and OG cards only -- no curation)
         run: python tools/build.py
 
       - name: Commit the new day

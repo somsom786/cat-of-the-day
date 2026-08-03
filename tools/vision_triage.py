@@ -1,13 +1,15 @@
 """
-PHASE 1.5 -- AgentRouter vision triage.
+PHASE 1.5 -- OpenAI-compatible vision triage.
 
 This script only reads the Phase 1 shortlist in data/survivors.json. It never
 walks the raw source folder, never sends full-resolution images, and never
 spends money unless --confirm-spend is explicitly supplied.
 
-The API is the OpenAI-compatible AgentRouter endpoint, not the Claude Code
-connection and not Anthropic's Messages Batch API. Results are cached by a
-stable hash of the source path in tools/.cache/scores.json.
+The preferred API is AgentRouter's OpenAI-compatible endpoint, not the Claude
+Code connection and not Anthropic's Messages Batch API. For recovery work it
+can also use the official OpenAI endpoint when OPENAI_API_KEY is available.
+Results are cached by a stable hash of the source path in
+tools/.cache/scores.json.
 
 Typical flow (PowerShell):
 
@@ -47,6 +49,7 @@ SCORES_FILE = CACHE_DIR / "scores.json"
 REVIEW_DIR = PROJECT_ROOT / "tools" / "review"
 THUMBS_DIR = REVIEW_DIR / "thumbs"
 ENDPOINT = "https://agentrouter.org/v1"
+OPENAI_ENDPOINT = "https://api.openai.com/v1"
 
 DEFAULT_BATCH_SIZE = 10
 DEFAULT_WORKERS = 6
@@ -59,6 +62,7 @@ OUTPUT_TOKENS_PER_IMAGE = 70
 # AgentRouter may expose aliases with different names. These are only
 # estimates; --input-rate/--output-rate can override them for the account.
 RATE_HINTS = {
+    "gpt-5-mini": (0.25, 2.00),
     "gpt-4o-mini": (0.15, 0.60),
     "gpt-4.1-mini": (0.40, 1.60),
     "gpt-4o": (2.50, 10.00),
@@ -139,15 +143,16 @@ def source_key(path: str) -> str:
     return hashlib.sha256(short_path(path).encode("utf-8", "surrogatepass")).hexdigest()
 
 
-def load_survivors() -> list[dict]:
-    if not SURVIVORS_FILE.exists():
+def load_survivors(input_file: Path) -> list[dict]:
+    if not input_file.exists():
         raise SystemExit(
-            "data/survivors.json is missing. Run "
-            "python tools/curate.py --no-encode first."
+            f"{input_file} is missing. Run the Phase 1 shortlist first."
         )
-    doc = json.loads(SURVIVORS_FILE.read_text(encoding="utf-8"))
+    doc = json.loads(input_file.read_text(encoding="utf-8"))
+    if isinstance(doc, dict) and isinstance(doc.get("picks"), list):
+        doc = doc["picks"]
     if not isinstance(doc, list):
-        raise SystemExit("data/survivors.json must contain an array")
+        raise SystemExit(f"{input_file} must contain an array or a picks array")
     for item in doc:
         item.setdefault("sourceKey", source_key(item["path"]))
     return doc
@@ -204,14 +209,24 @@ def import_openai():
 
 
 def make_client():
-    key = os.environ.get("AGENTROUTER_API_KEY", "").strip()
-    if not key:
+    agent_key = os.environ.get("AGENTROUTER_API_KEY", "").strip()
+    openai_key = os.environ.get("OPENAI_API_KEY", "").strip()
+    override = os.environ.get("VISION_BASE_URL", "").strip()
+    if agent_key:
+        key = agent_key
+        endpoint = override or ENDPOINT
+        provider = "AgentRouter"
+    elif openai_key:
+        key = openai_key
+        endpoint = override or OPENAI_ENDPOINT
+        provider = "OpenAI"
+    else:
         raise SystemExit(
-            "AGENTROUTER_API_KEY is not set. No AgentRouter request was made. "
-            "Set it in PowerShell before running the vision preflight."
+            "Neither AGENTROUTER_API_KEY nor OPENAI_API_KEY is set. "
+            "No vision request was made."
         )
     OpenAI = import_openai()
-    return OpenAI(api_key=key, base_url=ENDPOINT)
+    return OpenAI(api_key=key, base_url=endpoint), provider, endpoint
 
 
 def list_models(client) -> list[str]:
@@ -365,12 +380,17 @@ def score_batch(client, model: str, batch: list[dict], max_retries: int):
     last_error = None
     for attempt in range(max_retries + 1):
         try:
-            response = client.chat.completions.create(
-                model=model,
-                messages=build_message(batch),
-                temperature=0.2,
-                max_tokens=max(500, len(batch) * OUTPUT_TOKENS_PER_IMAGE + 160),
-            )
+            request = {
+                "model": model,
+                "messages": build_message(batch),
+            }
+            output_limit = max(1600, len(batch) * 140 + 400)
+            if model.lower().startswith("gpt-5"):
+                request["max_completion_tokens"] = output_limit
+            else:
+                request["temperature"] = 0.2
+                request["max_tokens"] = output_limit
+            response = client.chat.completions.create(**request)
             payload = parse_json_payload(response_text(response))
             if len(payload) != len(batch):
                 # A one-image mapping can still be safely assigned. For a
@@ -550,12 +570,16 @@ def print_estimate(model: str, pending: int, batch_size: int,
 
 def main() -> int:
     setup_console()
-    ap = argparse.ArgumentParser(description="Phase 1.5 AgentRouter vision triage")
+    ap = argparse.ArgumentParser(description="Phase 1.5 OpenAI-compatible vision triage")
+    ap.add_argument("--input", type=Path, default=SURVIVORS_FILE,
+                    help="shortlist array or review picks JSON")
     ap.add_argument("--model", default=None, help="exact model id; otherwise VISION_MODEL/catalog")
     ap.add_argument("--batch-size", type=int, default=DEFAULT_BATCH_SIZE)
     ap.add_argument("--workers", type=int, default=DEFAULT_WORKERS)
     ap.add_argument("--max-retries", type=int, default=DEFAULT_MAX_RETRIES)
     ap.add_argument("--top-cards", type=int, default=DEFAULT_TOP_CARDS)
+    ap.add_argument("--limit", type=int, default=0,
+                    help="score only the first N input rows (useful for a cheap smoke test)")
     ap.add_argument("--input-rate", type=float, default=None,
                     help="input USD per million tokens for estimate")
     ap.add_argument("--output-rate", type=float, default=None,
@@ -570,27 +594,31 @@ def main() -> int:
     if not 1 <= args.workers <= 8:
         ap.error("--workers must be between 1 and 8")
 
-    survivors = load_survivors()
+    input_file = args.input if args.input.is_absolute() else PROJECT_ROOT / args.input
+    survivors = load_survivors(input_file)
+    if args.limit > 0:
+        survivors = survivors[:args.limit]
     score_doc = load_score_doc()
     score_map = score_doc.setdefault("scores", {})
     pending_items = [item for item in survivors if item["sourceKey"] not in score_map]
 
     try:
-        client = make_client()
+        client, provider, endpoint = make_client()
         models = list_models(client)
     except SystemExit:
         raise
     except Exception as exc:
-        print(f"ERROR: could not list AgentRouter models: {exc}")
+        print(f"ERROR: could not list vision models: {exc}")
         return 2
 
-    print("AgentRouter vision model catalog (exact ids):")
+    print(f"Vision provider: {provider} ({endpoint})")
+    print("Vision model catalog (exact ids):")
     for model in models:
         print(f"  {model}")
     model = choose_model(models, args.model)
     print(f"Selected vision model: {model}")
     if not models:
-        print("ERROR: AgentRouter returned an empty model catalog.")
+        print("ERROR: the provider returned an empty model catalog.")
         return 2
 
     estimate_doc = print_estimate(model, len(pending_items), args.batch_size,

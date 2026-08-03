@@ -19,32 +19,26 @@ import argparse
 import datetime as dt
 import html
 import json
+import random
 import shutil
 import sys
 from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 SITE_SRC = PROJECT_ROOT / "site"
 EPOCH = dt.date(1970, 1, 1)
+FACTS_FILE = DATA_DIR / "facts.json"
+SEED_FACTS = 20250401
+FACT_DAY_OFFSET = 173
 
 DEFAULT_SITE_URL = "https://cat-of-the-day.pages.dev"
 DEFAULT_GUESTBOOK = "https://github.com/YOUR-USERNAME/cat-of-the-day/discussions"
 
 COUNTER_BASE = 31337
 COUNTER_PER_DAY = 137
-
-CAT_FACTS = [
-    ("*~*~ WELCOME 2 MY CAT PAGE ~*~*", True),
-    ("A group of cats is called a CLOWDER.", False),
-    ("Cats have around 32 muscles in each ear.", False),
-    ("Every cat nose print is unique, like a fingerprint.", False),
-    ("~*~ A NEW CAT EVERY SINGLE DAY ~*~", True),
-    ("Cats sleep between 12 and 16 hours a day.", False),
-    ("A cat can rotate its ears nearly 180 degrees.", False),
-    ("*~* THANK U 4 VISITING *~*", True),
-]
-
 
 # ---------------------------------------------------------------------------
 # Date helpers -- identical arithmetic to app.js
@@ -190,6 +184,15 @@ VIEWER_ICON = (
     '</svg>'
 )
 
+INFO_ICON = (
+    '<svg class="fact-info-icon" xmlns="http://www.w3.org/2000/svg" width="52" height="52"'
+    ' viewBox="0 0 52 52" role="img" aria-label="Information">'
+    '<circle cx="26" cy="26" r="22" fill="#0000AA" stroke="#FFFFFF" stroke-width="3"/>'
+    '<circle cx="26" cy="15" r="3.5" fill="#FFFFFF"/>'
+    '<path d="M22 22 H28 V39 H31 V43 H21 V39 H24 V26 H22 Z" fill="#FFFFFF"/>'
+    '</svg>'
+)
+
 
 # ---------------------------------------------------------------------------
 # Page shell
@@ -199,8 +202,11 @@ def head(cfg: dict, *, title: str, desc: str, path: str,
          og_image: str | None = None, og_w: int = 0, og_h: int = 0,
          preload: str | None = None) -> str:
     url = cfg["site_url"].rstrip("/") + path
-    img = og_image or (cfg["site_url"].rstrip("/") + "/img/full/"
-                       + cfg["today_id"] + ".webp")
+    img = og_image or (cfg["site_url"].rstrip("/") + "/img/og/"
+                       + iso(day_to_date(cfg["today"])) + ".jpg")
+    if not og_image and not (og_w and og_h):
+        og_w, og_h = 1200, 630
+    image_type = "image/jpeg" if img.lower().endswith((".jpg", ".jpeg")) else "image/webp"
     parts = [
         '<meta charset="utf-8">',
         '<meta name="viewport" content="width=device-width, initial-scale=1">',
@@ -218,6 +224,7 @@ def head(cfg: dict, *, title: str, desc: str, path: str,
         f'<meta property="og:url" content="{e(url)}">',
         f'<meta property="og:image" content="{e(img)}">',
         f'<meta property="og:image:alt" content="{e(desc)}">',
+        f'<meta property="og:image:type" content="{image_type}">',
         '<meta name="twitter:card" content="summary_large_image">',
         f'<meta name="twitter:title" content="{e(title)}">',
         f'<meta name="twitter:description" content="{e(desc)}">',
@@ -241,11 +248,11 @@ def head(cfg: dict, *, title: str, desc: str, path: str,
     return "\n  ".join(parts)
 
 
-def marquee() -> str:
+def marquee(cfg: dict) -> str:
     spans = "".join(
-        '<span class="pink">' + e(txt) + '</span>' if pink
-        else '<span>' + e(txt) + '</span>'
-        for txt, pink in CAT_FACTS
+        ('<span class="pink">' if item["kind"] == "MEME" else '<span>')
+        + e(f'{item["kind"]}: {item["text"]}') + '</span>'
+        for item in cfg["marquee_facts"]
     )
     # Emitted twice: the CSS translates the track by exactly -50%, so the
     # second copy lands where the first began and the band is never empty.
@@ -307,9 +314,11 @@ def footer(cfg: dict, last_updated: str) -> str:
         '<div class="footer">'
         '<p><button type="button" class="motion-toggle">'
         '[ MOTION: ON -- MAKE IT STOP ]</button></p>'
+        '<p><a href="/cats.xml">SUBSCRIBE TO THE CAT RSS FEED</a></p>'
         f'<p>LAST UPDATED: {e(last_updated)}</p>'
-        f'<p>{cfg["count"]} CATS IN THE COLLECTION &middot; '
-        'ONE PER DAY &middot; NO BACKEND, NO DATABASE, NO COOKIES</p>'
+        f'<p>{cfg["count"]} CATS &middot; {cfg["fact_count"]} FACTS &middot; '
+        'ONE OF EACH PER DAY</p>'
+        '<p>NO BACKEND &middot; NO DATABASE &middot; NO COOKIES</p>'
         '<p>THIS PAGE IS BEST ENJOYED AT 800x600 OR HIGHER</p>'
         '</div>'
     )
@@ -379,6 +388,107 @@ def viewer(entry: dict, alt: str, have_avif: bool, hero: bool) -> str:
     )
 
 
+def fact_dialog(fact: dict) -> str:
+    note = ""
+    if fact.get("note"):
+        note = f'<p class="fact-note">{e(fact["note"])}</p>'
+    kind = str(fact["kind"]).upper()
+    return (
+        '<section class="fact-dialog" aria-labelledby="fact-title">'
+        '<div class="fact-titlebar"><span id="fact-title">DID U KNOW???</span>'
+        '<span class="fact-close" aria-hidden="true">&times;</span></div>'
+        '<div class="fact-body">'
+        f'{INFO_ICON}'
+        '<div class="fact-copy">'
+        f'<span class="fact-badge fact-{e(kind.lower())}">{e(kind)}</span>'
+        f'<p class="fact-text">{e(fact["text"])}</p>{note}'
+        '</div></div></section>'
+    )
+
+
+def og_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
+    """Prefer Comic Sans locally; retain a safe runner fallback."""
+    candidates = (
+        Path("C:/Windows/Fonts/comicbd.ttf"),
+        Path("C:/Windows/Fonts/comic.ttf"),
+        Path("/usr/share/fonts/opentype/comic-neue/ComicNeue-Bold.otf"),
+        Path("/usr/share/fonts/truetype/comic-neue/ComicNeue-Bold.ttf"),
+        Path("/usr/share/fonts/truetype/comicneue/ComicNeue-Bold.ttf"),
+        Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"),
+    )
+    for path in candidates:
+        try:
+            return ImageFont.truetype(str(path), size)
+        except OSError:
+            continue
+    return ImageFont.load_default()
+
+
+def wrap_caption(draw: ImageDraw.ImageDraw, caption: str,
+                 font: ImageFont.ImageFont, max_width: int) -> list[str]:
+    words = caption.split()
+    lines: list[str] = []
+    line = ""
+    for word in words:
+        trial = f"{line} {word}".strip()
+        width = draw.textbbox((0, 0), trial, font=font)[2]
+        if line and width > max_width:
+            lines.append(line)
+            line = word
+        else:
+            line = trial
+    if line:
+        lines.append(line)
+    return lines[:2]
+
+
+def generate_og_card(out: Path, day: int, entry: dict) -> Path:
+    """Write a crawler-friendly 1200x630 JPEG with a social-safe crop."""
+    d = iso(day_to_date(day))
+    target = out / "img" / "og" / f"{d}.jpg"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    source = PROJECT_ROOT / "dist" / "img" / "full" / f'{entry["id"]}.webp'
+    if not source.exists():
+        raise FileNotFoundError(f"missing full image for OG card: {source}")
+
+    canvas = Image.new("RGB", (1200, 630), "#000080")
+    with Image.open(source) as opened:
+        cat = ImageOps.exif_transpose(opened) or opened
+        cat = cat.convert("RGB")
+        cat.thumbnail((1152, 472), Image.Resampling.LANCZOS)
+        x = (1200 - cat.width) // 2
+        y = 18 + (472 - cat.height) // 2
+        # Chunky silver frame keeps the image readable against navy.
+        ImageDraw.Draw(canvas).rectangle(
+            (x - 6, y - 6, x + cat.width + 5, y + cat.height + 5),
+            fill="#C0C0C0", outline="#FFFFFF", width=3,
+        )
+        canvas.paste(cat, (x, y))
+
+    draw = ImageDraw.Draw(canvas)
+    draw.rectangle((0, 506, 1199, 629), fill="#000080")
+    caption = cat_caption(entry, int(entry["id"].split("-")[1]))
+    size = 54
+    font = og_font(size)
+    lines = wrap_caption(draw, caption, font, 1100)
+    while (len(lines) > 1 or draw.textbbox((0, 0), lines[0], font=font)[2] > 1100) and size > 36:
+        size -= 3
+        font = og_font(size)
+        lines = wrap_caption(draw, caption, font, 1100)
+    line_height = size + 8
+    top = 516 + max(0, (104 - line_height * len(lines)) // 2)
+    for line in lines:
+        box = draw.textbbox((0, 0), line, font=font, stroke_width=2)
+        x = (1200 - (box[2] - box[0])) // 2
+        draw.text((x + 3, top + 3), line, font=font, fill="#000000")
+        draw.text((x, top), line, font=font, fill="#FFFFCC",
+                  stroke_width=2, stroke_fill="#000000")
+        top += line_height
+    canvas.save(target, "JPEG", quality=80, optimize=True, progressive=True,
+                subsampling="4:2:0")
+    return target
+
+
 def nav(cfg: dict, day: int) -> str:
     launch, today = cfg["launch"], cfg["today"]
     prev_ok = day > launch
@@ -400,11 +510,13 @@ def nav(cfg: dict, day: int) -> str:
         nxt = ('<a class="btn" data-nav-next aria-disabled="true" role="link"'
                ' title="Tomorrow has not happened yet.">NOT YET!! &rsaquo;&rsaquo;</a>')
 
+    random_day = max(launch, min(today - 1, day - 1))
+    random_href = f'/cat/{iso(day_to_date(random_day))}/'
     return (
         f'<div class="controls">{prev}{nxt}</div>'
         '<div class="controls-secondary">'
         '<a class="btn" href="/archive/">THE WHOLE CAT ARCHIVE</a>'
-        '<a class="btn" href="/archive/" data-random-cat>RANDOM CAT</a>'
+        f'<a class="btn" href="{random_href}" data-random-cat>RANDOM CAT</a>'
         '</div>'
         '<p class="counter-disclaimer" style="text-align:center">'
         'TIP: use the &larr; and &rarr; arrow keys</p>'
@@ -426,15 +538,15 @@ def cat_page(cfg: dict, day: int, *, is_index: bool) -> str:
 
     head_html = head(
         cfg, title=title, desc=desc, path=path,
-        og_image=f'{site}/img/full/{entry["id"]}.webp',
-        og_w=entry["w"], og_h=entry["h"],
+        og_image=f'{site}/img/og/{iso(d)}.jpg',
+        og_w=1200, og_h=630,
         preload=(f'/img/full/{entry["id"]}.avif' if cfg["have_avif"] else None),
     )
 
     sub = "TODAY'S CAT IS RIGHT HERE" if is_index else "FROM THE ARCHIVE"
     body = (
         masthead(sub)
-        + marquee()
+        + marquee(cfg)
         + '<hr>'
         + '<main id="main">'
         # The window and its controls are one unit and share a width, so the
@@ -443,6 +555,7 @@ def cat_page(cfg: dict, day: int, *, is_index: bool) -> str:
         + viewer(entry, alt, cfg["have_avif"], hero=True)
         + nav(cfg, day)
         + '</div>'
+        + fact_dialog(cfg["fact_for"](day))
         + '<div class="caption">'
         + f'<p class="day">{e(pretty(d))}</p>'
         + f'<p class="meta">DAY {day_no} OF THE CAT PROJECT &middot; '
@@ -496,12 +609,12 @@ def archive_page(cfg: dict) -> str:
     )
     body = (
         masthead("THE WHOLE CAT ARCHIVE")
-        + marquee()
+        + marquee(cfg)
         + '<hr>'
         + '<main id="main">'
         + '<div class="controls-secondary">'
         + '<a class="btn" href="/">&lsaquo;&lsaquo; BACK TO TODAY\'S CAT</a>'
-        + '<a class="btn" href="/archive/" data-random-cat>RANDOM CAT</a>'
+        + f'<a class="btn" href="/cat/{iso(day_to_date(max(cfg["launch"], cfg["today"] - 1)))}/" data-random-cat>RANDOM CAT</a>'
         + '</div>'
         + f'<p class="caption meta" style="margin-top:14px">'
         + f'{len(days)} DAY(S) OF CATS &middot; NEWEST FIRST</p>'
@@ -547,8 +660,12 @@ def rss(cfg: dict) -> str:
         link = f"{site}/cat/{iso(d)}/"
         img = f'{site}/img/full/{entry["id"]}.webp'
         thumb = f'{site}/img/thumb/{entry["id"]}.webp'
+        fact = cfg["fact_for"](day)
+        fact_note = f' <em>{e(fact["note"])}</em>' if fact.get("note") else ""
         desc = (f'<p><img src="{img}" alt="{e(cat_caption(entry, n))}" width="{entry["w"]}"'
-                f' height="{entry["h"]}"></p><p>The cat of the day for {pretty(d)}.</p>')
+                f' height="{entry["h"]}"></p>'
+                f'<p><strong>{e(cat_caption(entry, n))}</strong></p>'
+                f'<p><strong>{e(fact["kind"])}:</strong> {e(fact["text"])}{fact_note}</p>')
         items.append(
             "    <item>\n"
             f"      <title>Cat of the Day -- {iso(d)} (cat #{n})</title>\n"
@@ -608,6 +725,27 @@ def robots(cfg: dict) -> str:
             f"Sitemap: {cfg['site_url'].rstrip('/')}/sitemap.xml\n")
 
 
+def load_facts() -> list[dict]:
+    if not FACTS_FILE.exists():
+        raise SystemExit("data/facts.json is missing")
+    facts = json.loads(FACTS_FILE.read_text(encoding="utf-8"))
+    if not isinstance(facts, list) or len(facts) < 500:
+        raise SystemExit("data/facts.json must contain at least 500 entries")
+    valid_kinds = {"FACT", "MYTH", "RUMOR", "MEME", "LORE"}
+    ids = set()
+    for index, fact in enumerate(facts, 1):
+        if not isinstance(fact, dict):
+            raise SystemExit(f"fact #{index} is not an object")
+        if fact.get("kind") not in valid_kinds or not str(fact.get("text", "")).strip():
+            raise SystemExit(f"fact #{index} has an invalid kind or empty text")
+        if fact.get("id") in ids:
+            raise SystemExit(f"duplicate fact id: {fact.get('id')}")
+        ids.add(fact.get("id"))
+    shuffled = list(facts)
+    random.Random(SEED_FACTS).shuffle(shuffled)
+    return shuffled
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -636,6 +774,7 @@ def main() -> int:
         return 1
 
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    facts = load_facts()
     order_doc = json.loads(order_path.read_text(encoding="utf-8"))
     order = order_doc["order"]
     by_id = {m["id"]: m for m in manifest}
@@ -685,14 +824,25 @@ def main() -> int:
         idx = ((day - launch) % n_cats + n_cats) % n_cats
         return by_id[order[idx]]
 
+    def fact_for(day: int) -> dict:
+        idx = ((day - launch + FACT_DAY_OFFSET) % len(facts) + len(facts)) % len(facts)
+        return facts[idx]
+
+    marquee_pool = [fact for fact in facts if fact["kind"] in {"FACT", "MEME"}]
+    marquee_rng = random.Random(SEED_FACTS ^ today_n)
+    marquee_facts = marquee_rng.sample(marquee_pool, 6)
+
     cfg = {
         "site_url": site_url,
         "guestbook_url": guestbook,
         "launch": launch,
         "today": today_n,
         "count": n_cats,
+        "fact_count": len(facts),
         "have_avif": have_avif,
         "entry_for": entry_for,
+        "fact_for": fact_for,
+        "marquee_facts": marquee_facts,
         "today_id": entry_for(today_n)["id"],
         "last_updated": pretty(today).upper(),
         "client": {
@@ -712,6 +862,7 @@ def main() -> int:
     print(f"  launch date  : {iso(launch_date)}  (LAUNCH_DAY = {launch})")
     print(f"  today        : {iso(today)}  (day {today_n})")
     print(f"  cats         : {n_cats}   sequence repeats every {n_cats} days")
+    print(f"  facts        : {len(facts)}   seed {SEED_FACTS}, offset {FACT_DAY_OFFSET}")
     print(f"  today's cat  : {cfg['today_id']}")
     print(f"  AVIF sources : {'yes' if have_avif else 'no (WebP only)'}")
 
@@ -727,10 +878,13 @@ def main() -> int:
         shutil.copy2(SITE_SRC / name, out / name)
 
     # ---- pages ------------------------------------------------------------
+    days = list(range(launch, today_n + 1))
+    for day in days:
+        generate_og_card(out, day, entry_for(day))
+
     (out / "index.html").write_text(cat_page(cfg, today_n, is_index=True),
                                     encoding="utf-8")
 
-    days = list(range(launch, today_n + 1))
     for day in days:
         pdir = out / "cat" / iso(day_to_date(day))
         pdir.mkdir(parents=True, exist_ok=True)
@@ -756,9 +910,8 @@ def main() -> int:
     print(f"  total files  : {total_files}   (Cloudflare Pages limit: 20,000)")
 
     warn = []
-    if site_url == DEFAULT_SITE_URL:
-        warn.append(f"site_url is still the default ({DEFAULT_SITE_URL}). "
-                    "og:image and the RSS feed point there. "
+    if "example.com" in site_url or "YOUR-" in site_url:
+        warn.append(f"site_url looks like a placeholder ({site_url}). "
                     "Set it in data/site.json before you go live.")
     if "YOUR-USERNAME" in guestbook:
         warn.append("guestbook_url still contains YOUR-USERNAME. "

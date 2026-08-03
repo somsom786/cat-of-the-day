@@ -1,12 +1,26 @@
 """Small local visual/functional smoke test used by the final handoff."""
 
 import argparse
+import re
+import time
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import Error as PlaywrightError, sync_playwright
 
 
 OUT = Path(__file__).resolve().parent.parent / "qa"
+
+
+def goto(page, url: str) -> None:
+    """Tolerate the first empty socket probe from Windows preview helpers."""
+    for attempt in range(4):
+        try:
+            page.goto(url, wait_until="networkidle")
+            return
+        except PlaywrightError:
+            if attempt == 3:
+                raise
+            time.sleep(0.4)
 
 
 def main() -> int:
@@ -26,7 +40,7 @@ def main() -> int:
                 if not request.url.startswith(root)
                 and request.url.startswith(("http://", "https://")) else None)
 
-        page.goto(root + "/", wait_until="networkidle")
+        goto(page, root + "/")
         page.screenshot(path=str(OUT / "index-desktop.png"), full_page=True)
         if page.locator("h1").inner_text() != "CAT OF THE DAY!":
             failures.append("index h1")
@@ -38,23 +52,50 @@ def main() -> int:
             failures.append("picture sources")
         if page.locator(".viewer-caption").count() != 1:
             failures.append("viewer caption")
+        caption = page.locator(".viewer-caption").inner_text().strip()
+        if not caption or caption.startswith("Cat #"):
+            failures.append("real meme caption")
+        if page.locator("picture img").get_attribute("alt") != caption:
+            failures.append("caption used as hero alt")
+        if page.locator('picture source[type="image/avif"]').count() != 1:
+            failures.append("AVIF source")
+        if page.locator('picture source[type="image/webp"]').count() != 1:
+            failures.append("WebP source")
+        if page.locator(".fact-dialog .fact-text").count() != 1:
+            failures.append("daily fact dialog")
+        if page.locator('head link[rel="alternate"][type="application/rss+xml"]').count() != 1:
+            failures.append("RSS autodiscovery")
+        if page.locator('.footer a[href="/cats.xml"]').count() != 1:
+            failures.append("visible RSS link")
+        og_image = page.locator('meta[property="og:image"]').get_attribute("content") or ""
+        if not og_image.endswith(".jpg"):
+            failures.append("dedicated OG card")
+        random_link = page.locator("[data-random-cat]").first
+        if random_link.get_attribute("href") == "/archive/":
+            failures.append("random cat fallback")
+        with page.expect_navigation():
+            random_link.click()
+        if "/cat/" not in page.url or page.url.endswith("/archive/"):
+            failures.append("random cat jump")
 
-        page.goto(root + "/archive/", wait_until="networkidle")
+        goto(page, root + "/archive/")
         page.screenshot(path=str(OUT / "archive-desktop.png"), full_page=True)
         if page.locator(".grid img").count() < 1:
             failures.append("archive grid")
         if page.locator('.grid img[loading="lazy"]').count() < 1:
             failures.append("archive lazy loading")
+        if re.search(r"Cat #\d+\.", page.locator(".grid .cap").first.inner_text()):
+            failures.append("archive caption")
 
         mobile = browser.new_page(viewport={"width": 380, "height": 844},
                                   device_scale_factor=1)
-        mobile.goto(root + "/", wait_until="networkidle")
+        goto(mobile, root + "/")
         mobile.screenshot(path=str(OUT / "index-mobile-380.png"), full_page=True)
         if mobile.locator("body").bounding_box()["width"] > 380:
             failures.append("mobile horizontal overflow")
 
         nav = browser.new_page(viewport={"width": 1200, "height": 900})
-        nav.goto(root + "/cat/2026-08-02/", wait_until="networkidle")
+        goto(nav, root + "/cat/2026-08-02/")
         nav.keyboard.press("ArrowLeft")
         nav.wait_for_url("**/cat/2026-08-01/")
         if not nav.url.endswith("/cat/2026-08-01/"):

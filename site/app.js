@@ -64,17 +64,16 @@
   /* -----------------------------------------------------------------------
      RANDOM CAT -- jump to a random past permalink.
      ----------------------------------------------------------------------- */
-  var randomLink = document.querySelector("[data-random-cat]");
-  if (randomLink && typeof CFG.launch === "number" && typeof CFG.today === "number") {
-    randomLink.addEventListener("click", function (ev) {
-      ev.preventDefault();
-      var span = CFG.today - CFG.launch + 1;
-      var pick = CFG.launch + Math.floor(Math.random() * span);
-      // Don't send someone to the page they are already on.
-      if (span > 1 && dayToISO(pick) === CFG.date) {
-        pick = pick === CFG.today ? pick - 1 : pick + 1;
-      }
-      window.location.href = CFG.base + "cat/" + dayToISO(pick) + "/";
+  var randomLinks = document.querySelectorAll("[data-random-cat]");
+  if (randomLinks.length && typeof CFG.launch === "number" && typeof CFG.today === "number") {
+    randomLinks.forEach(function (randomLink) {
+      randomLink.addEventListener("click", function (ev) {
+        var pastCount = CFG.today - CFG.launch;
+        if (pastCount < 1) return; // the fallback href remains useful without JS
+        ev.preventDefault();
+        var pick = CFG.launch + Math.floor(Math.random() * pastCount);
+        window.location.href = CFG.base + "cat/" + dayToISO(pick) + "/";
+      });
     });
   }
 

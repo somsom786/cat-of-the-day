@@ -1,0 +1,3002 @@
+[
+ {
+  "id": 1,
+  "kind": "FACT",
+  "text": "Cats have flexible social lives: some live alone, while others form stable groups.",
+  "note": "The answer is not ‘aloof.’ The answer is ‘it depends.’"
+ },
+ {
+  "id": 2,
+  "kind": "FACT",
+  "text": "Free-ranging cat groups often center on related females and their kittens.",
+  "note": "The neighborhood committee has whiskers."
+ },
+ {
+  "id": 3,
+  "kind": "FACT",
+  "text": "Food availability helps determine how closely free-ranging cats live together.",
+  "note": "Resources first. Friendship negotiations later."
+ },
+ {
+  "id": 4,
+  "kind": "FACT",
+  "text": "Cats use distance, posture, scent, and sound to manage social encounters.",
+  "note": "A complete communications department, mostly ignored by humans."
+ },
+ {
+  "id": 5,
+  "kind": "FACT",
+  "text": "Friendly cats may greet by touching noses.",
+  "note": "A tiny diplomatic summit."
+ },
+ {
+  "id": 6,
+  "kind": "FACT",
+  "text": "Cats may groom familiar companions as a social behavior.",
+  "note": "Mutual hair maintenance means the alliance holds."
+ },
+ {
+  "id": 7,
+  "kind": "FACT",
+  "text": "Rubbing can be both an affectionate interaction and a way to deposit scent.",
+  "note": "You have been greeted and labeled."
+ },
+ {
+  "id": 8,
+  "kind": "FACT",
+  "text": "Cats have scent glands around the cheeks and other parts of the body.",
+  "note": "The face is also a rubber stamp."
+ },
+ {
+  "id": 9,
+  "kind": "FACT",
+  "text": "Scratching leaves both a visible mark and scent from the paws.",
+  "note": "The memo is vertical and legally binding."
+ },
+ {
+  "id": 10,
+  "kind": "FACT",
+  "text": "Urine spraying is a marking behavior, not the same posture as ordinary urination.",
+  "note": "Different paperwork. Same terrible department."
+ },
+ {
+  "id": 11,
+  "kind": "FACT",
+  "text": "The flehmen response helps cats investigate chemical signals with the vomeronasal organ.",
+  "note": "That open-mouth face is serious laboratory work."
+ },
+ {
+  "id": 12,
+  "kind": "FACT",
+  "text": "An upright tail often appears in friendly feline greetings.",
+  "note": "A small flag of diplomatic intent."
+ },
+ {
+  "id": 13,
+  "kind": "FACT",
+  "text": "A puffed tail signals strong arousal, which may include fear or excitement.",
+  "note": "The bottle brush has entered the chat."
+ },
+ {
+  "id": 14,
+  "kind": "FACT",
+  "text": "Flattened ears can signal fear, stress, or defensive aggression.",
+  "note": "The radar dishes have filed an objection."
+ },
+ {
+  "id": 15,
+  "kind": "FACT",
+  "text": "Dilated pupils can reflect dim light or emotional arousal.",
+  "note": "Context matters. The eyes refuse to explain further."
+ },
+ {
+  "id": 16,
+  "kind": "FACT",
+  "text": "A slow blink can function as a relaxed, non-threatening signal.",
+  "note": "The smallest possible peace treaty."
+ },
+ {
+  "id": 17,
+  "kind": "FACT",
+  "text": "A hiss is usually a defensive warning asking for more distance.",
+  "note": "The boundary has subtitles."
+ },
+ {
+  "id": 18,
+  "kind": "FACT",
+  "text": "Growling is a warning sound that can precede stronger defensive behavior.",
+  "note": "Customer service is now closed."
+ },
+ {
+  "id": 19,
+  "kind": "FACT",
+  "text": "Purring is not limited to happiness; cats may also purr when stressed or unwell.",
+  "note": "The motor has more than one setting."
+ },
+ {
+  "id": 20,
+  "kind": "FACT",
+  "text": "Adult cats use meows especially often when communicating with humans.",
+  "note": "We received a custom notification system."
+ },
+ {
+  "id": 21,
+  "kind": "FACT",
+  "text": "Kittens mew to attract their mother’s attention.",
+  "note": "The original support ticket."
+ },
+ {
+  "id": 22,
+  "kind": "FACT",
+  "text": "Trills and chirps commonly appear in greetings or attention-seeking.",
+  "note": "A polite little modem connecting."
+ },
+ {
+  "id": 23,
+  "kind": "FACT",
+  "text": "Cat body language works as a whole: ears, eyes, whiskers, tail, and posture all matter.",
+  "note": "Never diagnose the meeting from one tail twitch."
+ },
+ {
+  "id": 24,
+  "kind": "FACT",
+  "text": "An exposed belly can show trust without being an invitation to touch it.",
+  "note": "The exhibit is open. The gift shop is not."
+ },
+ {
+  "id": 25,
+  "kind": "FACT",
+  "text": "Kneading begins as a nursing behavior in kittens and often continues in adults.",
+  "note": "The bakery survives long after weaning."
+ },
+ {
+  "id": 26,
+  "kind": "FACT",
+  "text": "Cats can form strong attachments to people and familiar animals.",
+  "note": "Aloofness allegations remain unproven."
+ },
+ {
+  "id": 27,
+  "kind": "FACT",
+  "text": "Cats can recognize familiar human voices.",
+  "note": "Recognition and compliance are separate subscriptions."
+ },
+ {
+  "id": 28,
+  "kind": "FACT",
+  "text": "Research shows cats can learn the sound pattern of their own names.",
+  "note": "Whether they attend the meeting is another matter."
+ },
+ {
+  "id": 29,
+  "kind": "FACT",
+  "text": "Cats learn through consequences and can be trained with rewards.",
+  "note": "The intern accepts payment in chicken."
+ },
+ {
+  "id": 30,
+  "kind": "FACT",
+  "text": "A clicker can mark the exact moment a cat performs a wanted behavior.",
+  "note": "Tiny sound. Immediate invoice."
+ },
+ {
+  "id": 31,
+  "kind": "FACT",
+  "text": "Punishment can increase fear and damage a cat’s relationship with people.",
+  "note": "Management by intimidation has failed again."
+ },
+ {
+  "id": 32,
+  "kind": "FACT",
+  "text": "Predictable routines can help cats feel secure.",
+  "note": "Breakfast at 07:00 remains constitutional law."
+ },
+ {
+  "id": 33,
+  "kind": "FACT",
+  "text": "Hiding gives cats a way to gain distance and control when they feel unsure.",
+  "note": "The bunker is a coping strategy, not a personal insult."
+ },
+ {
+  "id": 34,
+  "kind": "FACT",
+  "text": "Elevated perches can provide cats with exploration and a sense of safety.",
+  "note": "The cabinet is now an observation deck."
+ },
+ {
+  "id": 35,
+  "kind": "FACT",
+  "text": "Cats need opportunities to scratch; it is a normal behavior, not revenge.",
+  "note": "The sofa was never the target personally."
+ },
+ {
+  "id": 36,
+  "kind": "FACT",
+  "text": "Cats may prefer different scratching materials, angles, and locations.",
+  "note": "Every contractor has specifications."
+ },
+ {
+  "id": 37,
+  "kind": "FACT",
+  "text": "Many cats dig before or after eliminating, but not every cat buries waste.",
+  "note": "Some file the report. Some leave it on the desk."
+ },
+ {
+  "id": 38,
+  "kind": "FACT",
+  "text": "Cats can develop preferences for particular litter textures and box locations.",
+  "note": "Facilities management is a delicate negotiation."
+ },
+ {
+  "id": 39,
+  "kind": "FACT",
+  "text": "Most cats prefer clean litter boxes with easy access.",
+  "note": "The restroom complaint is usually actionable."
+ },
+ {
+  "id": 40,
+  "kind": "FACT",
+  "text": "Food, water, litter, resting, and scratching resources can be separated to reduce conflict.",
+  "note": "Open-plan offices were a mistake."
+ },
+ {
+  "id": 41,
+  "kind": "FACT",
+  "text": "Cats can live socially, but forced closeness may create tension.",
+  "note": "Roommates require an exit strategy."
+ },
+ {
+  "id": 42,
+  "kind": "FACT",
+  "text": "Related female cats may cooperate while raising kittens.",
+  "note": "The nursery has a rotating staff."
+ },
+ {
+  "id": 43,
+  "kind": "FACT",
+  "text": "Cat play often contains pieces of the hunting sequence: stalk, chase, pounce, and bite.",
+  "note": "The ribbon has become legally prey."
+ },
+ {
+  "id": 44,
+  "kind": "FACT",
+  "text": "Well-fed cats may still hunt because predatory behavior is not controlled by hunger alone.",
+  "note": "Dinner does not cancel the side quest."
+ },
+ {
+  "id": 45,
+  "kind": "FACT",
+  "text": "Moving toys can trigger stalking and pouncing more effectively than motionless ones.",
+  "note": "The prey must respect production values."
+ },
+ {
+  "id": 46,
+  "kind": "FACT",
+  "text": "Short, repeated play sessions can fit a cat’s natural activity pattern.",
+  "note": "Several tiny appointments with chaos."
+ },
+ {
+  "id": 47,
+  "kind": "FACT",
+  "text": "Puzzle feeders can combine food with exploration and problem-solving.",
+  "note": "Lunch now requires credentials."
+ },
+ {
+  "id": 48,
+  "kind": "FACT",
+  "text": "Individual cats differ widely in play, touch, food, and social preferences.",
+  "note": "The species has no universal settings menu."
+ },
+ {
+  "id": 49,
+  "kind": "FACT",
+  "text": "A cat may chatter while watching prey, but the exact reason remains uncertain.",
+  "note": "Science has logged the noise and no explanation."
+ },
+ {
+  "id": 50,
+  "kind": "FACT",
+  "text": "Cats can adjust their activity schedule around household routines.",
+  "note": "The dawn shift is negotiable. Barely."
+ },
+ {
+  "id": 51,
+  "kind": "FACT",
+  "text": "Domestic cats are obligate carnivores with nutritional needs tied to animal tissue.",
+  "note": "The salad position remains ceremonial."
+ },
+ {
+  "id": 52,
+  "kind": "FACT",
+  "text": "Adult cats normally have 30 permanent teeth.",
+  "note": "Thirty tiny reasons not to hand-feed carelessly."
+ },
+ {
+  "id": 53,
+  "kind": "FACT",
+  "text": "Kittens normally develop 26 deciduous, or baby, teeth.",
+  "note": "The starter set is also extremely pointy."
+ },
+ {
+  "id": 54,
+  "kind": "FACT",
+  "text": "Cats grow two sets of teeth: deciduous teeth and permanent teeth.",
+  "note": "One mouth, two hardware releases."
+ },
+ {
+  "id": 55,
+  "kind": "FACT",
+  "text": "Carnassial teeth act like shears for cutting food.",
+  "note": "The mouth contains dedicated scissors."
+ },
+ {
+  "id": 56,
+  "kind": "FACT",
+  "text": "A cat’s jaw is built mainly for strong up-and-down biting rather than broad side-to-side grinding.",
+  "note": "The chewing interface is extremely specialized."
+ },
+ {
+  "id": 57,
+  "kind": "FACT",
+  "text": "Backward-facing keratin papillae give a cat’s tongue its rough surface.",
+  "note": "The washcloth has hooks."
+ },
+ {
+  "id": 58,
+  "kind": "FACT",
+  "text": "Tongue papillae help cats groom and remove material from food.",
+  "note": "One tool, several alarming departments."
+ },
+ {
+  "id": 59,
+  "kind": "FACT",
+  "text": "Cats walk on their toes, a posture called digitigrade locomotion.",
+  "note": "Permanent tiptoe mode."
+ },
+ {
+  "id": 60,
+  "kind": "FACT",
+  "text": "Most cats have five digits on each front paw and four on each hind paw.",
+  "note": "Standard issue; exceptions arrive with bonus beans."
+ },
+ {
+  "id": 61,
+  "kind": "FACT",
+  "text": "The inner front digit is commonly called the dewclaw.",
+  "note": "A spare hook mounted above the main crew."
+ },
+ {
+  "id": 62,
+  "kind": "FACT",
+  "text": "Polydactyl cats are born with extra digits.",
+  "note": "The bean budget has been exceeded."
+ },
+ {
+  "id": 63,
+  "kind": "FACT",
+  "text": "Most domestic cats can retract their claws when the claws are not in use.",
+  "note": "The knives come with storage."
+ },
+ {
+  "id": 64,
+  "kind": "FACT",
+  "text": "Claws grow in layers, and cats shed old outer claw sheaths.",
+  "note": "Finding a hollow claw is normal hardware maintenance."
+ },
+ {
+  "id": 65,
+  "kind": "FACT",
+  "text": "Scratching helps remove worn outer claw sheaths.",
+  "note": "The manicure is structural."
+ },
+ {
+  "id": 66,
+  "kind": "FACT",
+  "text": "Paw pads cushion the feet and help cats move quietly.",
+  "note": "Noise reduction installed at the factory."
+ },
+ {
+  "id": 67,
+  "kind": "FACT",
+  "text": "Cats have sweat glands in their paw pads.",
+  "note": "Nervous toe beans may leave tiny damp prints."
+ },
+ {
+  "id": 68,
+  "kind": "FACT",
+  "text": "Whiskers are specialized touch hairs called vibrissae.",
+  "note": "Facial antennae, officially."
+ },
+ {
+  "id": 69,
+  "kind": "FACT",
+  "text": "Whisker follicles are richly supplied with nerves.",
+  "note": "Each antenna has premium wiring."
+ },
+ {
+  "id": 70,
+  "kind": "FACT",
+  "text": "Cats have whiskers above the eyes as well as around the muzzle.",
+  "note": "The eyebrow department also runs sensors."
+ },
+ {
+  "id": 71,
+  "kind": "FACT",
+  "text": "Cats also have sensory hairs on the backs of their front legs.",
+  "note": "The forelegs quietly joined the radar network."
+ },
+ {
+  "id": 72,
+  "kind": "FACT",
+  "text": "Whiskers help detect nearby objects and air movement.",
+  "note": "Close-range navigation remains operational in the dark."
+ },
+ {
+  "id": 73,
+  "kind": "FACT",
+  "text": "Cutting whiskers removes useful sensory input until they regrow.",
+  "note": "Do not uninstall the proximity sensors."
+ },
+ {
+  "id": 74,
+  "kind": "FACT",
+  "text": "A cat’s whiskers do not guarantee that every opening fits the rest of the body.",
+  "note": "The whisker-width rule has exceptions and confidence issues."
+ },
+ {
+  "id": 75,
+  "kind": "FACT",
+  "text": "Cats have a third eyelid, also called the nictitating membrane.",
+  "note": "A backup curtain lives in the corner."
+ },
+ {
+  "id": 76,
+  "kind": "FACT",
+  "text": "The tapetum lucidum reflects light inside a cat’s eye.",
+  "note": "This is why headlights activate the tiny mirrors."
+ },
+ {
+  "id": 77,
+  "kind": "FACT",
+  "text": "Cats see better than humans in dim light, but they cannot see in complete darkness.",
+  "note": "Night vision still requires some night."
+ },
+ {
+  "id": 78,
+  "kind": "FACT",
+  "text": "Domestic cats usually have vertical slit-shaped pupils.",
+  "note": "The aperture is built for dramatic close-ups."
+ },
+ {
+  "id": 79,
+  "kind": "FACT",
+  "text": "Cats distinguish some colors, though their color vision differs from human vision.",
+  "note": "The world is not grayscale; it is merely differently graded."
+ },
+ {
+  "id": 80,
+  "kind": "FACT",
+  "text": "A cat can move each external ear independently.",
+  "note": "Two radar dishes, separate management."
+ },
+ {
+  "id": 81,
+  "kind": "FACT",
+  "text": "The external ear funnels sound toward the ear canal.",
+  "note": "The satellite dish is biological."
+ },
+ {
+  "id": 82,
+  "kind": "FACT",
+  "text": "Cats can hear frequencies above the upper range of human hearing.",
+  "note": "Some meetings occur entirely outside our clearance."
+ },
+ {
+  "id": 83,
+  "kind": "FACT",
+  "text": "A cat’s inner-ear vestibular system helps control balance and coordinate head and eye movement.",
+  "note": "The onboard gyroscope is doing paperwork."
+ },
+ {
+  "id": 84,
+  "kind": "FACT",
+  "text": "The righting reflex helps a falling cat orient its feet toward the ground.",
+  "note": "A reflex, not a supernatural guarantee."
+ },
+ {
+  "id": 85,
+  "kind": "FACT",
+  "text": "The righting reflex needs time to work and cannot make every fall safe.",
+  "note": "Physics keeps veto power."
+ },
+ {
+  "id": 86,
+  "kind": "FACT",
+  "text": "A cat’s flexible spine contributes to long strides and rapid body rotation.",
+  "note": "The chassis bends where ours files complaints."
+ },
+ {
+  "id": 87,
+  "kind": "FACT",
+  "text": "A cat’s shoulder blades are attached largely by muscles rather than a rigid bony joint.",
+  "note": "The front suspension is unusually mobile."
+ },
+ {
+  "id": 88,
+  "kind": "FACT",
+  "text": "A cat’s small clavicles do not anchor the shoulders like human collarbones do.",
+  "note": "The shoulder assembly declined the fixed contract."
+ },
+ {
+  "id": 89,
+  "kind": "FACT",
+  "text": "Strong hind limbs provide much of a cat’s jumping power.",
+  "note": "The rear launch system is fully armed."
+ },
+ {
+  "id": 90,
+  "kind": "FACT",
+  "text": "The tail can help with balance and rapid turns.",
+  "note": "The counterweight is also expressive."
+ },
+ {
+  "id": 91,
+  "kind": "FACT",
+  "text": "Tailless cats can still balance by using the rest of the body and vestibular system.",
+  "note": "The backup systems remain excellent."
+ },
+ {
+  "id": 92,
+  "kind": "FACT",
+  "text": "Cats use smell to gather social and environmental information.",
+  "note": "The room contains an invisible bulletin board."
+ },
+ {
+  "id": 93,
+  "kind": "FACT",
+  "text": "The vomeronasal organ helps cats analyze certain chemical signals.",
+  "note": "A second smell office handles confidential mail."
+ },
+ {
+  "id": 94,
+  "kind": "FACT",
+  "text": "Cats have limited ability to taste sweetness because a sweet-receptor gene is nonfunctional.",
+  "note": "Dessert was removed from the firmware."
+ },
+ {
+  "id": 95,
+  "kind": "FACT",
+  "text": "Smell strongly influences a cat’s interest in food.",
+  "note": "Dinner must pass inspection before tasting begins."
+ },
+ {
+  "id": 96,
+  "kind": "FACT",
+  "text": "A wet or dry nose by itself does not reliably measure a cat’s health.",
+  "note": "The nose is not a diagnostic dashboard."
+ },
+ {
+  "id": 97,
+  "kind": "FACT",
+  "text": "Cats lap liquid by rapidly lifting a column of fluid with the tongue.",
+  "note": "Drinking is a high-speed physics demonstration."
+ },
+ {
+  "id": 98,
+  "kind": "FACT",
+  "text": "Cats groom with the tongue, teeth, and front paws.",
+  "note": "The cleaning crew carries no equipment bag."
+ },
+ {
+  "id": 99,
+  "kind": "FACT",
+  "text": "Grooming removes loose hair and debris from the coat.",
+  "note": "Routine maintenance generates its own hairball paperwork."
+ },
+ {
+  "id": 100,
+  "kind": "FACT",
+  "text": "Saliva evaporating from groomed fur can contribute to cooling.",
+  "note": "Air conditioning, applied one lick at a time."
+ },
+ {
+  "id": 101,
+  "kind": "FACT",
+  "text": "Domestic cats belong to the species Felis catus.",
+  "note": "A formal name for the animal on the keyboard."
+ },
+ {
+  "id": 102,
+  "kind": "FACT",
+  "text": "Domestic cats belong to the family Felidae with wild cats such as lions and lynxes.",
+  "note": "The family resemblance occasionally attacks a shoelace."
+ },
+ {
+  "id": 103,
+  "kind": "FACT",
+  "text": "The main wild ancestor of domestic cats is the African and Southwest Asian wildcat, Felis silvestris lybica.",
+  "note": "The ancient face remains remarkably familiar."
+ },
+ {
+  "id": 104,
+  "kind": "FACT",
+  "text": "Cat domestication began around early farming communities in the Fertile Crescent.",
+  "note": "Stored grain attracted rodents; rodents attracted management."
+ },
+ {
+  "id": 105,
+  "kind": "FACT",
+  "text": "Cats later gained major cultural and religious importance in ancient Egypt.",
+  "note": "The promotion to divine-adjacent was substantial."
+ },
+ {
+  "id": 106,
+  "kind": "FACT",
+  "text": "Ancient DNA indicates cats spread along human trade and travel routes.",
+  "note": "The distribution network had paws."
+ },
+ {
+  "id": 107,
+  "kind": "FACT",
+  "text": "Sailors carried cats aboard ships, where hunting rodents protected stored food.",
+  "note": "Maritime pest control required naps."
+ },
+ {
+  "id": 108,
+  "kind": "FACT",
+  "text": "Domestic cats retain many physical features and behaviors of their wildcat ancestors.",
+  "note": "The wilderness still fits under the sofa."
+ },
+ {
+  "id": 109,
+  "kind": "FACT",
+  "text": "A human buried with a cat in Cyprus provides early evidence of a close relationship thousands of years ago.",
+  "note": "Someone wanted the friendship recorded permanently."
+ },
+ {
+  "id": 110,
+  "kind": "FACT",
+  "text": "The tabby is a coat pattern, not a breed.",
+  "note": "The forehead M carries no membership card."
+ },
+ {
+  "id": 111,
+  "kind": "FACT",
+  "text": "Common tabby patterns include mackerel, classic, spotted, and ticked.",
+  "note": "Striped management offers several uniforms."
+ },
+ {
+  "id": 112,
+  "kind": "FACT",
+  "text": "The familiar M-shaped forehead marking appears in many tabby coats.",
+  "note": "No, it does not stand for management. Probably."
+ },
+ {
+  "id": 113,
+  "kind": "FACT",
+  "text": "Orange coat color is linked to a gene on the X chromosome.",
+  "note": "Genetics selected the high-visibility uniform."
+ },
+ {
+  "id": 114,
+  "kind": "FACT",
+  "text": "Most tortoiseshell cats are female because orange and non-orange coat genes are X-linked.",
+  "note": "The patchwork follows chromosome logistics."
+ },
+ {
+  "id": 115,
+  "kind": "FACT",
+  "text": "Male tortoiseshell and calico cats are uncommon, but they do exist.",
+  "note": "Genetics permits rare limited editions."
+ },
+ {
+  "id": 116,
+  "kind": "FACT",
+  "text": "A calico coat combines orange and dark patches with white spotting.",
+  "note": "Three-color paperwork, one cat."
+ },
+ {
+  "id": 117,
+  "kind": "FACT",
+  "text": "In cat coat terminology, blue is a dilute form of black.",
+  "note": "The color department named gray after the drama."
+ },
+ {
+  "id": 118,
+  "kind": "FACT",
+  "text": "Cream is a dilute form of orange in cat coat genetics.",
+  "note": "Orange, with the volume turned down."
+ },
+ {
+  "id": 119,
+  "kind": "FACT",
+  "text": "A solid white coat is not the same genetic condition as albinism.",
+  "note": "White has more than one route through the code."
+ },
+ {
+  "id": 120,
+  "kind": "FACT",
+  "text": "Heterochromia means the two eyes have different colors.",
+  "note": "The face selected mismatched windows."
+ },
+ {
+  "id": 121,
+  "kind": "FACT",
+  "text": "Colorpoint coats darken more on cooler parts of the body.",
+  "note": "The ears, face, feet, and tail receive the dramatic shading."
+ },
+ {
+  "id": 122,
+  "kind": "FACT",
+  "text": "Colorpoint kittens are born pale because the womb is warm.",
+  "note": "The paint develops after delivery."
+ },
+ {
+  "id": 123,
+  "kind": "FACT",
+  "text": "Many hairless cats still have a fine layer of down rather than completely bare skin.",
+  "note": "The peach-fuzz setting is active."
+ },
+ {
+  "id": 124,
+  "kind": "FACT",
+  "text": "Hairless cats still produce skin oils that fur would normally help distribute.",
+  "note": "No fur does not mean no maintenance."
+ },
+ {
+  "id": 125,
+  "kind": "FACT",
+  "text": "Long hair in domestic cats is commonly associated with recessive gene variants.",
+  "note": "The fluff may hide for a generation."
+ },
+ {
+  "id": 126,
+  "kind": "FACT",
+  "text": "Polydactyly is inherited in some cat family lines.",
+  "note": "Bonus beans can run in the family."
+ },
+ {
+  "id": 127,
+  "kind": "FACT",
+  "text": "Coat color alone does not reliably determine a cat’s personality.",
+  "note": "Orange allegations remain anecdotal."
+ },
+ {
+  "id": 128,
+  "kind": "FACT",
+  "text": "Kittens are born with their eyes closed.",
+  "note": "The launch begins in safe mode."
+ },
+ {
+  "id": 129,
+  "kind": "FACT",
+  "text": "Newborn kittens are also born with closed ear canals.",
+  "note": "Audio support arrives shortly after launch."
+ },
+ {
+  "id": 130,
+  "kind": "FACT",
+  "text": "Newborn kittens rely on their mother for warmth because temperature control is still developing.",
+  "note": "The heating system is maternal."
+ },
+ {
+  "id": 131,
+  "kind": "FACT",
+  "text": "Mother cats lick newborn kittens to stimulate urination and defecation.",
+  "note": "Early technical support is extremely hands-on."
+ },
+ {
+  "id": 132,
+  "kind": "FACT",
+  "text": "A kitten’s eyes usually begin opening during the second week of life.",
+  "note": "The curtains rise gradually."
+ },
+ {
+  "id": 133,
+  "kind": "FACT",
+  "text": "Kittens begin standing and walking before their coordination is fully convincing.",
+  "note": "Version one locomotion is mostly wobble."
+ },
+ {
+  "id": 134,
+  "kind": "FACT",
+  "text": "Baby teeth begin appearing while kittens are still only a few weeks old.",
+  "note": "The tiny needles arrive early."
+ },
+ {
+  "id": 135,
+  "kind": "FACT",
+  "text": "Permanent teeth replace kitten teeth over the first several months of life.",
+  "note": "The hardware upgrade completes surprisingly fast."
+ },
+ {
+  "id": 136,
+  "kind": "FACT",
+  "text": "Weaning is a gradual transition from milk to solid food.",
+  "note": "Lunch changes departments over several weeks."
+ },
+ {
+  "id": 137,
+  "kind": "FACT",
+  "text": "Play with littermates helps kittens practice social and hunting behaviors.",
+  "note": "The nursery doubles as combat school."
+ },
+ {
+  "id": 138,
+  "kind": "FACT",
+  "text": "Early positive experiences with people can shape a kitten’s later comfort around humans.",
+  "note": "First impressions have long tails."
+ },
+ {
+  "id": 139,
+  "kind": "FACT",
+  "text": "Cats are induced ovulators: mating triggers the release of eggs.",
+  "note": "Reproductive scheduling waits for an event notification."
+ },
+ {
+  "id": 140,
+  "kind": "FACT",
+  "text": "Cat pregnancy typically lasts about nine weeks.",
+  "note": "A full litter ships on a brisk schedule."
+ },
+ {
+  "id": 141,
+  "kind": "FACT",
+  "text": "Kittens in one litter can have different fathers.",
+  "note": "The family tree may require several branches."
+ },
+ {
+  "id": 142,
+  "kind": "FACT",
+  "text": "Many kittens begin with blue-looking eyes that change as pigment develops.",
+  "note": "The default theme may not be permanent."
+ },
+ {
+  "id": 143,
+  "kind": "FACT",
+  "text": "A cat’s adult personality reflects both inherited tendencies and life experience.",
+  "note": "Nature and nurture share the admin password."
+ },
+ {
+  "id": 144,
+  "kind": "FACT",
+  "text": "A stray cat has lived with people, while a feral cat may have had little human socialization.",
+  "note": "The labels describe history, not moral character."
+ },
+ {
+  "id": 145,
+  "kind": "FACT",
+  "text": "Indoor cats still need climbing, scratching, hiding, play, and exploration.",
+  "note": "A roof does not cancel the cat software."
+ },
+ {
+  "id": 146,
+  "kind": "FACT",
+  "text": "Older cats may sleep more and become less active than younger adults.",
+  "note": "Senior management delegates the zoomies."
+ },
+ {
+  "id": 147,
+  "kind": "FACT",
+  "text": "Hearing and vision can change as cats age.",
+  "note": "The sensors also accumulate birthdays."
+ },
+ {
+  "id": 148,
+  "kind": "FACT",
+  "text": "Arthritis can make high-sided litter boxes and tall jumps harder for older cats.",
+  "note": "Accessibility applies to tiny bathrooms too."
+ },
+ {
+  "id": 149,
+  "kind": "FACT",
+  "text": "A cat’s grooming may become less thorough with age or reduced mobility.",
+  "note": "Maintenance gets harder when the hinges complain."
+ },
+ {
+  "id": 150,
+  "kind": "FACT",
+  "text": "Regular gentle handling can help people notice changes in a cat’s skin, coat, or body.",
+  "note": "Routine inspection, with consent and snacks."
+ },
+ {
+  "id": 151,
+  "kind": "FACT",
+  "text": "Cats require dietary taurine because they cannot make enough for their needs.",
+  "note": "The nutrient must arrive with dinner."
+ },
+ {
+  "id": 152,
+  "kind": "FACT",
+  "text": "Cats need preformed vitamin A in their diet rather than relying only on plant carotenoids.",
+  "note": "The carnivore firmware expects the finished ingredient."
+ },
+ {
+  "id": 153,
+  "kind": "FACT",
+  "text": "Cats have a dietary requirement for arachidonic acid, an animal-derived fatty acid.",
+  "note": "Another line item on the obligate-carnivore invoice."
+ },
+ {
+  "id": 154,
+  "kind": "FACT",
+  "text": "A nutritionally complete cat food is formulated differently for kittens and adults.",
+  "note": "Growth mode and maintenance mode use different specifications."
+ },
+ {
+  "id": 155,
+  "kind": "FACT",
+  "text": "Many adult cats digest lactose poorly after weaning.",
+  "note": "The saucer of milk has been removed from the official plan."
+ },
+ {
+  "id": 156,
+  "kind": "FACT",
+  "text": "Cats do not need cow’s milk as part of a balanced diet.",
+  "note": "The cartoon contract was never signed."
+ },
+ {
+  "id": 157,
+  "kind": "FACT",
+  "text": "Cats obtain water from both food and drinking.",
+  "note": "Hydration has two delivery routes."
+ },
+ {
+  "id": 158,
+  "kind": "FACT",
+  "text": "Wet cat food contains more water than dry cat food.",
+  "note": "The clue is unusually present in the name."
+ },
+ {
+  "id": 159,
+  "kind": "FACT",
+  "text": "Smell can affect whether a cat accepts or rejects food.",
+  "note": "Dinner faces a nose-led review board."
+ },
+ {
+  "id": 160,
+  "kind": "FACT",
+  "text": "Cats often prefer food and water placed away from the litter area.",
+  "note": "Kitchen and bathroom remain separate departments."
+ },
+ {
+  "id": 161,
+  "kind": "FACT",
+  "text": "Fresh, clean water should remain available even when a cat eats wet food.",
+  "note": "The beverage station stays open."
+ },
+ {
+  "id": 162,
+  "kind": "FACT",
+  "text": "Cats can prefer different bowl shapes, water locations, or moving water.",
+  "note": "Hydration comes with user-interface testing."
+ },
+ {
+  "id": 163,
+  "kind": "FACT",
+  "text": "Eating many small portions matches the pattern created by catching small prey.",
+  "note": "The tasting menu predates restaurants."
+ },
+ {
+  "id": 164,
+  "kind": "FACT",
+  "text": "Food puzzles can slow eating while adding exploration and manipulation.",
+  "note": "The meal now has a security puzzle."
+ },
+ {
+  "id": 165,
+  "kind": "FACT",
+  "text": "Cats use their rough tongues to help pull food from surfaces.",
+  "note": "The built-in scraper reports for duty."
+ },
+ {
+  "id": 166,
+  "kind": "FACT",
+  "text": "A cat’s appetite may drop when smell is reduced.",
+  "note": "If dinner loses its scent, the review collapses."
+ },
+ {
+  "id": 167,
+  "kind": "FACT",
+  "text": "Cats alternate between sleep, light dozing, and periods of alert rest.",
+  "note": "Several levels of unavailable."
+ },
+ {
+  "id": 168,
+  "kind": "FACT",
+  "text": "Cats experience REM sleep, the sleep stage associated with dreaming in humans.",
+  "note": "The paws may be attending a private chase."
+ },
+ {
+  "id": 169,
+  "kind": "FACT",
+  "text": "Small twitches can occur while a cat is asleep.",
+  "note": "The dream has minor special effects."
+ },
+ {
+  "id": 170,
+  "kind": "FACT",
+  "text": "Cats are often most active around dawn and dusk, a pattern called crepuscular activity.",
+  "note": "The schedule was designed before alarm clocks."
+ },
+ {
+  "id": 171,
+  "kind": "FACT",
+  "text": "Cats are not strictly nocturnal and can adapt activity to their environment.",
+  "note": "Night shift is common, not mandatory."
+ },
+ {
+  "id": 172,
+  "kind": "FACT",
+  "text": "Rest conserves energy between short bursts of hunting, play, or exploration.",
+  "note": "The loaf is charging."
+ },
+ {
+  "id": 173,
+  "kind": "FACT",
+  "text": "A box can provide a cat with cover, warmth, and a defined boundary.",
+  "note": "Three benefits, four cardboard walls."
+ },
+ {
+  "id": 174,
+  "kind": "FACT",
+  "text": "Studies in shelters have found that access to hiding boxes can reduce stress for some cats.",
+  "note": "Cardboard earns a peer-reviewed promotion."
+ },
+ {
+  "id": 175,
+  "kind": "FACT",
+  "text": "A secure hiding place gives a cat control over when to approach.",
+  "note": "The meeting begins when the bunker says so."
+ },
+ {
+  "id": 176,
+  "kind": "FACT",
+  "text": "Cats may choose warm resting places because their thermoneutral range is warmer than ours.",
+  "note": "The sunbeam is an environmental setting."
+ },
+ {
+  "id": 177,
+  "kind": "FACT",
+  "text": "Cats change sleeping positions to conserve or release body heat.",
+  "note": "Tight cinnamon roll in winter; long noodle when warm."
+ },
+ {
+  "id": 178,
+  "kind": "FACT",
+  "text": "A curled sleeping posture reduces exposed surface area.",
+  "note": "The heat budget has entered compact mode."
+ },
+ {
+  "id": 179,
+  "kind": "FACT",
+  "text": "A stretched sleeping posture exposes more body surface to the air.",
+  "note": "The radiator has become a cooling rack."
+ },
+ {
+  "id": 180,
+  "kind": "FACT",
+  "text": "Cats may rotate preferred sleeping spots as temperature, light, and household activity change.",
+  "note": "The nap map updates without notice."
+ },
+ {
+  "id": 181,
+  "kind": "FACT",
+  "text": "Sunbathing can warm a cat without extra metabolic effort.",
+  "note": "Solar-powered loafing is efficient."
+ },
+ {
+  "id": 182,
+  "kind": "FACT",
+  "text": "Play behavior can continue throughout a cat’s life.",
+  "note": "Adulthood does not revoke spring privileges."
+ },
+ {
+  "id": 183,
+  "kind": "FACT",
+  "text": "Older cats may prefer gentler, shorter play sessions.",
+  "note": "The hunt remains; the calendar has opinions."
+ },
+ {
+  "id": 184,
+  "kind": "FACT",
+  "text": "Toy movement away from a cat can resemble fleeing prey.",
+  "note": "The ribbon understands stage direction."
+ },
+ {
+  "id": 185,
+  "kind": "FACT",
+  "text": "Letting a cat catch a toy can complete the play sequence.",
+  "note": "The hunter requires a successful quarterly result."
+ },
+ {
+  "id": 186,
+  "kind": "FACT",
+  "text": "Hands used as toys can teach kittens that human skin is a biting target.",
+  "note": "The hand should not join the prey department."
+ },
+ {
+  "id": 187,
+  "kind": "FACT",
+  "text": "Scratching posts work best when they are stable enough not to wobble.",
+  "note": "Infrastructure matters to the contractor."
+ },
+ {
+  "id": 188,
+  "kind": "FACT",
+  "text": "Placing a scratcher near a sleeping area can suit the stretch-and-scratch routine.",
+  "note": "Wake, extend, file paperwork."
+ },
+ {
+  "id": 189,
+  "kind": "FACT",
+  "text": "Some cats prefer vertical scratchers while others prefer horizontal surfaces.",
+  "note": "Orientation is a personal specification."
+ },
+ {
+  "id": 190,
+  "kind": "FACT",
+  "text": "Cats may scratch after waking as part of stretching and scent marking.",
+  "note": "Morning correspondence begins immediately."
+ },
+ {
+  "id": 191,
+  "kind": "FACT",
+  "text": "A cat’s claws are used for climbing, gripping, defense, and prey handling.",
+  "note": "A compact multipurpose toolset."
+ },
+ {
+  "id": 192,
+  "kind": "FACT",
+  "text": "Cats can climb upward more easily than they climb down headfirst.",
+  "note": "The hooks were designed for ascent."
+ },
+ {
+  "id": 193,
+  "kind": "FACT",
+  "text": "Many cats descend trees backward so the claws can maintain their grip.",
+  "note": "Reverse gear solves the claw geometry."
+ },
+ {
+  "id": 194,
+  "kind": "FACT",
+  "text": "A cat can jump without a running start by rapidly extending the hind legs.",
+  "note": "The launch sequence fits on one floor tile."
+ },
+ {
+  "id": 195,
+  "kind": "FACT",
+  "text": "Cats use the forelegs to absorb and control a landing.",
+  "note": "Front suspension handles the arrival paperwork."
+ },
+ {
+  "id": 196,
+  "kind": "FACT",
+  "text": "Balance depends on vision, inner-ear signals, touch, muscles, and body position working together.",
+  "note": "No single sensor gets sole credit for the shelf."
+ },
+ {
+  "id": 197,
+  "kind": "FACT",
+  "text": "Cats can learn routes and remember where important resources are located.",
+  "note": "The house map highlights food and forbidden cabinets."
+ },
+ {
+  "id": 198,
+  "kind": "FACT",
+  "text": "Cats investigate new objects using sight, smell, whiskers, and cautious touch.",
+  "note": "The inspection team approaches sideways."
+ },
+ {
+  "id": 199,
+  "kind": "FACT",
+  "text": "Novel scents, objects, or sounds can be enriching when introduced without forcing contact.",
+  "note": "Curiosity needs an exit door."
+ },
+ {
+  "id": 200,
+  "kind": "FACT",
+  "text": "A cat’s preferences can change with age, health, experience, and environment.",
+  "note": "Settings may update without patch notes."
+ },
+ {
+  "id": 201,
+  "kind": "MYTH",
+  "text": "Cats always land on their feet.",
+  "note": "The righting reflex needs time and cannot make every fall safe."
+ },
+ {
+  "id": 202,
+  "kind": "MYTH",
+  "text": "A high fall cannot hurt a cat.",
+  "note": "Cats can suffer severe or fatal injuries from falls at any height."
+ },
+ {
+  "id": 203,
+  "kind": "MYTH",
+  "text": "Cats have nine lives.",
+  "note": "Excellent reflexes are still only one life with unusually good suspension."
+ },
+ {
+  "id": 204,
+  "kind": "MYTH",
+  "text": "Cats can see in complete darkness.",
+  "note": "Their low-light vision is excellent, but it still requires some light."
+ },
+ {
+  "id": 205,
+  "kind": "MYTH",
+  "text": "Whiskers perfectly measure every gap a cat can fit through.",
+  "note": "Whiskers provide nearby sensory information; body width and fluff still vary."
+ },
+ {
+  "id": 206,
+  "kind": "MYTH",
+  "text": "Cutting whiskers is harmless grooming.",
+  "note": "It removes important sensory input until the whiskers regrow."
+ },
+ {
+  "id": 207,
+  "kind": "MYTH",
+  "text": "Whiskers are the only reason cats can balance.",
+  "note": "Balance combines inner-ear, visual, touch, muscle, and body-position information."
+ },
+ {
+  "id": 208,
+  "kind": "MYTH",
+  "text": "A purring cat is always happy.",
+  "note": "Cats may also purr while stressed, frightened, in pain, or unwell."
+ },
+ {
+  "id": 209,
+  "kind": "MYTH",
+  "text": "Cats are naturally cold and incapable of affection.",
+  "note": "Cats form attachments and show affection in individual, sometimes subtle ways."
+ },
+ {
+  "id": 210,
+  "kind": "MYTH",
+  "text": "Cats cannot be trained.",
+  "note": "Reward-based training can teach cues, tricks, handling, and useful routines."
+ },
+ {
+  "id": 211,
+  "kind": "MYTH",
+  "text": "A cat eliminates outside the box purely out of spite.",
+  "note": "Medical, environmental, litter, access, or stress problems are far more useful explanations."
+ },
+ {
+  "id": 212,
+  "kind": "MYTH",
+  "text": "Every hiss means a cat is about to attack.",
+  "note": "A hiss usually warns that the cat wants distance and hopes to avoid escalation."
+ },
+ {
+  "id": 213,
+  "kind": "MYTH",
+  "text": "A displayed belly is permission for a belly rub.",
+  "note": "It can signal trust while the vulnerable abdomen remains strictly off-limits."
+ },
+ {
+  "id": 214,
+  "kind": "MYTH",
+  "text": "A twitching cat tail means the same thing as a wagging dog tail.",
+  "note": "Feline tail movement often signals arousal or irritation; context decides the rest."
+ },
+ {
+  "id": 215,
+  "kind": "MYTH",
+  "text": "Cats are completely solitary and never form friendships.",
+  "note": "Cats have flexible social systems and can form stable bonds."
+ },
+ {
+  "id": 216,
+  "kind": "MYTH",
+  "text": "Adult cats constantly meow to communicate with other adult cats.",
+  "note": "Adult meowing is used especially often in cat-human communication."
+ },
+ {
+  "id": 217,
+  "kind": "MYTH",
+  "text": "Kneading proves an adult cat is hungry.",
+  "note": "It begins during nursing but can continue during comfort, settling, or affection."
+ },
+ {
+  "id": 218,
+  "kind": "MYTH",
+  "text": "Rubbing against a person means only ‘pet me.’",
+  "note": "Rubbing can combine greeting, contact, and scent deposition."
+ },
+ {
+  "id": 219,
+  "kind": "MYTH",
+  "text": "Furniture scratching is calculated revenge.",
+  "note": "Scratching is normal claw care, stretching, and visual-scent marking."
+ },
+ {
+  "id": 220,
+  "kind": "MYTH",
+  "text": "Declawing is just a permanent nail trim.",
+  "note": "It removes the end of each toe, not merely the claw."
+ },
+ {
+  "id": 221,
+  "kind": "MYTH",
+  "text": "Cats do not recognize their names.",
+  "note": "Studies show cats can distinguish the sound pattern of their own names."
+ },
+ {
+  "id": 222,
+  "kind": "MYTH",
+  "text": "Cats and dogs can never become companions.",
+  "note": "Careful introductions and compatible individuals can produce strong cross-species bonds."
+ },
+ {
+  "id": 223,
+  "kind": "MYTH",
+  "text": "Black cats bring bad luck.",
+  "note": "Coat pigment has no supernatural control over your calendar."
+ },
+ {
+  "id": 224,
+  "kind": "MYTH",
+  "text": "Coat color reliably predicts personality.",
+  "note": "Personality depends on genetics, development, experience, health, and environment—not one color."
+ },
+ {
+  "id": 225,
+  "kind": "MYTH",
+  "text": "Every orange cat is male.",
+  "note": "Orange is sex-linked, so males are common, but orange females absolutely exist."
+ },
+ {
+  "id": 226,
+  "kind": "MYTH",
+  "text": "Calico is a cat breed.",
+  "note": "Calico describes a coat color pattern found across multiple breeds and mixed-breed cats."
+ },
+ {
+  "id": 227,
+  "kind": "MYTH",
+  "text": "Tabby is a cat breed.",
+  "note": "Tabby describes patterns such as mackerel, classic, spotted, and ticked."
+ },
+ {
+  "id": 228,
+  "kind": "MYTH",
+  "text": "Every solid-white cat is deaf.",
+  "note": "Deafness risk is higher in some white cats, but many hear normally."
+ },
+ {
+  "id": 229,
+  "kind": "MYTH",
+  "text": "Blue-eyed cats are always blind.",
+  "note": "Eye color does not automatically determine vision."
+ },
+ {
+  "id": 230,
+  "kind": "MYTH",
+  "text": "Hairless cats cannot trigger allergies.",
+  "note": "Allergens come from saliva and skin secretions too, not only loose fur."
+ },
+ {
+  "id": 231,
+  "kind": "MYTH",
+  "text": "Hairless cats require no grooming.",
+  "note": "Skin oils still accumulate and routine care remains necessary."
+ },
+ {
+  "id": 232,
+  "kind": "MYTH",
+  "text": "Long-haired cats always shed more than short-haired cats.",
+  "note": "Shedding varies by individual coat, season, health, and grooming."
+ },
+ {
+  "id": 233,
+  "kind": "MYTH",
+  "text": "Indoor cats need no enrichment.",
+  "note": "Indoor cats still need climbing, hiding, scratching, play, and exploration."
+ },
+ {
+  "id": 234,
+  "kind": "MYTH",
+  "text": "Indoor cats never need veterinary care.",
+  "note": "Indoor life reduces some risks, not illness, injury, dental disease, or aging."
+ },
+ {
+  "id": 235,
+  "kind": "MYTH",
+  "text": "Cow’s milk is the perfect everyday drink for cats.",
+  "note": "Many adults digest lactose poorly, and balanced food plus water meets their needs."
+ },
+ {
+  "id": 236,
+  "kind": "MYTH",
+  "text": "Cats need cow’s milk to stay healthy.",
+  "note": "After weaning, cats need fresh water and complete nutrition—not a cartoon saucer."
+ },
+ {
+  "id": 237,
+  "kind": "MYTH",
+  "text": "A fish-only diet is complete nutrition for cats.",
+  "note": "Cats require a balanced range of nutrients that one ingredient cannot reliably provide."
+ },
+ {
+  "id": 238,
+  "kind": "MYTH",
+  "text": "Raw meat is automatically safer and healthier than complete cat food.",
+  "note": "Raw diets can be nutritionally unbalanced and carry pathogens."
+ },
+ {
+  "id": 239,
+  "kind": "MYTH",
+  "text": "Dog food is suitable as a cat’s long-term diet.",
+  "note": "Cats have species-specific nutrient needs that dog food may not meet."
+ },
+ {
+  "id": 240,
+  "kind": "MYTH",
+  "text": "Cats can thrive on an improvised vegetarian diet.",
+  "note": "They are obligate carnivores with nutrients that must be supplied in feline-appropriate form."
+ },
+ {
+  "id": 241,
+  "kind": "MYTH",
+  "text": "Crunchy food automatically cleans every cat’s teeth.",
+  "note": "Ordinary kibble is not a substitute for dental assessment or appropriate dental care."
+ },
+ {
+  "id": 242,
+  "kind": "MYTH",
+  "text": "Wet food inevitably ruins a cat’s teeth.",
+  "note": "Dental disease has many causes; moisture content alone does not decide it."
+ },
+ {
+  "id": 243,
+  "kind": "MYTH",
+  "text": "Every cat safely stops eating when full.",
+  "note": "Appetite and feeding behavior vary; some cats overeat when food is unlimited."
+ },
+ {
+  "id": 244,
+  "kind": "MYTH",
+  "text": "A fat cat is automatically a happy, healthy cat.",
+  "note": "Excess body weight can reduce mobility and increase health risks."
+ },
+ {
+  "id": 245,
+  "kind": "MYTH",
+  "text": "Frequent hairballs are always harmless and normal.",
+  "note": "Repeated vomiting or hairballs deserve veterinary discussion, especially if the pattern changes."
+ },
+ {
+  "id": 246,
+  "kind": "MYTH",
+  "text": "Regular vomiting is simply what cats do.",
+  "note": "Vomiting can have many causes and repeated episodes are not a personality trait."
+ },
+ {
+  "id": 247,
+  "kind": "MYTH",
+  "text": "A warm, dry nose proves a cat has a fever.",
+  "note": "Nose moisture and temperature vary; they are not reliable stand-alone diagnostics."
+ },
+ {
+  "id": 248,
+  "kind": "MYTH",
+  "text": "Garlic is a natural dewormer for cats.",
+  "note": "Garlic can be toxic to cats and is not a safe parasite treatment."
+ },
+ {
+  "id": 249,
+  "kind": "MYTH",
+  "text": "Pregnant cats should be given bowls of cow’s milk.",
+  "note": "Pregnancy calls for appropriate complete nutrition and veterinary guidance, not mandatory dairy."
+ },
+ {
+  "id": 250,
+  "kind": "MYTH",
+  "text": "Kittens can eat any adult cat food and grow normally.",
+  "note": "Growing kittens need food formulated to meet growth requirements."
+ },
+ {
+  "id": 251,
+  "kind": "MYTH",
+  "text": "Cats steal a sleeping baby’s breath.",
+  "note": "This old superstition is not biology; safe infant sleep still means keeping pets out of the sleep space."
+ },
+ {
+  "id": 252,
+  "kind": "MYTH",
+  "text": "Pregnancy means a household must immediately give away its cat.",
+  "note": "Hygiene, litter precautions, and medical advice manage toxoplasmosis risk without automatic surrender."
+ },
+ {
+  "id": 253,
+  "kind": "MYTH",
+  "text": "Touching any cat automatically spreads disease.",
+  "note": "Risk depends on the disease and exposure; ordinary contact is not universal contagion."
+ },
+ {
+  "id": 254,
+  "kind": "MYTH",
+  "text": "Cats cannot get rabies.",
+  "note": "Cats are mammals and can contract rabies where the virus circulates."
+ },
+ {
+  "id": 255,
+  "kind": "MYTH",
+  "text": "An indoor cat cannot possibly get fleas.",
+  "note": "Fleas can enter on other animals, people, or objects."
+ },
+ {
+  "id": 256,
+  "kind": "MYTH",
+  "text": "Every pet cat needs a weekly bath.",
+  "note": "Most healthy cats groom themselves; bathing needs depend on coat, health, and circumstances."
+ },
+ {
+  "id": 257,
+  "kind": "MYTH",
+  "text": "All cats hate water.",
+  "note": "Reactions vary; some investigate, play in, or willingly enter water."
+ },
+ {
+  "id": 258,
+  "kind": "MYTH",
+  "text": "Cats are unable to swim.",
+  "note": "Cats can swim, though many prefer not to submit a demonstration."
+ },
+ {
+  "id": 259,
+  "kind": "MYTH",
+  "text": "A cat needs a tail in order to balance.",
+  "note": "The tail helps, but tailless cats balance using other body and sensory systems."
+ },
+ {
+  "id": 260,
+  "kind": "MYTH",
+  "text": "One cat year always equals seven human years.",
+  "note": "Cats mature quickly early on, so aging does not follow a fixed seven-to-one line."
+ },
+ {
+  "id": 261,
+  "kind": "MYTH",
+  "text": "Cats are strictly nocturnal.",
+  "note": "They are often crepuscular and can adjust activity to the household."
+ },
+ {
+  "id": 262,
+  "kind": "MYTH",
+  "text": "A sleeping cat is lazy.",
+  "note": "Rest is normal feline biology and supports short bursts of intense activity."
+ },
+ {
+  "id": 263,
+  "kind": "MYTH",
+  "text": "A hunting cat must be starving.",
+  "note": "Predatory behavior can occur even when nutritional needs are met."
+ },
+ {
+  "id": 264,
+  "kind": "MYTH",
+  "text": "A cat bringing prey is definitely presenting a human with a gift.",
+  "note": "The motive is uncertain; transport, play, safety, and hunting behavior are all possible."
+ },
+ {
+  "id": 265,
+  "kind": "MYTH",
+  "text": "Every cat responds to catnip.",
+  "note": "Sensitivity is inherited, and many cats show little or no response."
+ },
+ {
+  "id": 266,
+  "kind": "MYTH",
+  "text": "Catnip is dangerously addictive.",
+  "note": "Catnip responses are temporary and it is not considered chemically addictive."
+ },
+ {
+  "id": 267,
+  "kind": "MYTH",
+  "text": "Catnip permanently changes a cat’s personality.",
+  "note": "The response fades; the underlying cat returns to management."
+ },
+ {
+  "id": 268,
+  "kind": "MYTH",
+  "text": "Neutering inevitably makes a cat lazy.",
+  "note": "Activity and weight depend on diet, enrichment, health, age, and the individual."
+ },
+ {
+  "id": 269,
+  "kind": "MYTH",
+  "text": "A female cat needs one litter before being spayed.",
+  "note": "There is no health requirement to produce a litter first."
+ },
+ {
+  "id": 270,
+  "kind": "MYTH",
+  "text": "Cats must roam outdoors to have a fulfilling life.",
+  "note": "A well-designed indoor environment can provide safety, play, climbing, choice, and stimulation."
+ },
+ {
+  "id": 271,
+  "kind": "MYTH",
+  "text": "Older cats are too stubborn to learn anything new.",
+  "note": "Senior cats can learn with suitable rewards, pacing, and physical accommodations."
+ },
+ {
+  "id": 272,
+  "kind": "MYTH",
+  "text": "Two cats will settle a serious conflict if people force them together.",
+  "note": "Forced proximity can intensify fear and aggression; gradual introductions work better."
+ },
+ {
+  "id": 273,
+  "kind": "MYTH",
+  "text": "A squirt bottle teaches a cat which behavior is wrong.",
+  "note": "It may instead teach fear of the person or bottle without teaching a better choice."
+ },
+ {
+  "id": 274,
+  "kind": "MYTH",
+  "text": "A cat that hides is being rude.",
+  "note": "Hiding is a normal strategy for gaining safety, distance, and control."
+ },
+ {
+  "id": 275,
+  "kind": "MYTH",
+  "text": "Cats deliberately knock objects down to test human loyalty.",
+  "note": "They may explore movement, seek attention, hunt, or simply occupy the same surface."
+ },
+ {
+  "id": 276,
+  "kind": "LORE",
+  "text": "Ancient Egyptians represented Bastet as a cat or a cat-headed woman.",
+  "note": "Divine iconography understood the assignment."
+ },
+ {
+  "id": 277,
+  "kind": "LORE",
+  "text": "Bubastis in the Nile Delta was the principal cult center of Bastet.",
+  "note": "A whole city placed the cat goddess on the org chart."
+ },
+ {
+  "id": 278,
+  "kind": "LORE",
+  "text": "Bastet became associated with protection, motherhood, joy, music, and dance.",
+  "note": "The portfolio was broad and impeccably feline."
+ },
+ {
+  "id": 279,
+  "kind": "LORE",
+  "text": "The British Museum’s Gayer-Anderson Cat is a bronze Bastet figure from around 600 BCE.",
+  "note": "Ancient metal cat, still posing flawlessly."
+ },
+ {
+  "id": 280,
+  "kind": "LORE",
+  "text": "Ancient Egyptian worshippers paid for ceremonial cat burials as offerings to Bastet.",
+  "note": "Devotion developed an extensive feline department."
+ },
+ {
+  "id": 281,
+  "kind": "LORE",
+  "text": "Ancient Egyptian tomb paintings sometimes show cats beside their human households.",
+  "note": "The family portrait already had management present."
+ },
+ {
+  "id": 282,
+  "kind": "LORE",
+  "text": "Cats were valued in ancient Egypt for controlling mice, rats, and snakes.",
+  "note": "Sacred-adjacent, but still on pest duty."
+ },
+ {
+  "id": 283,
+  "kind": "LORE",
+  "text": "Mafdet was an early Egyptian feline deity linked with protection against dangerous creatures.",
+  "note": "Before Bastet, another cat already handled security."
+ },
+ {
+  "id": 284,
+  "kind": "LORE",
+  "text": "Sekhmet, the Egyptian lioness goddess, embodied destructive power and protection.",
+  "note": "Big dramatic energy received official divine status."
+ },
+ {
+  "id": 285,
+  "kind": "LORE",
+  "text": "Ancient Egyptian writing used forms such as ‘miw’ for cat.",
+  "note": "The word appears to have arrived with its own meow."
+ },
+ {
+  "id": 286,
+  "kind": "LORE",
+  "text": "Herodotus described enormous festivals held for Bastet at Bubastis.",
+  "note": "The ancient travel review reports peak cat turnout."
+ },
+ {
+  "id": 287,
+  "kind": "LORE",
+  "text": "Egyptian artisans made cat-shaped amulets in materials including faience and bronze.",
+  "note": "Pocket-sized divine supervision was available."
+ },
+ {
+  "id": 288,
+  "kind": "LORE",
+  "text": "Some ancient bronze cat figures wore modeled earrings and nose rings.",
+  "note": "Formal portrait day demanded accessories."
+ },
+ {
+  "id": 289,
+  "kind": "LORE",
+  "text": "Bastet’s worship continued into Egypt’s Greek and Roman periods.",
+  "note": "The cult survived several management changes."
+ },
+ {
+  "id": 290,
+  "kind": "LORE",
+  "text": "A human and cat were buried together in Cyprus roughly 9,500 years ago.",
+  "note": "An ancient relationship left a permanent receipt."
+ },
+ {
+  "id": 291,
+  "kind": "LORE",
+  "text": "Roman mosaics and art sometimes depict domestic cats hunting birds.",
+  "note": "The side quest made it into the décor."
+ },
+ {
+  "id": 292,
+  "kind": "LORE",
+  "text": "The tomb painting of Nebamun includes a cat hunting birds in a marsh.",
+  "note": "Even formal art captured one extremely busy employee."
+ },
+ {
+  "id": 293,
+  "kind": "LORE",
+  "text": "Ancient DNA shows cats traveled along Mediterranean trade routes.",
+  "note": "Commerce moved grain, pottery, and freeloading mousers."
+ },
+ {
+  "id": 294,
+  "kind": "LORE",
+  "text": "Ships carried cats to protect food stores from rodents.",
+  "note": "The maritime job included hunting and extensive hammock testing."
+ },
+ {
+  "id": 295,
+  "kind": "LORE",
+  "text": "Cats reached distant ports alongside merchants, sailors, and settlers.",
+  "note": "Global distribution was achieved without filling in customs forms."
+ },
+ {
+  "id": 296,
+  "kind": "LORE",
+  "text": "Pangur Bán is a ninth-century Irish poem about a monk and his white cat.",
+  "note": "Scholar studies words; cat studies mice; both claim focus."
+ },
+ {
+  "id": 297,
+  "kind": "LORE",
+  "text": "Medieval manuscripts preserve paw prints where cats walked across wet ink.",
+  "note": "The oldest known ‘sent from my keyboard’ incident."
+ },
+ {
+  "id": 298,
+  "kind": "LORE",
+  "text": "Medieval manuscript margins contain cats fighting, hunting, playing, and behaving suspiciously.",
+  "note": "The doodle economy was thriving."
+ },
+ {
+  "id": 299,
+  "kind": "LORE",
+  "text": "Exeter Cathedral has a medieval cat hole cut into a door for a resident mouser.",
+  "note": "Architecture eventually accepted the employee entrance."
+ },
+ {
+  "id": 300,
+  "kind": "LORE",
+  "text": "European witch-trial lore often cast cats as witches’ familiars.",
+  "note": "Ordinary pet ownership received an extremely bad press cycle."
+ },
+ {
+  "id": 301,
+  "kind": "LORE",
+  "text": "Black-cat luck traditions differ: some call them unlucky, while others welcome them.",
+  "note": "Superstition cannot agree on the performance review."
+ },
+ {
+  "id": 302,
+  "kind": "LORE",
+  "text": "Ypres once held a cruel cat-throwing custom; today its festival throws toy cats instead.",
+  "note": "History was patched with plush."
+ },
+ {
+  "id": 303,
+  "kind": "LORE",
+  "text": "Dick Whittington’s fortune-making cat belongs mainly to later English legend and pantomime.",
+  "note": "The cat handled branding while history handled paperwork."
+ },
+ {
+  "id": 304,
+  "kind": "LORE",
+  "text": "Puss in Boots is a European folktale cat who wins status through audacious trickery.",
+  "note": "Footwear plus confidence defeated the class system."
+ },
+ {
+  "id": 305,
+  "kind": "LORE",
+  "text": "In Norse mythology, the goddess Freyja rides in a chariot drawn by cats.",
+  "note": "Divine transport chose maximum softness and minimum compliance."
+ },
+ {
+  "id": 306,
+  "kind": "LORE",
+  "text": "Scottish and Irish folklore describes the Cat Sìth, a large fairy cat.",
+  "note": "The highlands installed supernatural feline management."
+ },
+ {
+  "id": 307,
+  "kind": "LORE",
+  "text": "Cat Sìth stories often describe a black cat with a white chest patch.",
+  "note": "One formal bib, several supernatural concerns."
+ },
+ {
+  "id": 308,
+  "kind": "LORE",
+  "text": "Some Samhain folklore says leaving milk for the Cat Sìth could earn a blessing.",
+  "note": "The old protection fee was dairy-based."
+ },
+ {
+  "id": 309,
+  "kind": "LORE",
+  "text": "Japan’s maneki-neko figurine raises a paw to beckon luck or customers.",
+  "note": "Retail strategy: wave forever, nap never."
+ },
+ {
+  "id": 310,
+  "kind": "LORE",
+  "text": "Tokyo’s Gōtoku-ji temple is closely associated with rows of maneki-neko figures.",
+  "note": "The lucky-cat inventory has become architectural."
+ },
+ {
+  "id": 311,
+  "kind": "LORE",
+  "text": "Japanese folklore calls a shape-shifting supernatural cat a bakeneko.",
+  "note": "The household pet has unlocked advanced permissions."
+ },
+ {
+  "id": 312,
+  "kind": "LORE",
+  "text": "The nekomata is a Japanese cat yōkai often depicted with a forked tail.",
+  "note": "One tail was apparently insufficient for supernatural administration."
+ },
+ {
+  "id": 313,
+  "kind": "LORE",
+  "text": "The kasha of Japanese folklore is a fiery catlike yōkai linked with funerals.",
+  "note": "A deeply unhelpful specialist arrives after dark."
+ },
+ {
+  "id": 314,
+  "kind": "LORE",
+  "text": "One Japanese zodiac folktale says the rat tricked the cat out of attending the heavenly race.",
+  "note": "The calendar feud allegedly began with bad directions."
+ },
+ {
+  "id": 315,
+  "kind": "LORE",
+  "text": "Tama became stationmaster of Kishi Station in Japan and drew visitors to the railway.",
+  "note": "Public transit discovered the perfect executive."
+ },
+ {
+  "id": 316,
+  "kind": "LORE",
+  "text": "Edo-period artist Utagawa Kuniyoshi repeatedly filled prints with cats.",
+  "note": "One celebrated artist also maintained a serious cat folder."
+ },
+ {
+  "id": 317,
+  "kind": "LORE",
+  "text": "Kuniyoshi arranged cats into visual puns, actors, monsters, and human activities.",
+  "note": "The meme format predates the modem."
+ },
+ {
+  "id": 318,
+  "kind": "LORE",
+  "text": "Vietnam’s zodiac includes the Cat where the Chinese zodiac has the Rabbit.",
+  "note": "One calendar made the obvious casting change."
+ },
+ {
+  "id": 319,
+  "kind": "LORE",
+  "text": "Chinese tradition names Li Shou as a feline protector of crops against rats.",
+  "note": "Agricultural security acquired divine whiskers."
+ },
+ {
+  "id": 320,
+  "kind": "LORE",
+  "text": "Chinese art uses cat-and-butterfly imagery as a wish for long life.",
+  "note": "A visual wordplay sends birthday paperwork through animals."
+ },
+ {
+  "id": 321,
+  "kind": "LORE",
+  "text": "Abu Hurairah’s famous nickname means ‘father of the kitten.’",
+  "note": "A companion of Muhammad entered history with elite cat branding."
+ },
+ {
+  "id": 322,
+  "kind": "LORE",
+  "text": "Islamic traditions frequently praise kindness and cleanliness toward cats.",
+  "note": "The household animal received a strong cultural endorsement."
+ },
+ {
+  "id": 323,
+  "kind": "LORE",
+  "text": "Muezza is named in a popular modern legend as Muhammad’s beloved cat.",
+  "note": "The story is cherished, though early sources do not securely document it."
+ },
+ {
+  "id": 324,
+  "kind": "LORE",
+  "text": "Trim sailed with explorer Matthew Flinders and was memorialized in Flinders’s writing.",
+  "note": "One ship’s cat earned a full literary performance review."
+ },
+ {
+  "id": 325,
+  "kind": "LORE",
+  "text": "Mrs Chippy, despite the name, was a male cat on Shackleton’s Endurance expedition.",
+  "note": "Polar history preserved both the cat and the clerical error."
+ },
+ {
+  "id": 326,
+  "kind": "LORE",
+  "text": "Simon of HMS Amethyst received the Dickin Medal after the Yangtze Incident.",
+  "note": "A ship’s cat became a decorated veteran and remained unimpressed."
+ },
+ {
+  "id": 327,
+  "kind": "LORE",
+  "text": "‘Unsinkable Sam’ is a famous wartime ship-cat story with disputed documentation.",
+  "note": "Excellent lore; unreliable personnel file."
+ },
+ {
+  "id": 328,
+  "kind": "LORE",
+  "text": "Pooli, a United States Navy ship’s cat, was photographed in a tiny uniform on her birthday.",
+  "note": "The uniform included ribbons. Discipline remained theoretical."
+ },
+ {
+  "id": 329,
+  "kind": "LORE",
+  "text": "Polydactyl cats became strongly associated with ships and port communities.",
+  "note": "Extra toes acquired a maritime résumé."
+ },
+ {
+  "id": 330,
+  "kind": "LORE",
+  "text": "Félicette became the first and only cat known to survive a trip to space.",
+  "note": "France launched one very unwilling astronaut in 1963."
+ },
+ {
+  "id": 331,
+  "kind": "LORE",
+  "text": "Larry holds the official title Chief Mouser to the Cabinet Office in Britain.",
+  "note": "Government continuity now includes scheduled naps."
+ },
+ {
+  "id": 332,
+  "kind": "LORE",
+  "text": "Palmerston served as Chief Mouser at Britain’s Foreign Office.",
+  "note": "Diplomacy gained a tuxedo department."
+ },
+ {
+  "id": 333,
+  "kind": "LORE",
+  "text": "Cats have lived at St Petersburg’s Hermitage Museum as resident mousers for generations.",
+  "note": "Masterpieces receive basement security with whiskers."
+ },
+ {
+  "id": 334,
+  "kind": "LORE",
+  "text": "Stubbs was celebrated for years as the honorary feline mayor of Talkeetna, Alaska.",
+  "note": "The title was unofficial; the constituent affection was not."
+ },
+ {
+  "id": 335,
+  "kind": "LORE",
+  "text": "Towser worked as a mouser at Scotland’s Glenturret distillery.",
+  "note": "The whisky operation included a highly experienced pest consultant."
+ },
+ {
+  "id": 336,
+  "kind": "LORE",
+  "text": "Dewey Readmore Books became the resident cat of the public library in Spencer, Iowa.",
+  "note": "He was returned through the book drop by fate."
+ },
+ {
+  "id": 337,
+  "kind": "LORE",
+  "text": "Room 8 was a cat who repeatedly attended an elementary school in California.",
+  "note": "Enrollment paperwork never caught up with attendance."
+ },
+ {
+  "id": 338,
+  "kind": "LORE",
+  "text": "Hodge, Samuel Johnson’s cat, is memorialized by a bronze statue in London.",
+  "note": "The dictionary household kept one excellent critic."
+ },
+ {
+  "id": 339,
+  "kind": "LORE",
+  "text": "Socks lived in the White House during Bill Clinton’s presidency.",
+  "note": "The press office occasionally had a tail."
+ },
+ {
+  "id": 340,
+  "kind": "LORE",
+  "text": "Orangey became a prolific animal actor and appeared in multiple films and television productions.",
+  "note": "One orange professional allegedly required several stand-ins."
+ },
+ {
+  "id": 341,
+  "kind": "LORE",
+  "text": "Théophile Steinlen’s Le Chat Noir poster made a black cat an enduring image of Paris nightlife.",
+  "note": "The stare has outlived the cabaret."
+ },
+ {
+  "id": 342,
+  "kind": "LORE",
+  "text": "Artist Louis Wain became famous for drawings of increasingly humanlike cats.",
+  "note": "Victorian cats obtained clothes, jobs, and social problems."
+ },
+ {
+  "id": 343,
+  "kind": "LORE",
+  "text": "Edgar Allan Poe’s ‘The Black Cat’ turned feline unease into Gothic literature.",
+  "note": "The title cat received no relaxing scenes."
+ },
+ {
+  "id": 344,
+  "kind": "LORE",
+  "text": "Lewis Carroll’s Cheshire Cat leaves its grin behind in Alice’s Adventures in Wonderland.",
+  "note": "The cat exits; customer service remains smiling."
+ },
+ {
+  "id": 345,
+  "kind": "LORE",
+  "text": "T. S. Eliot’s Old Possum poems supplied cats with elaborate secret names and occupations.",
+  "note": "The private bureaucracy finally reached print."
+ },
+ {
+  "id": 346,
+  "kind": "LORE",
+  "text": "Ernest Hemingway’s Key West home became associated with a colony of polydactyl cats.",
+  "note": "Literary tourism now includes bonus beans."
+ },
+ {
+  "id": 347,
+  "kind": "LORE",
+  "text": "The tailless Manx cat is named for the Isle of Man.",
+  "note": "Island identity selected a very visible missing feature."
+ },
+ {
+  "id": 348,
+  "kind": "LORE",
+  "text": "One Manx legend says Noah shut the Ark door on the last-arriving cat’s tail.",
+  "note": "The origin story blames a historic boarding delay."
+ },
+ {
+  "id": 349,
+  "kind": "LORE",
+  "text": "Thai manuscripts called Tamra Maew describe auspicious and inauspicious cat types.",
+  "note": "Historic cat classification arrived with poetry and omens."
+ },
+ {
+  "id": 350,
+  "kind": "LORE",
+  "text": "Birman breed lore tells of temple cats transformed by a goddess after a priest’s death.",
+  "note": "The sacred color change remains legend, not breeding records."
+ },
+ {
+  "id": 351,
+  "kind": "RUMOR",
+  "text": "They say a black cat crossing your path brings bad luck.",
+  "note": "A widespread superstition, not feline traffic science."
+ },
+ {
+  "id": 352,
+  "kind": "RUMOR",
+  "text": "They say a black cat brings good luck in parts of Britain.",
+  "note": "Same cat, opposite forecast. Folklore contains multitudes."
+ },
+ {
+  "id": 353,
+  "kind": "RUMOR",
+  "text": "They say a strange black cat arriving at a Scottish home predicts prosperity.",
+  "note": "An old luck tradition, not financial advice."
+ },
+ {
+  "id": 354,
+  "kind": "RUMOR",
+  "text": "They say a black cat near a bride promises a fortunate marriage.",
+  "note": "Wedding folklore gave the cat an unofficial planning role."
+ },
+ {
+  "id": 355,
+  "kind": "RUMOR",
+  "text": "They say a cat sneezing near a bride foretells a happy marriage.",
+  "note": "A Japanese wedding superstition, not a compatibility test."
+ },
+ {
+  "id": 356,
+  "kind": "RUMOR",
+  "text": "They say sailors considered a ship’s cat a sign of good luck.",
+  "note": "Maritime folklore grew around very practical mousers."
+ },
+ {
+  "id": 357,
+  "kind": "RUMOR",
+  "text": "They say a sailor’s family kept a black cat to protect him at sea.",
+  "note": "British maritime superstition outsourced navigation to the household cat."
+ },
+ {
+  "id": 358,
+  "kind": "RUMOR",
+  "text": "They say a ship’s cat washing behind its ears predicts rain.",
+  "note": "Weather lore noticed grooming and wrote a forecast."
+ },
+ {
+  "id": 359,
+  "kind": "RUMOR",
+  "text": "They say a restless ship’s cat warns that a storm is coming.",
+  "note": "Sailor folklore, not a replacement for instruments."
+ },
+ {
+  "id": 360,
+  "kind": "RUMOR",
+  "text": "They say throwing a ship’s cat overboard invites a terrible storm.",
+  "note": "Old sailors treated feline disrespect as meteorological sabotage."
+ },
+ {
+  "id": 361,
+  "kind": "RUMOR",
+  "text": "They say a cat washing its face means visitors are coming.",
+  "note": "This guest forecast appears in several traditions."
+ },
+ {
+  "id": 362,
+  "kind": "RUMOR",
+  "text": "They say the direction a cat faces while washing predicts where visitors come from.",
+  "note": "The grooming compass remains uncalibrated."
+ },
+ {
+  "id": 363,
+  "kind": "RUMOR",
+  "text": "They say a cat washing both ears announces especially important company.",
+  "note": "Folklore upgraded the guest list based on grooming coverage."
+ },
+ {
+  "id": 364,
+  "kind": "RUMOR",
+  "text": "They say a cat sleeping with paws over its nose predicts cold weather.",
+  "note": "A cozy observation became an old weather report."
+ },
+ {
+  "id": 365,
+  "kind": "RUMOR",
+  "text": "They say a cat turning its back to the fire predicts a storm.",
+  "note": "Hearthside weather lore, not peer review."
+ },
+ {
+  "id": 366,
+  "kind": "RUMOR",
+  "text": "They say a cat licking its tail foretells rain.",
+  "note": "The forecast has a 100 percent chance of grooming."
+ },
+ {
+  "id": 367,
+  "kind": "RUMOR",
+  "text": "They say a cat racing wildly through the house predicts wind.",
+  "note": "Zoomies acquired a meteorology department."
+ },
+ {
+  "id": 368,
+  "kind": "RUMOR",
+  "text": "They say a cat refusing to travel warns of danger ahead.",
+  "note": "Journey folklore respected the passenger who would not board."
+ },
+ {
+  "id": 369,
+  "kind": "RUMOR",
+  "text": "They say letting a cat enter a new home first keeps bad spirits away.",
+  "note": "A housewarming tradition with built-in inspection."
+ },
+ {
+  "id": 370,
+  "kind": "RUMOR",
+  "text": "They say a cat chooses the safest place for a baby’s cradle.",
+  "note": "Old household lore assigned the cat to site planning."
+ },
+ {
+  "id": 371,
+  "kind": "RUMOR",
+  "text": "They say cats can steal a sleeping baby’s breath.",
+  "note": "A harmful old tale; cats do not steal breath."
+ },
+ {
+  "id": 372,
+  "kind": "RUMOR",
+  "text": "They say dreaming of a cat warns of deceit nearby.",
+  "note": "Dream books blamed the sleeping cat for waking suspicions."
+ },
+ {
+  "id": 373,
+  "kind": "RUMOR",
+  "text": "They say dreaming of a white cat predicts difficult times.",
+  "note": "One old dream superstition; the cat submitted no paperwork."
+ },
+ {
+  "id": 374,
+  "kind": "RUMOR",
+  "text": "They say dreaming of kittens predicts small troubles multiplying.",
+  "note": "Dream folklore turned a litter into administrative foreshadowing."
+ },
+ {
+  "id": 375,
+  "kind": "RUMOR",
+  "text": "They say a cat appearing at a funeral signals the dead person’s restless spirit.",
+  "note": "Mourning folklore, not evidence about either cats or ghosts."
+ },
+ {
+  "id": 376,
+  "kind": "RUMOR",
+  "text": "They say a cat jumping over a coffin could wake the dead.",
+  "note": "European funeral superstition gave cats unreasonable permissions."
+ },
+ {
+  "id": 377,
+  "kind": "RUMOR",
+  "text": "They say a cat sitting on a grave marks a troubled soul.",
+  "note": "Graveyard folklore, not a reliable spiritual audit."
+ },
+ {
+  "id": 378,
+  "kind": "RUMOR",
+  "text": "They say witches can travel disguised as black cats.",
+  "note": "Early modern folklore caused real cats and people terrible harm."
+ },
+ {
+  "id": 379,
+  "kind": "RUMOR",
+  "text": "They say a cat may serve as a witch’s familiar spirit.",
+  "note": "A European folklore role, not the cat’s actual employment."
+ },
+ {
+  "id": 380,
+  "kind": "RUMOR",
+  "text": "They say a French matagot rewards a household that feeds it properly.",
+  "note": "A magical-black-cat legend with strict hospitality terms."
+ },
+ {
+  "id": 381,
+  "kind": "RUMOR",
+  "text": "They say the Cat Sìth blesses homes that leave milk on Samhain.",
+  "note": "Scottish folklore recommends paying the fairy cat promptly."
+ },
+ {
+  "id": 382,
+  "kind": "RUMOR",
+  "text": "They say the Cat Sìth curses homes that forget its Samhain saucer.",
+  "note": "The same folklore also invented supernatural late fees."
+ },
+ {
+  "id": 383,
+  "kind": "RUMOR",
+  "text": "They say Japan’s raised-paw cat beckons luck through the door.",
+  "note": "Maneki-neko tradition, not a measurable force field."
+ },
+ {
+  "id": 384,
+  "kind": "RUMOR",
+  "text": "They say a black cat can help a single woman attract suitors in Japan.",
+  "note": "A modern luck belief; results remain cat-dependent."
+ },
+ {
+  "id": 385,
+  "kind": "RUMOR",
+  "text": "They say tortoiseshell cats protect Japanese sailors from storms and ghosts.",
+  "note": "Maritime folklore gave one coat pattern two security jobs."
+ },
+ {
+  "id": 386,
+  "kind": "RUMOR",
+  "text": "They say an old Japanese cat may become a shape-shifting bakeneko.",
+  "note": "Yōkai folklore recommends monitoring senior-management permissions."
+ },
+ {
+  "id": 387,
+  "kind": "RUMOR",
+  "text": "They say a long-lived cat may grow a forked tail and become a nekomata.",
+  "note": "A Japanese supernatural tale, not a veterinary prognosis."
+ },
+ {
+  "id": 388,
+  "kind": "RUMOR",
+  "text": "They say the rat tricked the cat out of the Chinese zodiac race.",
+  "note": "A popular zodiac folktale explains a very old grudge."
+ },
+ {
+  "id": 389,
+  "kind": "RUMOR",
+  "text": "They say Vietnam gave the Cat the Rabbit’s place in the zodiac.",
+  "note": "The Cat is genuinely in Vietnam’s zodiac; the reason lives in folklore."
+ },
+ {
+  "id": 390,
+  "kind": "RUMOR",
+  "text": "They say a cat entering a Russian home first finds the safest sleeping place.",
+  "note": "Housewarming lore lets the cat conduct the first inspection."
+ },
+ {
+  "id": 391,
+  "kind": "RUMOR",
+  "text": "They say the first night in a new Russian home should belong to the cat.",
+  "note": "Traditional house lore promoted one extremely confident tenant."
+ },
+ {
+  "id": 392,
+  "kind": "RUMOR",
+  "text": "They say feeding the cat well before a Norwegian wedding brings sunshine.",
+  "note": "Wedding-weather folklore accepts payment in dinner."
+ },
+ {
+  "id": 393,
+  "kind": "RUMOR",
+  "text": "They say an Italian cat sneeze brings good luck to whoever hears it.",
+  "note": "A cheerful superstition with no allergy data."
+ },
+ {
+  "id": 394,
+  "kind": "RUMOR",
+  "text": "They say a cat sneezing three times predicts someone will catch a cold.",
+  "note": "Old household lore confused coincidence with diagnosis."
+ },
+ {
+  "id": 395,
+  "kind": "RUMOR",
+  "text": "They say a black cat walking toward you brings luck, but walking away takes it.",
+  "note": "Direction-based folklore made the cat responsible for traffic flow."
+ },
+ {
+  "id": 396,
+  "kind": "RUMOR",
+  "text": "They say finding a white hair on a black cat brings luck.",
+  "note": "A superstition that begins with an unauthorized coat inspection."
+ },
+ {
+  "id": 397,
+  "kind": "RUMOR",
+  "text": "They say harming a cat brings years of misfortune.",
+  "note": "Many cultures use bad-luck stories to enforce the excellent rule: do not harm cats."
+ },
+ {
+  "id": 398,
+  "kind": "RUMOR",
+  "text": "They say cats can sense ghosts staring from empty corners.",
+  "note": "The cat may hear a pipe. Folklore prefers a haunting."
+ },
+ {
+  "id": 399,
+  "kind": "RUMOR",
+  "text": "They say a cat staring at the door sees a visitor before anyone else.",
+  "note": "Excellent hearing became supernatural reception duty."
+ },
+ {
+  "id": 400,
+  "kind": "RUMOR",
+  "text": "They say cats have seven lives in some countries and nine in others.",
+  "note": "Folklore cannot settle the account; biology provides one."
+ },
+ {
+  "id": 401,
+  "kind": "MEME",
+  "text": "Loaf mode hides all four legs and most outstanding warrants.",
+  "note": "Geometry has withdrawn from the case."
+ },
+ {
+  "id": 402,
+  "kind": "MEME",
+  "text": "A perfect loaf has no visible means of transportation.",
+  "note": "It still reaches the kitchen somehow."
+ },
+ {
+  "id": 403,
+  "kind": "MEME",
+  "text": "The loaf is fully baked when the paws disappear.",
+  "note": "Do not insert a thermometer."
+ },
+ {
+  "id": 404,
+  "kind": "MEME",
+  "text": "Somewhere inside this loaf, a cat is ignoring you.",
+  "note": "The location remains classified."
+ },
+ {
+  "id": 405,
+  "kind": "MEME",
+  "text": "Loaf reaches final form: rectangle with opinions.",
+  "note": "Corners sold separately."
+ },
+ {
+  "id": 406,
+  "kind": "MEME",
+  "text": "This loaf contains one cat and several complaints.",
+  "note": "Ingredients listed by volume."
+ },
+ {
+  "id": 407,
+  "kind": "MEME",
+  "text": "The loaf has achieved structural purrfection.",
+  "note": "Building inspectors are baffled."
+ },
+ {
+  "id": 408,
+  "kind": "MEME",
+  "text": "Emergency loaf deployed. Situation unchanged.",
+  "note": "Excellent posture; no measurable assistance."
+ },
+ {
+  "id": 409,
+  "kind": "MEME",
+  "text": "Compact loaf saves space for additional crimes.",
+  "note": "Storage optimization is complete."
+ },
+ {
+  "id": 410,
+  "kind": "MEME",
+  "text": "The loaf refuses all questions about its missing legs.",
+  "note": "Legal counsel is present."
+ },
+ {
+  "id": 411,
+  "kind": "MEME",
+  "text": "A blep is one tongue pixel left on-screen.",
+  "note": "Refresh unavailable."
+ },
+ {
+  "id": 412,
+  "kind": "MEME",
+  "text": "Blep detected. Seriousness levels approaching zero.",
+  "note": "The face has lost containment."
+ },
+ {
+  "id": 413,
+  "kind": "MEME",
+  "text": "One tiny blep can cancel an entire villain monologue.",
+  "note": "Dignity disconnected."
+ },
+ {
+  "id": 414,
+  "kind": "MEME",
+  "text": "The tongue has left the office without logging out.",
+  "note": "Classic blep procedure."
+ },
+ {
+  "id": 415,
+  "kind": "MEME",
+  "text": "Blep remains deployed after all systems shut down.",
+  "note": "No technician has claimed responsibility."
+ },
+ {
+  "id": 416,
+  "kind": "MEME",
+  "text": "A mlem is a lick with excellent public relations.",
+  "note": "Same tongue, stronger branding."
+ },
+ {
+  "id": 417,
+  "kind": "MEME",
+  "text": "Mlem protocol begins when dinner looks inspectable.",
+  "note": "Quality assurance has arrived."
+ },
+ {
+  "id": 418,
+  "kind": "MEME",
+  "text": "The mlem is brief. The screenshot is forever.",
+  "note": "Internet preservation succeeds again."
+ },
+ {
+  "id": 419,
+  "kind": "MEME",
+  "text": "Blep is idle tongue. Mlem is active tongue.",
+  "note": "The internet has standards, somehow."
+ },
+ {
+  "id": 420,
+  "kind": "MEME",
+  "text": "Tongue out, thoughts unavailable.",
+  "note": "Please try the braincell later."
+ },
+ {
+  "id": 421,
+  "kind": "MEME",
+  "text": "Toe beans are the official currency of looking adorable.",
+  "note": "Exchange rate remains extremely favorable."
+ },
+ {
+  "id": 422,
+  "kind": "MEME",
+  "text": "These beans are not for eating or touching without permission.",
+  "note": "The farmer has claws."
+ },
+ {
+  "id": 423,
+  "kind": "MEME",
+  "text": "Fresh toe beans installed on every corner.",
+  "note": "Traction package included."
+ },
+ {
+  "id": 424,
+  "kind": "MEME",
+  "text": "The beans have voted against standing up.",
+  "note": "Motion defeated unanimously."
+ },
+ {
+  "id": 425,
+  "kind": "MEME",
+  "text": "One paw contains beans, knives, and no remorse.",
+  "note": "A complete field kit."
+ },
+ {
+  "id": 426,
+  "kind": "MEME",
+  "text": "Toe bean inspection has been denied.",
+  "note": "Submit form PS-PS-PS tomorrow."
+ },
+ {
+  "id": 427,
+  "kind": "MEME",
+  "text": "The paw appears soft because the weapons are concealed.",
+  "note": "Excellent industrial design."
+ },
+ {
+  "id": 428,
+  "kind": "MEME",
+  "text": "Bean arrangement remains proprietary.",
+  "note": "Competitors keep asking."
+ },
+ {
+  "id": 429,
+  "kind": "MEME",
+  "text": "Tiny socks are painted directly onto management.",
+  "note": "Laundry requirements reduced."
+ },
+ {
+  "id": 430,
+  "kind": "MEME",
+  "text": "The murder mittens are currently in cuddle configuration.",
+  "note": "Firmware may change without warning."
+ },
+ {
+  "id": 431,
+  "kind": "MEME",
+  "text": "If I fits, I sits. Appeals are not accepted.",
+  "note": "Container law predates human law."
+ },
+ {
+  "id": 432,
+  "kind": "MEME",
+  "text": "The box is two sizes too small, therefore perfect.",
+  "note": "Cat geometry has spoken."
+ },
+ {
+  "id": 433,
+  "kind": "MEME",
+  "text": "Every empty box is pre-approved cat housing.",
+  "note": "Zoning cannot stop this."
+ },
+ {
+  "id": 434,
+  "kind": "MEME",
+  "text": "Box ownership transfers at first contact.",
+  "note": "No signature required."
+ },
+ {
+  "id": 435,
+  "kind": "MEME",
+  "text": "The cat fits because reality moved slightly.",
+  "note": "Physics agreed under pressure."
+ },
+ {
+  "id": 436,
+  "kind": "MEME",
+  "text": "Cardboard castle acquired. Mortgage: zero.",
+  "note": "The housing market fears this cat."
+ },
+ {
+  "id": 437,
+  "kind": "MEME",
+  "text": "This box contains more cat than volume allows.",
+  "note": "Please ignore the measurements."
+ },
+ {
+  "id": 438,
+  "kind": "MEME",
+  "text": "Shipping label says fragile. Cat says occupied.",
+  "note": "Delivery rescheduled indefinitely."
+ },
+ {
+  "id": 439,
+  "kind": "MEME",
+  "text": "Sink goblin has claimed the porcelain district.",
+  "note": "Water service remains uncertain."
+ },
+ {
+  "id": 440,
+  "kind": "MEME",
+  "text": "You dare enter the goblin’s sink.",
+  "note": "Bathroom access revoked."
+ },
+ {
+  "id": 441,
+  "kind": "MEME",
+  "text": "The laptop is warm, expensive, and therefore a bed.",
+  "note": "Your deadline is not relevant."
+ },
+ {
+  "id": 442,
+  "kind": "MEME",
+  "text": "Keyboard cat has submitted seventeen blank documents.",
+  "note": "Productivity metrics are excellent."
+ },
+ {
+  "id": 443,
+  "kind": "MEME",
+  "text": "The cat sits precisely on the keys you need.",
+  "note": "Targeting systems operational."
+ },
+ {
+  "id": 444,
+  "kind": "MEME",
+  "text": "Laptop closed by authorized furry personnel.",
+  "note": "Work-life balance enforced."
+ },
+ {
+  "id": 445,
+  "kind": "MEME",
+  "text": "The cursor moved, so the hunt begins.",
+  "note": "Spreadsheet casualties expected."
+ },
+ {
+  "id": 446,
+  "kind": "MEME",
+  "text": "Your keyboard now types exclusively in cat.",
+  "note": "Language pack installed."
+ },
+ {
+  "id": 447,
+  "kind": "MEME",
+  "text": "The webcam angle has become deeply unflattering.",
+  "note": "Meeting attendance increased."
+ },
+ {
+  "id": 448,
+  "kind": "MEME",
+  "text": "Cat on keyboard. Password security compromised by beans.",
+  "note": "Access granted accidentally."
+ },
+ {
+  "id": 449,
+  "kind": "MEME",
+  "text": "The charger belongs to the cat now.",
+  "note": "Battery negotiations have failed."
+ },
+ {
+  "id": 450,
+  "kind": "MEME",
+  "text": "Remote work means working around the cat.",
+  "note": "The contract was very clear."
+ },
+ {
+  "id": 451,
+  "kind": "MEME",
+  "text": "Zoomies begin when the hallway least expects them.",
+  "note": "Traffic control has resigned."
+ },
+ {
+  "id": 452,
+  "kind": "MEME",
+  "text": "Midnight zoomies have entered the second floor.",
+  "note": "Sleep has been evacuated."
+ },
+ {
+  "id": 453,
+  "kind": "MEME",
+  "text": "The braincell connected. Maximum speed followed.",
+  "note": "No steering update was included."
+ },
+ {
+  "id": 454,
+  "kind": "MEME",
+  "text": "One braincell, currently buffering.",
+  "note": "Estimated completion: never."
+ },
+ {
+  "id": 455,
+  "kind": "MEME",
+  "text": "The orange cat awaits its turn with the braincell.",
+  "note": "Queue position unknown."
+ },
+ {
+  "id": 456,
+  "kind": "MEME",
+  "text": "Braincell acquired briefly, used for crime.",
+  "note": "Resource allocation questioned."
+ },
+ {
+  "id": 457,
+  "kind": "MEME",
+  "text": "Zoomie trajectory approved by nobody.",
+  "note": "Walls are merely suggestions."
+ },
+ {
+  "id": 458,
+  "kind": "MEME",
+  "text": "Sudden acceleration. No mission statement.",
+  "note": "The hallway accepts its fate."
+ },
+ {
+  "id": 459,
+  "kind": "MEME",
+  "text": "The cat has entered airplane mode.",
+  "note": "Ears flattened; service unavailable."
+ },
+ {
+  "id": 460,
+  "kind": "MEME",
+  "text": "Airplane ears indicate immediate departure from nonsense.",
+  "note": "Flight delayed by snacks."
+ },
+ {
+  "id": 461,
+  "kind": "MEME",
+  "text": "Longcat is long. Scholarship concluded.",
+  "note": "Further research would be redundant."
+ },
+ {
+  "id": 462,
+  "kind": "MEME",
+  "text": "Ceiling Cat has reviewed the incident.",
+  "note": "The report is mostly judgment."
+ },
+ {
+  "id": 463,
+  "kind": "MEME",
+  "text": "Basement Cat requests one tiny favor.",
+  "note": "Do not sign anything."
+ },
+ {
+  "id": 464,
+  "kind": "MEME",
+  "text": "Keyboard Cat plays us off another bad decision.",
+  "note": "The credits begin early."
+ },
+ {
+  "id": 465,
+  "kind": "MEME",
+  "text": "Nyan Cat continues through space on obsolete bandwidth.",
+  "note": "The rainbow has excellent uptime."
+ },
+ {
+  "id": 466,
+  "kind": "MEME",
+  "text": "Grumpy Cat established the permanent complaint department.",
+  "note": "Office hours: all of them."
+ },
+ {
+  "id": 467,
+  "kind": "MEME",
+  "text": "Schrödinger’s box contains one cat and endless discourse.",
+  "note": "Do not open the comment section."
+ },
+ {
+  "id": 468,
+  "kind": "MEME",
+  "text": "The internet saw a cat and invented a language.",
+  "note": "Blep was inevitable."
+ },
+ {
+  "id": 469,
+  "kind": "MEME",
+  "text": "Ancient forum prophecy: pics or it didn’t happen.",
+  "note": "The cat picture survives."
+ },
+ {
+  "id": 470,
+  "kind": "MEME",
+  "text": "This cat has seen the loading screen.",
+  "note": "Progress remains at three percent."
+ },
+ {
+  "id": 471,
+  "kind": "MEME",
+  "text": "Majestic idiot surveys the kingdom.",
+  "note": "The kingdom is one laundry basket."
+ },
+ {
+  "id": 472,
+  "kind": "MEME",
+  "text": "Tiny criminal returns to the scene.",
+  "note": "Evidence is stuck to one whisker."
+ },
+ {
+  "id": 473,
+  "kind": "MEME",
+  "text": "Cat.exe has stopped responding to authority.",
+  "note": "This is expected behavior."
+ },
+ {
+  "id": 474,
+  "kind": "MEME",
+  "text": "Error 404: dignity not found.",
+  "note": "Cat located successfully."
+ },
+ {
+  "id": 475,
+  "kind": "MEME",
+  "text": "Please wait. Cat is installing chaos.",
+  "note": "Restarting will not help."
+ },
+ {
+  "id": 476,
+  "kind": "MEME",
+  "text": "The feline firewall blocks all productivity.",
+  "note": "Treat packets may pass."
+ },
+ {
+  "id": 477,
+  "kind": "MEME",
+  "text": "System update adds one unnecessary scream.",
+  "note": "Patch cannot be rolled back."
+ },
+ {
+  "id": 478,
+  "kind": "MEME",
+  "text": "Single braincell is already in another tab.",
+  "note": "Memory pressure critical."
+ },
+ {
+  "id": 479,
+  "kind": "MEME",
+  "text": "Cat has administrator privileges for unknown reasons.",
+  "note": "Your account is now decorative."
+ },
+ {
+  "id": 480,
+  "kind": "MEME",
+  "text": "Household management has rejected your seating request.",
+  "note": "The chair remains occupied."
+ },
+ {
+  "id": 481,
+  "kind": "MEME",
+  "text": "Management requests dinner despite recent dinner.",
+  "note": "Previous payment was apparently unrelated."
+ },
+ {
+  "id": 482,
+  "kind": "MEME",
+  "text": "The cat is not yelling. It is filing verbally.",
+  "note": "Complaint volume set to maximum."
+ },
+ {
+  "id": 483,
+  "kind": "MEME",
+  "text": "Your performance review mentions insufficient lap availability.",
+  "note": "Improvement plan begins immediately."
+ },
+ {
+  "id": 484,
+  "kind": "MEME",
+  "text": "The supervisor sleeps through every important meeting.",
+  "note": "Leadership style: horizontal."
+ },
+ {
+  "id": 485,
+  "kind": "MEME",
+  "text": "Human resources has been replaced by feline resources.",
+  "note": "Benefits now include fur."
+ },
+ {
+  "id": 486,
+  "kind": "MEME",
+  "text": "The cat owns the home; humans handle maintenance.",
+  "note": "A standard landlord arrangement."
+ },
+ {
+  "id": 487,
+  "kind": "MEME",
+  "text": "Dinner was seven minutes late. Trust is rebuilding.",
+  "note": "Full recovery may require chicken."
+ },
+ {
+  "id": 488,
+  "kind": "MEME",
+  "text": "Personal space is a rule for other people.",
+  "note": "Cat access remains unrestricted."
+ },
+ {
+  "id": 489,
+  "kind": "MEME",
+  "text": "The household follows one schedule: cat o’clock.",
+  "note": "All alarms are biological."
+ },
+ {
+  "id": 490,
+  "kind": "MEME",
+  "text": "Majestic energy, deeply questionable plan.",
+  "note": "Confidence exceeds available information."
+ },
+ {
+  "id": 491,
+  "kind": "MEME",
+  "text": "This angle was approved by an enemy.",
+  "note": "Chin department fully exposed."
+ },
+ {
+  "id": 492,
+  "kind": "MEME",
+  "text": "Glass has interrupted the face unexpectedly.",
+  "note": "Smush protocol complete."
+ },
+ {
+  "id": 493,
+  "kind": "MEME",
+  "text": "The yawn contains a small portal.",
+  "note": "Do not approach the event horizon."
+ },
+ {
+  "id": 494,
+  "kind": "MEME",
+  "text": "Mid-sneeze cat briefly leaves this dimension.",
+  "note": "Return expected after one frame."
+ },
+ {
+  "id": 495,
+  "kind": "MEME",
+  "text": "The jump looked better before the screenshot.",
+  "note": "History remembers the landing setup."
+ },
+ {
+  "id": 496,
+  "kind": "MEME",
+  "text": "Caught mid-fall, still blaming gravity.",
+  "note": "Legal action remains pending."
+ },
+ {
+  "id": 497,
+  "kind": "MEME",
+  "text": "The fisheye lens has committed a personal offense.",
+  "note": "Belly dimensions under appeal."
+ },
+ {
+  "id": 498,
+  "kind": "MEME",
+  "text": "One fang remains outside for ventilation.",
+  "note": "Building code allows it."
+ },
+ {
+  "id": 499,
+  "kind": "MEME",
+  "text": "Blep plus crossed eyes equals full bandwidth.",
+  "note": "No additional thoughts can enter."
+ },
+ {
+  "id": 500,
+  "kind": "MEME",
+  "text": "The cat is screaming in lowercase.",
+  "note": "Volume somehow remains uppercase."
+ }
+]
