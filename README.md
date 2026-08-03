@@ -4,6 +4,8 @@ A static 1998 fan-shrine homepage that shows the same cat to everybody on
 Earth. There is no backend, database, analytics, cookie, framework, bundler,
 or runtime request outside the site itself.
 
+Live site: https://cat-of-the-day.pages.dev/
+
 ## Source and safety
 
 Raw photographs live in `cat-pictures/`. The pipeline recursively discovers

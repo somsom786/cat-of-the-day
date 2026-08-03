@@ -40,6 +40,7 @@ desktop.ini
 .idea/
 
 # Scratch
+.wrangler/
 *.log
 tmp/
 scratch/
