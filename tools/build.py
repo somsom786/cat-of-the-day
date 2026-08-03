@@ -79,6 +79,12 @@ def counter_for(day: int, launch: int) -> int:
     return COUNTER_BASE + (day - launch) * COUNTER_PER_DAY + (h % 89)
 
 
+def cat_caption(entry: dict, number: int) -> str:
+    """Use the vision meme caption, with a useful cat-only fallback."""
+    caption = " ".join(str(entry.get("caption", "")).split()).strip()
+    return caption or f"Cat #{number}."
+
+
 def e(s: str) -> str:
     return html.escape(str(s), quote=True)
 
@@ -363,6 +369,7 @@ def viewer(entry: dict, alt: str, have_avif: bool, hero: bool) -> str:
         '<div class="viewer-canvas">'
         f'{picture(entry, hero=hero, alt=alt, have_avif=have_avif)}'
         '</div>'
+        f'<p class="viewer-caption">{e(cat_caption(entry, int(entry["id"].split("-")[1])))}</p>'
         '<div class="viewer-status" aria-hidden="true">'
         f'<span>{entry["w"]} x {entry["h"]}</span>'
         '<span>16.7 MILLION COLORS</span>'
@@ -409,10 +416,11 @@ def cat_page(cfg: dict, day: int, *, is_index: bool) -> str:
     entry = cfg["entry_for"](day)
     n = int(entry["id"].split("-")[1])
     day_no = day - cfg["launch"] + 1
-    alt = f"A cat. Cat #{n}."
+    alt = cat_caption(entry, n)
     title = ("CAT OF THE DAY! " + pretty(d)) if is_index else \
             (f"Cat of the Day &mdash; {iso(d)}").replace("&mdash;", "--")
-    desc = f"The cat of the day for {pretty(d)}. A new cat every single day."
+    desc = (f"{cat_caption(entry, n)} The cat of the day for {pretty(d)}. "
+            "A new cat every single day.")
     path = "/" if is_index else f"/cat/{iso(d)}/"
     site = cfg["site_url"].rstrip("/")
 
@@ -472,10 +480,11 @@ def archive_page(cfg: dict) -> str:
         cards.append(
             f'<li><a href="/cat/{iso(d)}/">'
             f'<img src="/img/thumb/{entry["id"]}.webp" width="320" height="320"'
-            f' loading="lazy" decoding="async" alt="A cat. Cat #{n}."'
+            f' loading="lazy" decoding="async" alt="{e(cat_caption(entry, n))}"'
             f' style="{style}">'
             f'<span class="cap"><b>{e(d.strftime("%b %d, %Y"))}</b>'
-            f'CAT #{n}{" &middot; TODAY" if is_today else ""}</span>'
+            f'{e(cat_caption(entry, n))} &middot; CAT #{n}'
+            f'{" &middot; TODAY" if is_today else ""}</span>'
             '</a></li>'
         )
 
@@ -538,7 +547,7 @@ def rss(cfg: dict) -> str:
         link = f"{site}/cat/{iso(d)}/"
         img = f'{site}/img/full/{entry["id"]}.webp'
         thumb = f'{site}/img/thumb/{entry["id"]}.webp'
-        desc = (f'<p><img src="{img}" alt="A cat. Cat #{n}." width="{entry["w"]}"'
+        desc = (f'<p><img src="{img}" alt="{e(cat_caption(entry, n))}" width="{entry["w"]}"'
                 f' height="{entry["h"]}"></p><p>The cat of the day for {pretty(d)}.</p>')
         items.append(
             "    <item>\n"

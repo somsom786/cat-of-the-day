@@ -1,19 +1,20 @@
 """
 PHASE 1 -- Curation pipeline.
 
-Reads every `Cats.*` block (read-only), validates, filters, perceptually
+Reads every extracted block recursively below `cat-pictures` (read-only), validates, filters, perceptually
 dedupes, ranks, and re-encodes the winners into dist/img/. Writes
 data/manifest.json and data/order.json.
 
-Nothing inside a Cats.* folder is ever written, moved or renamed. Every output
+Nothing inside the source folder is ever written, moved or renamed. Every output
 byte is generated here -- no source file is ever copied through untouched.
 
 Resumable: per-file probe results are cached in tools/.cache/hashes.json keyed
 by (path, size, mtime), so a rerun skips the expensive decode+hash work.
 
 Usage:
-    python tools/curate.py
-    python tools/curate.py --keep 1200            # top up the cat supply
+    python tools/curate.py --no-encode           # make the vision shortlist
+    python tools/curate.py --picks tools/review/picks.json
+    python tools/curate.py --keep 1200            # heuristic fallback/top-up
     python tools/curate.py --no-cache             # force a full re-probe
     python tools/curate.py --budget-mb 250
 """
@@ -173,8 +174,10 @@ def rule(title: str) -> None:
 # Discovery
 # ---------------------------------------------------------------------------
 
-def find_blocks(root: Path) -> list[Path]:
-    return sorted((p for p in root.glob("Cats.*") if p.is_dir()), key=lambda p: p.name)
+def find_blocks(source: Path) -> list[Path]:
+    if not source.is_dir():
+        return []
+    return sorted((p for p in source.iterdir() if p.is_dir()), key=lambda p: p.name)
 
 
 def walk_files(block: Path) -> list[Path]:
@@ -247,6 +250,7 @@ def probe(path: Path) -> dict:
         "lum_std": 0.0,
         "spread": 0.0,
         "src_hash": None,
+        "sourceKey": None,
         "mtime": 0.0,
     }
     lp = long_path(path)
@@ -261,6 +265,9 @@ def probe(path: Path) -> dict:
         return rec
 
     rec["src_hash"] = hashlib.sha256(raw).hexdigest()
+    rec["sourceKey"] = hashlib.sha256(
+        short_path(path).encode("utf-8", "surrogatepass")
+    ).hexdigest()
 
     try:
         im = load_clean(raw)
@@ -456,6 +463,10 @@ def encode_one(job: tuple[dict, str, dict, bool]) -> dict:
         "lqip": lqip_data_uri(full),
         "srcHash": rec["src_hash"],
     }
+    if rec.get("caption"):
+        out["caption"] = rec["caption"]
+    if rec.get("tags"):
+        out["tags"] = rec["tags"]
     total = 0
 
     def emit(img: Image.Image, rel: str, fmt: str, quality: int) -> int:
@@ -509,6 +520,48 @@ def cache_key(path: Path) -> str:
         return f"{short_path(path)}|?|?"
 
 
+def source_key(path: str) -> str:
+    """Stable key for a source path, independent of file bytes and cat id."""
+    return hashlib.sha256(
+        short_path(path).encode("utf-8", "surrogatepass")
+    ).hexdigest()
+
+
+def load_review_picks(path: Path) -> set[str]:
+    """Accept review exports as strings or objects keyed by source identity."""
+    doc = json.loads(path.read_text(encoding="utf-8"))
+    values = doc.get("picks", doc) if isinstance(doc, dict) else doc
+    if not isinstance(values, list):
+        raise ValueError("review picks must be an array or an object with picks")
+    chosen: set[str] = set()
+    for item in values:
+        if isinstance(item, str):
+            chosen.add(item)
+        elif isinstance(item, dict):
+            for key in ("srcHash", "sourceKey", "path", "id"):
+                if item.get(key):
+                    chosen.add(str(item[key]))
+                    break
+    return chosen
+
+
+def write_survivor_manifest(path: Path, survivors: list[dict], threshold: int) -> None:
+    """Write the non-encoded Phase 1 pool consumed by vision_triage.py."""
+    payload = []
+    for rec in survivors:
+        payload.append({
+            "sourceKey": rec.get("sourceKey") or source_key(rec["path"]),
+            "srcHash": rec["src_hash"],
+            "path": rec["path"],
+            "w": rec["w"], "h": rec["h"], "bytes": rec["bytes"],
+            "score": round(float(rec.get("score", 0.0)), 8),
+            "sharp": round(float(rec.get("sharp", 0.0)), 4),
+            "threshold": threshold,
+        })
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=1), encoding="utf-8")
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -517,7 +570,16 @@ def main() -> int:
     setup_console()
     ap = argparse.ArgumentParser(description="Phase 1 curation pipeline")
     ap.add_argument("--root", default=str(PROJECT_ROOT))
-    ap.add_argument("--keep", type=int, default=800, help="target keep count")
+    ap.add_argument("--source", default=None,
+                    help="source folder (default: root/cat-pictures)")
+    ap.add_argument("--keep", type=int, default=None,
+                    help="final encode count; default 800 without --picks")
+    ap.add_argument("--shortlist", type=int, default=2000,
+                    help="ranked Phase 1 pool written for vision triage")
+    ap.add_argument("--no-encode", action="store_true",
+                    help="stop after writing data/survivors.json")
+    ap.add_argument("--picks", default=None,
+                    help="review JSON; encode those picks instead of heuristic top-N")
     ap.add_argument("--budget-mb", type=float, default=250.0)
     ap.add_argument("--no-cache", action="store_true")
     ap.add_argument("--workers", type=int, default=max(2, (os.cpu_count() or 4)))
@@ -525,11 +587,14 @@ def main() -> int:
     args = ap.parse_args()
 
     root = Path(args.root).resolve()
+    source = Path(args.source).resolve() if args.source else root / "cat-pictures"
     t0 = time.time()
 
     rule("CAT OF THE DAY -- PHASE 1 CURATION")
     print(f"  root        : {root}")
-    print(f"  keep target : {args.keep}")
+    print(f"  source      : {source}")
+    print(f"  keep target : {args.keep if args.keep is not None else 800}")
+    print(f"  shortlist   : {args.shortlist}")
     print(f"  budget      : {args.budget_mb:.0f} MB for dist/img/")
     print(f"  workers     : {args.workers}")
     if HAVE_AVIF:
@@ -538,15 +603,15 @@ def main() -> int:
         print("  AVIF        : NOT AVAILABLE -- degrading to WebP-only.")
         print("                Install pillow-avif-plugin and rerun to add AVIF.")
 
-    blocks = find_blocks(root)
-    if not blocks:
-        print("\nNo Cats.* blocks found. Nothing to curate.")
+    blocks = find_blocks(source)
+    if not source.is_dir() or not blocks:
+        print("\nNo extracted source folders found under cat-pictures. Nothing to curate.")
         return 1
-    print(f"  blocks      : {', '.join(b.name for b in blocks)}")
+    print(f"  folders     : {', '.join(b.name for b in blocks)}")
 
-    files: list[Path] = []
-    for b in blocks:
-        files.extend(walk_files(b))
+    # Walk the source root itself so directly dropped files and nested folders
+    # are included as well as the expected three extracted blocks.
+    files: list[Path] = walk_files(source)
     print(f"  files       : {len(files):,}")
 
     # ---------------- Stage 1+2: probe (cached) ----------------
@@ -646,8 +711,8 @@ def main() -> int:
         if len(survivors) < 365:
             fallback_note = (
                 f"Even at {SHORT_EDGE_FALLBACK}px only {len(survivors)} cats survive. "
-                "Grab another block from the archive (Cats.00001) and rerun -- "
-                "the pipeline globs Cats.* so it will just pick it up."
+                "Grab another archive block and rerun -- the pipeline recursively "
+                "globs cat-pictures so it will just pick it up."
             )
         else:
             fallback_note = (
@@ -661,17 +726,89 @@ def main() -> int:
         r["score"] = score(r)
     survivors.sort(key=lambda r: r["score"], reverse=True)
 
-    keep_n = min(args.keep, len(survivors))
-    keepers = survivors[:keep_n]
+    shortlist_n = min(max(1, args.shortlist), len(survivors)) if survivors else 0
+    write_survivor_manifest(DATA_DIR / "survivors.json",
+                            survivors[:shortlist_n], threshold_used)
+    print(f"  vision pool : {shortlist_n:,} highest-ranked survivors")
+    print("  wrote       : data/survivors.json")
 
-    if len(survivors) >= args.keep:
+    if args.no_encode:
+        print("\n  Encoding paused by --no-encode. Run vision_triage.py on this pool,"
+              " review the contact sheet, then rerun with --picks.")
+        (CACHE_DIR / "curate-summary.json").write_text(json.dumps({
+            "input_files": len(records), "dropped": dict(drops),
+            "unique_pool": len(survivors), "shortlist": shortlist_n,
+            "kept": 0, "short_edge_threshold": threshold_used,
+            "avif": HAVE_AVIF, "seed": SEED, "encoded": False,
+        }, indent=2), encoding="utf-8")
+        print(f"\n  input files : {len(records):,}")
+        print(f"  unique pool : {len(survivors):,}")
+        print(f"  shortlist   : {shortlist_n:,}")
+        print(f"  elapsed     : {time.time() - t0:.0f}s")
+        print("\n  Nothing inside cat-pictures was modified.\n")
+        return 0
+
+    if args.picks:
+        picks_path = Path(args.picks).resolve()
+        if not picks_path.exists():
+            print(f"\nERROR: picks file does not exist: {picks_path}")
+            return 1
+        try:
+            picked = load_review_picks(picks_path)
+        except (OSError, json.JSONDecodeError, ValueError) as exc:
+            print(f"\nERROR: cannot read review picks: {exc}")
+            return 1
+        by_identity = {}
+        for rec in survivors:
+            by_identity[rec["src_hash"]] = rec
+            by_identity[rec.get("sourceKey") or source_key(rec["path"])] = rec
+            by_identity[rec["path"]] = rec
+        keepers = []
+        for value in picked:
+            rec = by_identity.get(value)
+            if rec is not None and rec not in keepers:
+                keepers.append(rec)
+        if args.keep is not None:
+            keepers = keepers[:max(0, args.keep)]
+        print(f"  review picks: {len(picked):,} ids in file, {len(keepers):,} matched")
+        if not keepers:
+            print("ERROR: no review picks matched the current survivor pool.")
+            return 1
+    else:
+        keep_n = min(args.keep if args.keep is not None else 800, len(survivors))
+        keepers = survivors[:keep_n]
+
+    # Vision annotations are deliberately optional: heuristic fallback builds
+    # remain possible, while a reviewed run carries the meme caption and tags
+    # into the public manifest.
+    score_file = CACHE_DIR / "scores.json"
+    if score_file.exists():
+        try:
+            score_doc = json.loads(score_file.read_text(encoding="utf-8"))
+            score_map = score_doc.get("scores", score_doc) if isinstance(score_doc, dict) else {}
+            for rec in keepers:
+                for identity in (rec.get("sourceKey") or source_key(rec["path"]),
+                                 rec["src_hash"], rec["path"]):
+                    annotation = score_map.get(identity)
+                    if isinstance(annotation, dict):
+                        if annotation.get("caption"):
+                            rec["caption"] = str(annotation["caption"])
+                        if annotation.get("tags"):
+                            rec["tags"] = list(annotation["tags"])
+                        break
+        except (OSError, json.JSONDecodeError, TypeError, ValueError) as exc:
+            print(f"  WARNING: could not load vision annotations ({exc})")
+
+    keep_n = len(keepers)
+    default_keep = args.keep if args.keep is not None else 800
+    if len(survivors) >= default_keep and not args.picks:
         runway = f"{keep_n} cats = {keep_n/365:.1f} years of daily cats."
-    elif len(survivors) >= 365:
+    elif len(survivors) >= 365 and not args.picks:
         runway = (f"Only {len(survivors)} survivors, so keeping all of them: "
                   f"{len(survivors)} days = {len(survivors)/365:.2f} years of runway "
                   f"before the sequence repeats.")
     else:
-        runway = f"{keep_n} cats -- under a year. See the note above."
+        runway = f"{keep_n} selected cats = {keep_n/365:.1f} years of runway."
     print(f"  {runway}")
 
     ar_mix = Counter()
@@ -736,10 +873,14 @@ def main() -> int:
     # ---------------- Stage 6: manifest + order ----------------
     rule("STAGE 6  manifest + order")
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    manifest = [
-        {k: e[k] for k in ("id", "w", "h", "dominant", "lqip", "srcHash")}
-        for e in entries
-    ]
+    manifest = []
+    for entry in entries:
+        item = {k: entry[k] for k in ("id", "w", "h", "dominant", "lqip", "srcHash")}
+        if entry.get("caption"):
+            item["caption"] = entry["caption"]
+        if entry.get("tags"):
+            item["tags"] = entry["tags"]
+        manifest.append(item)
     (DATA_DIR / "manifest.json").write_text(
         json.dumps(manifest, indent=1), encoding="utf-8")
 
@@ -774,7 +915,7 @@ def main() -> int:
     print(f"  elapsed                     : {time.time() - t0:.0f}s")
     if fallback_note:
         print(f"\n  NOTE: {fallback_note}")
-    print("\n  Nothing in Cats.* was modified. Every output byte was generated here.\n")
+    print("\n  Nothing inside cat-pictures was modified. Every output byte was generated here.\n")
 
     summary = {
         "input_files": len(records),

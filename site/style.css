@@ -263,6 +263,21 @@ h1 {
   background-repeat: no-repeat;
 }
 
+.viewer-caption {
+  margin: 0;
+  padding: 7px 10px 5px;
+  background: var(--paper);
+  border-left: 3px inset var(--wire);
+  border-right: 3px inset var(--wire);
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: clamp(18px, 3vw, 25px);
+  font-weight: bold;
+  line-height: 1.08;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
 .viewer-status {
   display: flex;
   gap: 4px;

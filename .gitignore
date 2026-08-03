@@ -2,6 +2,7 @@
 # SOURCE IMAGES — never commit. These blocks live inside the project root and
 # hold thousands of raw JPEGs. This file exists BEFORE `git init` on purpose.
 # ---------------------------------------------------------------------------
+cat-pictures/
 Cats.*/
 
 # Archives (extracted or not)
@@ -14,6 +15,10 @@ Cats.*/
 
 # Pipeline caches
 tools/.cache/
+tools/review/picks.json
+tools/review/thumbs/
+data/survivors.json
+qa/
 tools/__pycache__/
 __pycache__/
 *.pyc

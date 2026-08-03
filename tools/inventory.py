@@ -1,9 +1,9 @@
 """
 PHASE 0 -- Inventory.
 
-Walks every `Cats.*` block under the project root and reports what is actually
+Walks every extracted block below `cat-pictures` and reports what is actually
 in there. Read-only: this script never writes, moves or renames anything inside
-a Cats.* folder. The only thing it writes is a JSON copy of its own report into
+the source folder. The only thing it writes is a JSON copy of its own report into
 tools/.cache/ (gitignored).
 
 Usage:
@@ -102,12 +102,11 @@ def display(text) -> str:
 # Discovery
 # --------------------------------------------------------------------------
 
-def find_blocks(root: Path) -> list[Path]:
-    """Every Cats.* directory, sorted. Never hardcode Cats.00000."""
-    return sorted(
-        (p for p in root.glob("Cats.*") if p.is_dir()),
-        key=lambda p: p.name,
-    )
+def find_blocks(source: Path) -> list[Path]:
+    """Every extracted block below cat-pictures, without hardcoded names."""
+    if not source.is_dir():
+        return []
+    return sorted((p for p in source.iterdir() if p.is_dir()), key=lambda p: p.name)
 
 
 def walk_files(block: Path) -> list[Path]:
@@ -221,30 +220,39 @@ def table(title: str, rows, headers, total_for_pct: int | None = None) -> None:
 
 def main() -> int:
     setup_console()
-    ap = argparse.ArgumentParser(description="Phase 0 inventory of Cats.* blocks")
+    ap = argparse.ArgumentParser(description="Phase 0 inventory of cat-pictures blocks")
     ap.add_argument("--root", default=str(PROJECT_ROOT), help="project root")
+    ap.add_argument("--source", default=None, help="source folder (default: root/cat-pictures)")
     ap.add_argument("--samples", type=int, default=20, help="random sample count")
     ap.add_argument("--workers", type=int, default=min(16, (os.cpu_count() or 4) * 2))
     args = ap.parse_args()
 
     root = Path(args.root).resolve()
-    blocks = find_blocks(root)
+    source = Path(args.source).resolve() if args.source else root / "cat-pictures"
+    blocks = find_blocks(source)
 
     print("=" * 72)
     print("CAT OF THE DAY -- PHASE 0 INVENTORY (read-only)")
     print("=" * 72)
     print(f"Project root : {root}")
-    print(f"Blocks found : {len(blocks)}  ->  {', '.join(b.name for b in blocks) or '(none)'}")
-    if not blocks:
-        print("\nNo Cats.* directories found. Nothing to inventory.")
+    print(f"Source root  : {source}")
+    print(f"Folders found: {len(blocks)}  ->  {', '.join(b.name for b in blocks) or '(none)'}")
+    if not source.is_dir():
+        print("\nSource folder does not exist yet. Nothing to inventory.")
         return 1
 
     per_block = []
     all_files: list[Path] = []
     for b in blocks:
         files = walk_files(b)
-        per_block.append((b.name, len(files)))
+        per_block.append((b.name, len(files), human(sum(r.stat().st_size for r in files if r.exists()))))
         all_files.extend(files)
+
+    direct_files = [p for p in source.iterdir() if p.is_file()]
+    if direct_files:
+        per_block.append(("(source root)", len(direct_files),
+                          human(sum(p.stat().st_size for p in direct_files))))
+        all_files.extend(direct_files)
 
     print(f"Files on disk: {len(all_files):,}")
     print(f"\nProbing {len(all_files):,} files with Pillow ({args.workers} threads)...")
@@ -277,8 +285,8 @@ def main() -> int:
 
     table(
         "FILES PER BLOCK",
-        [(name, f"{n:,}") for name, n in per_block],
-        ["block", "files"],
+        [(name, f"{n:,}", bytes_) for name, n, bytes_ in per_block],
+        ["folder", "files", "bytes"],
         total_for_pct=len(records),
     )
 
@@ -413,7 +421,7 @@ def main() -> int:
         ar = f"{r['w']/r['h']:.2f}" if r["ok"] else "-"
         print(f"  {dims:>12}  ar={ar:>5}  {human(r['bytes']):>9}  {display(str(rel))}")
 
-    archives = find_archives(root)
+    archives = find_archives(source)
     print()
     print("=" * 72)
     print("UNEXTRACTED ARCHIVES")
@@ -451,7 +459,7 @@ def main() -> int:
     out = cache / "inventory.json"
     out.write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(f"\nMachine-readable copy: {out}")
-    print("Nothing inside Cats.* was modified.\n")
+    print("Nothing inside cat-pictures was modified.\n")
     return 0
 
 

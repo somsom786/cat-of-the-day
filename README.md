@@ -1,118 +1,170 @@
 # CAT OF THE DAY
 
-A static website that shows one cat per day. The same cat for everyone on
-earth, chosen by the date itself. No backend, no database, no state anywhere.
+A static 1998 fan-shrine homepage that shows the same cat to everybody on
+Earth. There is no backend, database, analytics, cookie, framework, bundler,
+or runtime request outside the site itself.
 
-Vanilla HTML/CSS/JS. No React, no Tailwind, no bundler, no npm, no third-party
-requests of any kind. The generated site's only runtime dependency is a browser.
+## Source and safety
 
----
+Raw photographs live in `cat-pictures/`. The pipeline recursively discovers
+every file under that folder and treats it as read-only. It does not assume
+the names of the extracted blocks, so adding another block and rerunning the
+commands works automatically.
 
-## How it works
+`.gitignore` excludes `cat-pictures/`, the curation cache, review picks, and
+archives. Before committing, the safety check must show zero staged or tracked
+files under `cat-pictures/`.
 
-```
-daysSinceEpoch = floor(Date.UTC(y, m, d) / 86400000)
-catIndex       = ((daysSinceEpoch - LAUNCH_DAY) mod N + N) mod N
-catId          = order[catIndex]
-```
+## Install the local tools
 
-`LAUNCH_DAY` is written once into `data/site.json` and then reused forever.
-`data/order.json` is the manifest shuffled a single time with a hardcoded seed
-(`SEED = 19980401`), so the daily sequence is identical across every rebuild and
-does not repeat for N days.
-
-**`LAUNCH_DAY` and `SEED` are load-bearing. Changing either one silently
-rewrites history** — every existing permalink would start showing a different
-cat than the one it showed when someone linked to it.
-
-Today's HTML is generated at build time, not in the browser, so `og:image` is a
-real absolute URL to today's cat baked into the served markup. Client-rendered
-OG tags do not unfurl on Discord, Bluesky or X — and the unfurl is the entire
-distribution mechanism for a site like this.
-
----
-
-## Layout
-
-```
-Cats.00000/            source images -- READ ONLY, never committed, never modified
-site/                  hand-written CSS/JS/SVG, copied verbatim into dist/
-tools/inventory.py     Phase 0 -- what is actually in the source folders
-tools/curate.py        Phase 1 -- validate, filter, dedupe, rank, re-encode
-tools/build.py         Phase 2 -- static site generator
-data/manifest.json     one entry per cat: id, w, h, dominant, lqip, srcHash
-data/order.json        the shuffled daily sequence
-data/site.json         LAUNCH_DAY, site URL, guestbook URL
-dist/                  the deployable site
-.github/workflows/     the daily rebuild
-```
-
----
-
-## First-time setup
+PowerShell:
 
 ```powershell
-python -m pip install pillow imagehash numpy
-# AVIF: Pillow 11.3+ has native AVIF support and needs nothing extra.
-# On older Pillow, add:  python -m pip install pillow-avif-plugin
-# Without either, curate.py degrades to WebP-only and says so.
+python -m pip install pillow imagehash numpy openai
+# Optional AVIF support for older Pillow versions:
+python -m pip install pillow-avif-plugin
 ```
 
-### 1. Inventory the source (read-only)
+Pillow's native AVIF support is detected at runtime. If it is unavailable,
+curation prints a warning and emits WebP-only output; the site still works.
+
+## Phase 0: inventory
+
+This is read-only and safe to rerun while more folders are extracting:
 
 ```powershell
 python tools/inventory.py
 ```
 
-Reports file counts, how many files are *actually* decodable images, resolution
-and aspect distributions, and the number that matters: how many images have a
-short edge of at least 800px.
+It reports folders found, per-folder file counts and bytes, combined size,
+extension and actual Pillow format histograms, broken files, resolution and
+aspect buckets, the short-edge `>= 800px` count, 20 deterministic random
+samples, and unextracted `.7z`, `.zip`, or `.rar` archives. A machine-readable
+copy is written to the ignored `tools/.cache/inventory.json`.
 
-### 2. Curate
+## Phase 1: heuristic curation and vision shortlist
+
+The first pass validates content, rejects short/odd/near-monochrome images,
+perceptually dedupes with pHash (Hamming distance 5), and ranks by resolution,
+compression proxy, sharpness, colour, and orientation. It caches every probe
+in `tools/.cache/hashes.json`.
+
+Create the vision pool without encoding finals:
 
 ```powershell
-python tools/curate.py
+python tools/curate.py --no-encode --shortlist 2000
 ```
 
-Validates every file, filters, perceptually dedupes, ranks, and re-encodes the
-winners into `dist/img/`. Writes `data/manifest.json` and `data/order.json`.
+This writes the ignored local `data/survivors.json`. It does not modify the
+raw source or `dist/img/`.
 
-Resumable: probe results are cached in `tools/.cache/hashes.json` keyed by
-path + size + mtime, so a rerun skips the expensive decode/hash pass. Use
-`--no-cache` to force a full re-probe.
+## Phase 1.5: AgentRouter vision triage
 
-Useful flags:
+This script uses the separate OpenAI-compatible AgentRouter endpoint at
+`https://agentrouter.org/v1`. It does not use the Claude Code connection or
+Anthropic's Messages Batch API.
 
-| flag | what it does |
-|---|---|
-| `--keep 1200` | target keep count (default 800) |
-| `--budget-mb 250` | byte budget for `dist/img/` |
-| `--no-cache` | ignore the hash cache |
-| `--workers 8` | thread count |
+Set credentials in the current PowerShell session; never put the key in a
+file or commit it:
 
-### 3. Build
+```powershell
+$env:AGENTROUTER_API_KEY = "your-key"
+# Optional after the model catalog is printed:
+$env:VISION_MODEL = "the-exact-catalog-model-id"
+```
+
+Run the free model discovery and cost preflight first:
+
+```powershell
+python tools/vision_triage.py --preflight
+```
+
+The script prints the exact catalog ids and selects a likely cheap vision
+model. It estimates cost from 384px-long-edge JPEGs, batches 10 images per
+request, and uses conservative token rates. It hard-stops above $25. No paid
+request happens until this explicit command is run:
+
+```powershell
+python tools/vision_triage.py --confirm-spend
+```
+
+The pass uses 6 concurrent workers, retries failed/429 requests with backoff,
+and saves each parsed score to `tools/.cache/scores.json` keyed by a hash of
+the source path. Re-running never re-scores cached images. It scores
+`funny` more heavily than `cuteness` or `quality`, gates quality 1, and
+drops non-cats, gore/NSFW, and visible watermarks/text.
+
+After scoring, open the generated local contact sheet:
+
+```powershell
+Start-Process tools/review/index.html
+```
+
+It is a self-contained static page with the top 400 candidates, captions,
+tags, three scores, checkboxes, select-all/select-none controls, and a browser
+download for `picks.json`. The generated thumbnails are ignored. The download
+is also ignored because it contains local source paths.
+
+Encode the reviewed selection (all picks are used unless `--keep` is supplied):
+
+```powershell
+python tools/curate.py --picks tools/review/picks.json
+```
+
+If the vision pass is unavailable, the completed local build uses the
+deterministic heuristic fallback:
+
+```powershell
+python tools/curate.py --keep 800
+```
+
+That fallback is explicitly reported; it does not pretend to contain AI
+captions or vision scores. A later reviewed run replaces the same manifest
+and image tree.
+
+## Build and preview
+
+The encoder always generates new bytes: AVIF and WebP full images at a 1600px
+long edge, 320px WebP thumbnails, and stripped-metadata 16px WebP LQIPs. It
+calibrates quality before reducing cat count and keeps `dist/img/` below the
+250 MB budget when possible.
+
+Build HTML, permalinks, archive, RSS, robots, sitemap, and headers:
 
 ```powershell
 python tools/build.py
-```
-
-Regenerates every HTML page, the RSS feed and the sitemap. Never touches
-`dist/img/` — that tree belongs to `curate.py`.
-
-### 4. Preview
-
-```powershell
 python -m http.server 8000 --directory dist
 ```
 
-Then open <http://localhost:8000>. Serve from `dist/`, not the project root —
-the site uses root-absolute paths (`/style.css`, `/img/...`).
+Open <http://localhost:8000>. Serve `dist/`, not the project root, because the
+generated site intentionally uses root-absolute asset paths.
 
----
+The daily choice is deterministic:
 
-## Before you go live
+```text
+daysSinceEpoch = floor(Date.UTC(y, m, d) / 86400000)
+catIndex       = ((daysSinceEpoch - LAUNCH_DAY) mod N + N) mod N
+```
 
-Edit `data/site.json`:
+`LAUNCH_DAY` is persisted in `data/site.json`. `data/order.json` is shuffled
+once using `SEED = 19980401`, so a sequence never repeats until all N cats have
+appeared. Recuration changes the sequence; if historical permalink stability
+matters, preserve the old order prefix and append new ids.
+
+## Site features
+
+- Win95-style Paint Shop Pro image window and bevelled navigation controls.
+- Build-time OG/Twitter tags and image preload for today's cat.
+- CSS marquee, fake odometer counter, authored SVG 88x31 buttons, and authored
+  under-construction art.
+- Caption text from vision scoring under the hero image; fallback `Cat #N.`.
+- AVIF/WebP `<picture>`, LQIP backgrounds, lazy archive thumbs, visible focus,
+  left/right arrow navigation, reduced-motion support, and 380px layout.
+- No third-party requests and no autoplay audio.
+
+## Before going live
+
+Edit `data/site.json` with the real public origin and guestbook destination:
 
 ```json
 {
@@ -123,196 +175,51 @@ Edit `data/site.json`:
 }
 ```
 
-- **`site_url`** — must be the real public origin. `og:image`, the RSS feed and
-  `sitemap.xml` all use absolute URLs built from it. `build.py` warns while it
-  is still the default.
-- **`guestbook_url`** — point it at your repo's GitHub Discussions (enable
-  Discussions in repo Settings → Features). If you would rather not use GitHub,
-  put a `mailto:you@example.com` here instead. `build.py` warns while it still
-  contains `YOUR-USERNAME`.
+Replace both placeholders before rebuilding. `site_url` is used for OG image
+URLs, RSS, robots, and the sitemap. The source photographs may have their own
+licensing obligations; verify publishing rights before putting a domain on
+the site.
 
-Then rebuild: `python tools/build.py`.
+## Cloudflare Pages
 
----
+Cloudflare Pages is the intended host. Its relevant limits are **20,000 files
+per deployment** and **25 MiB per file**. The current 800-cat fallback is
+2,400 image files and the largest generated file is far below 25 MiB.
 
-## Deploying to Cloudflare Pages
+### Connect the repository
 
-Free tier, and — the part that matters if this ever has a viral day —
-**unmetered bandwidth on static assets**.
-
-### Limits worth knowing
-
-| limit | value | where this site sits |
-|---|---|---|
-| files per deployment | **20,000** | ~2,412 (800 cats x 3 files + HTML) |
-| max size per file | **25 MiB** | largest asset is a few hundred KB |
-| builds per month (free) | 500 | one per day |
-
-At 800 cats you are using about 12% of the file budget. You could grow to
-roughly 6,600 cats before the 20,000-file ceiling becomes the binding
-constraint.
-
-### Route A — connect the Git repo (recommended)
-
-1. Push this repo to GitHub.
-2. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** →
-   **Connect to Git**, pick the repo.
-3. Build settings:
-   - Framework preset: **None**
-   - Build command: *(leave empty)*
-   - Build output directory: **`dist`**
-4. Save and deploy.
-
-Every push to `main` deploys. The daily workflow commits and pushes, so the
-daily rebuild deploys itself with no secrets to manage.
-
-### Route B — deploy with an API token
-
-Add repo secrets `CLOUDFLARE_API_TOKEN` (Pages: Edit permission) and
-`CLOUDFLARE_ACCOUNT_ID`. The deploy step in `.github/workflows/daily.yml`
-activates automatically when the token is present; without it the step is
-skipped and Route A's push-triggered deploy takes over.
+1. Push this repository to GitHub.
+2. Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git.
+3. Choose this repository, use framework preset **None**, leave build command
+   empty, and set output directory to `dist`.
+4. Deploy.
 
 ### Custom domain
 
-Pages project → **Custom domains** → **Set up a domain** → enter e.g.
-`cats.example.com`.
+In the Pages project choose **Custom domains → Set up a domain**, then follow
+Cloudflare's DNS instructions. Once the domain exists, update `site_url` in
+`data/site.json` and rebuild so OG and RSS links point to the real origin.
 
-- Domain already on Cloudflare: the DNS record is created for you.
-- Domain elsewhere: add the `CNAME` Cloudflare shows you at your registrar.
+`dist/_headers` gives images one year of immutable caching, the root five
+minutes, and permalinks one hour.
 
-Certificates are issued automatically. Then set `site_url` in `data/site.json`
-to the custom domain and rebuild, or every OG unfurl and RSS item will keep
-pointing at the `*.pages.dev` origin.
+## Daily workflow
 
-### Caching
+`.github/workflows/daily.yml` runs at `5 0 * * *` UTC and supports
+`workflow_dispatch`. It only runs `tools/build.py`, never curation, commits a
+new day's HTML, and deploys with Cloudflare's Wrangler action if the
+`CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets exist. A
+`daily-cat-build` concurrency group prevents overlapping runs.
 
-`dist/_headers` ships with the deployment:
+## Git safety check
 
-```
-/img/*   immutable, 1 year   -- filenames are stable, content never changes
-/        5 minutes           -- so a new day appears promptly
-/cat/*   1 hour              -- permalinks are effectively frozen
-```
-
----
-
-## The daily rebuild
-
-`.github/workflows/daily.yml` runs at `5 0 * * *` UTC plus `workflow_dispatch`.
-It reruns `tools/build.py` **only** — never curation, which needs the source
-blocks that are deliberately not in this repo — then commits the new day's
-permalink and the refreshed `index.html` and deploys.
-
-It uses a `concurrency` group (`daily-cat-build`, `cancel-in-progress: false`)
-so a scheduled run and a manual run can never interleave. Both commit to the
-same branch, and a race would leave the repo with a half-written day.
-
----
-
-## Topping up the cat supply
-
-The scripts glob `Cats.*`, so dropping in another block and rerunning just
-works — nothing hardcodes `Cats.00000`.
+Before a commit, use:
 
 ```powershell
-# 1. Drop Cats.00001 next to Cats.00000. (.gitignore already excludes it.)
-# 2. See what you got:
-python tools/inventory.py
-# 3. Recurate with a bigger target:
-python tools/curate.py --keep 1600
-# 4. Rebuild:
-python tools/build.py
+git add -A
+Write-Host "staged source files:" ((git diff --cached --name-only | Select-String '^cat-pictures[\\/]' | Measure-Object).Count)
+Write-Host "tracked source files:" ((git ls-files | Select-String '^cat-pictures[\\/]' | Measure-Object).Count)
+git status
 ```
 
-**Recuration reshuffles `data/order.json`.** New cats are interleaved into the
-sequence, so days that have already happened will show a different cat than they
-did before. If you have been live for a while and care about permalink
-stability, keep the old `order.json` and append the new IDs to the end of it
-instead of regenerating — the existing prefix stays put and the new cats queue
-up behind the ones already scheduled.
-
-Quality is calibrated against the byte budget automatically: `curate.py` encodes
-a sample at each quality tier and steps down until the projected `dist/img/`
-total fits. **Quality drops before the cat count does.**
-
----
-
-## Throwing out a specific cat
-
-Scoring can measure sharpness and resolution. It cannot tell a photo of a cat
-from a photo of a joke about a cat — a meme caption burned into the pixels
-scores like any other sharp, well-exposed image.
-
-`data/blocklist.json` is the manual escape hatch:
-
-```json
-{
-  "blocked": [
-    { "srcHash": "0e2758bb...", "why": "caption burned into the image" }
-  ]
-}
-```
-
-Find the hash in `data/manifest.json` (`srcHash` on the entry), add it, and
-rerun `python tools/curate.py`.
-
-**Keyed by `srcHash`, not by cat id, on purpose.** Cat ids are positional —
-`cat-0785` means "785th by score" and gets reassigned to a completely different
-photo the moment anything upstream changes. `srcHash` is the SHA256 of the
-source file and is stable forever.
-
-One image ships blocked already. It was found by looking at the archive grid,
-not by any automated check — an edge-band detector flagged 20 candidates and
-all 20 were false positives (dark walls, white blankets) while missing the real
-one. If you spot others, this is the file to add them to.
-
----
-
-## What is committed and what is not
-
-`.gitignore` excludes `Cats.*/`, `tools/.cache/`, and `*.7z` / `*.zip` / `*.rar`.
-It was written *before* `git init` — the source blocks live inside the project
-root, so initialising the repo first would have staged thousands of raw JPEGs.
-
-Committed: `dist/`, `data/`, `site/`, `tools/*.py`, the workflow, this README.
-
-Note that `dist/img/` is about 217 MB across 2,400 files, so the repo is not
-small. That is the trade for Cloudflare Pages' Git integration. If you would
-rather keep the repo lean, use Route B and add `dist/img/` to `.gitignore`, but
-then the daily workflow can no longer deploy on its own — the images would not
-exist in the checkout.
-
----
-
-## Accessibility and taste notes
-
-The 1998 styling is deliberate; the quality floor underneath it is not
-negotiable.
-
-- Body text is black on cream, always. Magenta and lime are decorative only —
-  never paragraph text, never text on navy.
-- Every cat image has real `alt` text.
-- `prefers-reduced-motion` kills the marquee, the blink and the construction
-  animation. There is also a manual toggle in the footer; the preference is the
-  only thing this site ever puts in `localStorage`.
-- Visible keyboard focus on every control. Left/right arrow keys move between
-  days.
-- Readable down to 380px — the panel collapses, the chrome stays.
-- No audio. Nothing autoplays.
-
----
-
-## Licensing, and a word about the cats
-
-Every graphic on this site — the background tile, the favicon, the four 88x31
-buttons, the under-construction sign — was authored here as SVG or CSS. No 90s
-GIFs were downloaded, no copyrighted characters appear, no recognizable meme
-cats were used.
-
-The cat photographs come from your local source blocks, and this repo makes no
-claim about their licensing. Every image is fully re-encoded before it ships:
-all metadata is stripped, which removes EXIF GPS from strangers' phones and
-guarantees you are serving bytes you generated rather than a renamed unknown
-binary. **Check that you have the right to publish the photographs before you
-point a domain at this.**
+Both counts must be zero. The raw `cat-pictures/` tree must remain untouched.

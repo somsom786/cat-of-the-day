@@ -2,7 +2,7 @@ name: Daily cat
 
 # Rebuilds the site once a day so a new permalink exists for the new day and
 # index.html points at the new cat. This NEVER reruns curation -- curate.py
-# needs the Cats.* source blocks, which are deliberately not in this repo.
+# needs the cat-pictures source blocks, which are deliberately not in this repo.
 # It only re-reads data/manifest.json and regenerates HTML.
 
 on:
