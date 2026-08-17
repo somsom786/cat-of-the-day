@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-08-17 (cat #603)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-08-17/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-17/</guid>
+      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0603.webp&quot; alt=&quot;The keyboard is my bed.&quot; width=&quot;693&quot; height=&quot;690&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The keyboard is my bed.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Wet food inevitably ruins a cat’s teeth. &lt;em&gt;Dental disease has many causes; moisture content alone does not decide it.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0603.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-08-16 (cat #831)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-08-16/</link>
