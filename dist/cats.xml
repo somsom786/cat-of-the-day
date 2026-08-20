@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-08-20 (cat #68)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-08-20/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-20/</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0068.webp&quot; alt=&quot;The foliage is a personal shield.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The foliage is a personal shield.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Ypres once held a cruel cat-throwing custom; today its festival throws toy cats instead. &lt;em&gt;History was patched with plush.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0068.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-08-19 (cat #528)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-08-19/</link>
