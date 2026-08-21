@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-08-21 (cat #901)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-08-21/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-21/</guid>
+      <pubDate>Fri, 21 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0901.webp&quot; alt=&quot;Sue the laws of gravity immediately.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sue the laws of gravity immediately.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; A cat may chatter while watching prey, but the exact reason remains uncertain. &lt;em&gt;Science has logged the noise and no explanation.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0901.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-08-20 (cat #68)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-08-20/</link>
