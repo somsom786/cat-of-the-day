@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-08-23 (cat #341)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-08-23/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-23/</guid>
+      <pubDate>Sun, 23 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0341.webp&quot; alt=&quot;Defendant of the Floor.&quot; width=&quot;1031&quot; height=&quot;910&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Defendant of the Floor.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Cats also have sensory hairs on the backs of their front legs. &lt;em&gt;The forelegs quietly joined the radar network.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0341.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-08-22 (cat #388)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-08-22/</link>
