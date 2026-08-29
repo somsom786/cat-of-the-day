@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-08-29 (cat #333)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-08-29/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-29/</guid>
+      <pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0333.webp&quot; alt=&quot;Nap time on the jewelry box.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Nap time on the jewelry box.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Edgar Allan Poe’s ‘The Black Cat’ turned feline unease into Gothic literature. &lt;em&gt;The title cat received no relaxing scenes.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0333.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-08-28 (cat #168)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-08-28/</link>
