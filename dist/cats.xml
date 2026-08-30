@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-08-30 (cat #11)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-08-30/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-30/</guid>
+      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0011.webp&quot; alt=&quot;This food truck inspector demands tuna.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;This food truck inspector demands tuna.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Polydactyl cats became strongly associated with ships and port communities. &lt;em&gt;Extra toes acquired a maritime résumé.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0011.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-08-29 (cat #333)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-08-29/</link>
