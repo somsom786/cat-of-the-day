@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-01 (cat #953)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-01/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-01/</guid>
+      <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0953.webp&quot; alt=&quot;The manuscript of my own demise.&quot; width=&quot;1080&quot; height=&quot;787&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The manuscript of my own demise.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Loaf reaches final form: rectangle with opinions. &lt;em&gt;Corners sold separately.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0953.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-08-31 (cat #65)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-08-31/</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0586.webp&quot; alt=&quot;The Duchess is reviewing your file.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Duchess is reviewing your file.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; A cat can jump without a running start by rapidly extending the hind legs. &lt;em&gt;The launch sequence fits on one floor tile.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0586.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-02 (cat #33)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-02/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-02/</guid>
-      <pubDate>Sun, 02 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0033.webp&quot; alt=&quot;Controller tastes vaguely of regret.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Controller tastes vaguely of regret.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Cats experience REM sleep, the sleep stage associated with dreaming in humans. &lt;em&gt;The paws may be attending a private chase.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0033.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
