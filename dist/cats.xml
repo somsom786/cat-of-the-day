@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-06 (cat #502)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-06/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-06/</guid>
+      <pubDate>Sun, 06 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0502.webp&quot; alt=&quot;Foul play on the pillow!&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Foul play on the pillow!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Frequent hairballs are always harmless and normal. &lt;em&gt;Repeated vomiting or hairballs deserve veterinary discussion, especially if the pattern changes.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0502.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-05 (cat #15)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-05/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 08 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0307.webp&quot; alt=&quot;refusing service since last Tuesday&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;refusing service since last Tuesday&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; One paw contains beans, knives, and no remorse. &lt;em&gt;A complete field kit.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0307.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-07 (cat #900)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-07/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-07/</guid>
-      <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0900.webp&quot; alt=&quot;waiting for the moon to text back&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;waiting for the moon to text back&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cats deliberately knock objects down to test human loyalty. &lt;em&gt;They may explore movement, seek attention, hunt, or simply occupy the same surface.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0900.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
