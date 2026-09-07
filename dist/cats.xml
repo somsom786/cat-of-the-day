@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-07 (cat #661)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-07/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-07/</guid>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0661.webp&quot; alt=&quot;watching you because the bookshelf is wrong.&quot; width=&quot;1149&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;watching you because the bookshelf is wrong.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Whiskers perfectly measure every gap a cat can fit through. &lt;em&gt;Whiskers provide nearby sensory information; body width and fluff still vary.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0661.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-06 (cat #502)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-06/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 09 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0512.webp&quot; alt=&quot;Nap time emergency protocols.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Nap time emergency protocols.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say the Cat Sìth curses homes that forget its Samhain saucer. &lt;em&gt;The same folklore also invented supernatural late fees.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0512.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-08 (cat #307)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-08/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-08/</guid>
-      <pubDate>Sat, 08 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0307.webp&quot; alt=&quot;refusing service since last Tuesday&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;refusing service since last Tuesday&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; One paw contains beans, knives, and no remorse. &lt;em&gt;A complete field kit.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0307.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
