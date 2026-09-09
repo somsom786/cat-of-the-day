@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-09 (cat #398)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-09/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-09/</guid>
+      <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0398.webp&quot; alt=&quot;I have been betrayed by the cat.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I have been betrayed by the cat.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cats are unable to swim. &lt;em&gt;Cats can swim, though many prefer not to submit a demonstration.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0398.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-08 (cat #673)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-08/</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 11 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0451.webp&quot; alt=&quot;You&amp;#x27;re blocking the sun rays.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;You&amp;#x27;re blocking the sun rays.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; A wet or dry nose by itself does not reliably measure a cat’s health. &lt;em&gt;The nose is not a diagnostic dashboard.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0451.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-10 (cat #672)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-10/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-10/</guid>
-      <pubDate>Mon, 10 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0672.webp&quot; alt=&quot;He knows the prophecy is coming.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;He knows the prophecy is coming.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Cats can climb upward more easily than they climb down headfirst. &lt;em&gt;The hooks were designed for ascent.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0672.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
