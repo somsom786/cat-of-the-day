@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-11 (cat #511)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-11/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-11/</guid>
+      <pubDate>Fri, 11 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0511.webp&quot; alt=&quot;A cat inside a machine.&quot; width=&quot;750&quot; height=&quot;562&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A cat inside a machine.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Cats can form strong attachments to people and familiar animals. &lt;em&gt;Aloofness allegations remain unproven.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0511.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-10 (cat #872)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-10/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0854.webp&quot; alt=&quot;The nose is too close.&quot; width=&quot;1280&quot; height=&quot;720&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The nose is too close.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Wet cat food contains more water than dry cat food. &lt;em&gt;The clue is unusually present in the name.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0854.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-12 (cat #827)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-12/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-12/</guid>
-      <pubDate>Wed, 12 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0827.webp&quot; alt=&quot;The hat is the suspicious part.&quot; width=&quot;794&quot; height=&quot;809&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The hat is the suspicious part.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; If I fits, I sits. Appeals are not accepted. &lt;em&gt;Container law predates human law.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0827.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
