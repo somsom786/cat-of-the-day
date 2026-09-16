@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-16 (cat #326)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-16/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-16/</guid>
+      <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0326.webp&quot; alt=&quot;Staring at you from the future.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Staring at you from the future.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Most tortoiseshell cats are female because orange and non-orange coat genes are X-linked. &lt;em&gt;The patchwork follows chromosome logistics.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0326.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-15 (cat #135)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-15/</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0163.webp&quot; alt=&quot;The hand is merely a pillow.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The hand is merely a pillow.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a ship’s cat washing behind its ears predicts rain. &lt;em&gt;Weather lore noticed grooming and wrote a forecast.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0163.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-17 (cat #603)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-17/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-17/</guid>
-      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0603.webp&quot; alt=&quot;The keyboard is my bed.&quot; width=&quot;693&quot; height=&quot;690&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The keyboard is my bed.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Wet food inevitably ruins a cat’s teeth. &lt;em&gt;Dental disease has many causes; moisture content alone does not decide it.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0603.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
