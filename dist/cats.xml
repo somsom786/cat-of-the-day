@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-17 (cat #234)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-17/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-17/</guid>
+      <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0234.webp&quot; alt=&quot;Tackles the laundry. Unforgivable.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Tackles the laundry. Unforgivable.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Kuniyoshi arranged cats into visual puns, actors, monsters, and human activities. &lt;em&gt;The meme format predates the modem.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0234.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-16 (cat #326)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-16/</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0528.webp&quot; alt=&quot;nature documentary&quot; width=&quot;1050&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;nature documentary&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; The cat is screaming in lowercase. &lt;em&gt;Volume somehow remains uppercase.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0528.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-18 (cat #163)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-18/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-18/</guid>
-      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0163.webp&quot; alt=&quot;The hand is merely a pillow.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The hand is merely a pillow.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a ship’s cat washing behind its ears predicts rain. &lt;em&gt;Weather lore noticed grooming and wrote a forecast.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0163.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
