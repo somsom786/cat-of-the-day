@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-18 (cat #714)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-18/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-18/</guid>
+      <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0714.webp&quot; alt=&quot;engineering at its absolute worst&quot; width=&quot;738&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;engineering at its absolute worst&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Larry holds the official title Chief Mouser to the Cabinet Office in Britain. &lt;em&gt;Government continuity now includes scheduled naps.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0714.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-17 (cat #234)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-17/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0068.webp&quot; alt=&quot;The foliage is a personal shield.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The foliage is a personal shield.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Ypres once held a cruel cat-throwing custom; today its festival throws toy cats instead. &lt;em&gt;History was patched with plush.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0068.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-19 (cat #528)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-19/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-19/</guid>
-      <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0528.webp&quot; alt=&quot;nature documentary&quot; width=&quot;1050&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;nature documentary&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; The cat is screaming in lowercase. &lt;em&gt;Volume somehow remains uppercase.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0528.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
