@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-21 (cat #91)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-21/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-21/</guid>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0091.webp&quot; alt=&quot;Carrot dreams are the best kind.&quot; width=&quot;719&quot; height=&quot;892&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Carrot dreams are the best kind.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a black cat near a bride promises a fortunate marriage. &lt;em&gt;Wedding folklore gave the cat an unofficial planning role.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0091.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-20 (cat #749)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-20/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 23 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0341.webp&quot; alt=&quot;Defendant of the Floor.&quot; width=&quot;1031&quot; height=&quot;910&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Defendant of the Floor.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Cats also have sensory hairs on the backs of their front legs. &lt;em&gt;The forelegs quietly joined the radar network.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0341.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-22 (cat #388)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-22/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-22/</guid>
-      <pubDate>Sat, 22 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0388.webp&quot; alt=&quot;Grand Vizier of the cat kingdom.&quot; width=&quot;828&quot; height=&quot;1104&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Grand Vizier of the cat kingdom.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Please wait. Cat is installing chaos. &lt;em&gt;Restarting will not help.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0388.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
