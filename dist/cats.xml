@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-22 (cat #889)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-22/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-22/</guid>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0889.webp&quot; alt=&quot;Cat filing a formal complaint with gravity.&quot; width=&quot;785&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Cat filing a formal complaint with gravity.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Kittens in one litter can have different fathers. &lt;em&gt;The family tree may require several branches.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0889.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-21 (cat #91)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-21/</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0729.webp&quot; alt=&quot;I have a lot of energy today.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I have a lot of energy today.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cutting whiskers is harmless grooming. &lt;em&gt;It removes important sensory input until the whiskers regrow.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0729.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-23 (cat #341)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-23/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-23/</guid>
-      <pubDate>Sun, 23 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0341.webp&quot; alt=&quot;Defendant of the Floor.&quot; width=&quot;1031&quot; height=&quot;910&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Defendant of the Floor.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Cats also have sensory hairs on the backs of their front legs. &lt;em&gt;The forelegs quietly joined the radar network.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0341.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
