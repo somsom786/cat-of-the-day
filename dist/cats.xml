@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-23 (cat #573)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-23/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-23/</guid>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0573.webp&quot; alt=&quot;The rug prophecy.&quot; width=&quot;1600&quot; height=&quot;1553&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The rug prophecy.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Older cats may sleep more and become less active than younger adults. &lt;em&gt;Senior management delegates the zoomies.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0573.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-22 (cat #889)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-22/</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0979.webp&quot; alt=&quot;I see you. Now I know.&quot; width=&quot;1600&quot; height=&quot;857&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I see you. Now I know.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Majestic energy, deeply questionable plan. &lt;em&gt;Confidence exceeds available information.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0979.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-24 (cat #729)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-24/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-24/</guid>
-      <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0729.webp&quot; alt=&quot;I have a lot of energy today.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I have a lot of energy today.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cutting whiskers is harmless grooming. &lt;em&gt;It removes important sensory input until the whiskers regrow.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0729.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
