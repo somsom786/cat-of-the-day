@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-25 (cat #88)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-25/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-25/</guid>
+      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0088.webp&quot; alt=&quot;Eyes like that demand compensation.&quot; width=&quot;1600&quot; height=&quot;1019&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Eyes like that demand compensation.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Whiskers help detect nearby objects and air movement. &lt;em&gt;Close-range navigation remains operational in the dark.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0088.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-24 (cat #277)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-24/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0291.webp&quot; alt=&quot;You&amp;#x27;re not feeding me today.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;You&amp;#x27;re not feeding me today.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Every empty box is pre-approved cat housing. &lt;em&gt;Zoning cannot stop this.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0291.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-26 (cat #750)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-26/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-26/</guid>
-      <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0750.webp&quot; alt=&quot;The sign of the end times.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The sign of the end times.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; The cat owns the home; humans handle maintenance. &lt;em&gt;A standard landlord arrangement.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0750.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
