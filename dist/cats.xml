@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-09-26 (cat #294)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-09-26/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-26/</guid>
+      <pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0294.webp&quot; alt=&quot;I have a plan. It involves you.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I have a plan. It involves you.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Dog food is suitable as a cat’s long-term diet. &lt;em&gt;Cats have species-specific nutrient needs that dog food may not meet.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0294.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-09-25 (cat #88)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-09-25/</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0168.webp&quot; alt=&quot;The box&amp;#x27;s dimensions are perfect.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The box&amp;#x27;s dimensions are perfect.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Placing a scratcher near a sleeping area can suit the stretch-and-scratch routine. &lt;em&gt;Wake, extend, file paperwork.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0168.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-08-27 (cat #291)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-08-27/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-08-27/</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0291.webp&quot; alt=&quot;You&amp;#x27;re not feeding me today.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;You&amp;#x27;re not feeding me today.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Every empty box is pre-approved cat housing. &lt;em&gt;Zoning cannot stop this.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0291.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
