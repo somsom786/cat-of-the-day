@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-02 (cat #841)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-02/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-02/</guid>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0841.webp&quot; alt=&quot;The sink clogged three minutes ago.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The sink clogged three minutes ago.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Purring is not limited to happiness; cats may also purr when stressed or unwell. &lt;em&gt;The motor has more than one setting.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0841.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-01 (cat #867)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-01/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0532.webp&quot; alt=&quot;accusing you of theft&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;accusing you of theft&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Your performance review mentions insufficient lap availability. &lt;em&gt;Improvement plan begins immediately.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0532.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-02 (cat #228)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-02/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-02/</guid>
-      <pubDate>Wed, 02 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0228.webp&quot; alt=&quot;Foul play. Illegal tackle.&quot; width=&quot;1205&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Foul play. Illegal tackle.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Weaning is a gradual transition from milk to solid food. &lt;em&gt;Lunch changes departments over several weeks.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0228.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
