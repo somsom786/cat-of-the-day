@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-04 (cat #262)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-04/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-04/</guid>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0262.webp&quot; alt=&quot;The rug is currently under siege.&quot; width=&quot;900&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The rug is currently under siege.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Simon of HMS Amethyst received the Dickin Medal after the Yangtze Incident. &lt;em&gt;A ship’s cat became a decorated veteran and remained unimpressed.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0262.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-03 (cat #504)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-03/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 05 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0015.webp&quot; alt=&quot;Lord Reginald enjoys his moss-lined chaise lounge.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Lord Reginald enjoys his moss-lined chaise lounge.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Emergency loaf deployed. Situation unchanged. &lt;em&gt;Excellent posture; no measurable assistance.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0015.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-04 (cat #580)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-04/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-04/</guid>
-      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0580.webp&quot; alt=&quot;Sleeping on the break room.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sleeping on the break room.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say letting a cat enter a new home first keeps bad spirits away. &lt;em&gt;A housewarming tradition with built-in inspection.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0580.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
