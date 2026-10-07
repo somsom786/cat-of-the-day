@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-07 (cat #689)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-07/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-07/</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0689.webp&quot; alt=&quot;The tackle is a fail.&quot; width=&quot;901&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The tackle is a fail.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Rubbing can be both an affectionate interaction and a way to deposit scent. &lt;em&gt;You have been greeted and labeled.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0689.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-06 (cat #601)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-06/</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0673.webp&quot; alt=&quot;Error loading cat.exe.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Error loading cat.exe.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; A perfect loaf has no visible means of transportation. &lt;em&gt;It still reaches the kitchen somehow.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0673.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-07 (cat #661)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-07/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-07/</guid>
-      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0661.webp&quot; alt=&quot;watching you because the bookshelf is wrong.&quot; width=&quot;1149&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;watching you because the bookshelf is wrong.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Whiskers perfectly measure every gap a cat can fit through. &lt;em&gt;Whiskers provide nearby sensory information; body width and fluff still vary.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0661.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
