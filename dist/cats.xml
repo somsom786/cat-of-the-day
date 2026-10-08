@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-08 (cat #420)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-08/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-08/</guid>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0420.webp&quot; alt=&quot;I will destroy your life today.&quot; width=&quot;717&quot; height=&quot;391&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I will destroy your life today.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Toy movement away from a cat can resemble fleeing prey. &lt;em&gt;The ribbon understands stage direction.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0420.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-07 (cat #689)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-07/</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0398.webp&quot; alt=&quot;I have been betrayed by the cat.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I have been betrayed by the cat.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cats are unable to swim. &lt;em&gt;Cats can swim, though many prefer not to submit a demonstration.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0398.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-08 (cat #673)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-08/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-08/</guid>
-      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0673.webp&quot; alt=&quot;Error loading cat.exe.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Error loading cat.exe.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; A perfect loaf has no visible means of transportation. &lt;em&gt;It still reaches the kitchen somehow.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0673.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
