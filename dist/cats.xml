@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-10 (cat #790)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-10/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-10/</guid>
+      <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0790.webp&quot; alt=&quot;The look of pure betrayal.&quot; width=&quot;757&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The look of pure betrayal.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Letting a cat catch a toy can complete the play sequence. &lt;em&gt;The hunter requires a successful quarterly result.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0790.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-09 (cat #814)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-09/</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 11 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0511.webp&quot; alt=&quot;A cat inside a machine.&quot; width=&quot;750&quot; height=&quot;562&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A cat inside a machine.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Cats can form strong attachments to people and familiar animals. &lt;em&gt;Aloofness allegations remain unproven.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0511.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-10 (cat #872)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-10/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-10/</guid>
-      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0872.webp&quot; alt=&quot;I am the prophecy.&quot; width=&quot;768&quot; height=&quot;768&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am the prophecy.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Ancient DNA shows cats traveled along Mediterranean trade routes. &lt;em&gt;Commerce moved grain, pottery, and freeloading mousers.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0872.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
