@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-12 (cat #81)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-12/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-12/</guid>
+      <pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0081.webp&quot; alt=&quot;This is how blankets are conquered.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;This is how blankets are conquered.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a sailor’s family kept a black cat to protect him at sea. &lt;em&gt;British maritime superstition outsourced navigation to the household cat.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0081.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-11 (cat #897)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-11/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0933.webp&quot; alt=&quot;Chief of Staff: The Office Manager.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Chief of Staff: The Office Manager.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Paw pads cushion the feet and help cats move quietly. &lt;em&gt;Noise reduction installed at the factory.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0933.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-12 (cat #467)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-12/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-12/</guid>
-      <pubDate>Sat, 12 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0467.webp&quot; alt=&quot;I am a terrible gymnast.&quot; width=&quot;443&quot; height=&quot;591&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am a terrible gymnast.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; The mlem is brief. The screenshot is forever. &lt;em&gt;Internet preservation succeeds again.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0467.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
