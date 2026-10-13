@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-13 (cat #247)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-13/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-13/</guid>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0247.webp&quot; alt=&quot;I betrayed my family.&quot; width=&quot;1600&quot; height=&quot;1205&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I betrayed my family.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Room 8 was a cat who repeatedly attended an elementary school in California. &lt;em&gt;Enrollment paperwork never caught up with attendance.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0247.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-12 (cat #81)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-12/</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0183.webp&quot; alt=&quot;Paperwork is best napped on.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Paperwork is best napped on.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; A displayed belly is permission for a belly rub. &lt;em&gt;It can signal trust while the vulnerable abdomen remains strictly off-limits.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0183.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-13 (cat #933)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-13/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-13/</guid>
-      <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0933.webp&quot; alt=&quot;Chief of Staff: The Office Manager.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Chief of Staff: The Office Manager.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Paw pads cushion the feet and help cats move quietly. &lt;em&gt;Noise reduction installed at the factory.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0933.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
