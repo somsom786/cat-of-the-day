@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-14 (cat #688)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-14/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-14/</guid>
+      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0688.webp&quot; alt=&quot;Betraying the red beanbag.&quot; width=&quot;750&quot; height=&quot;1334&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Betraying the red beanbag.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Kittens can eat any adult cat food and grow normally. &lt;em&gt;Growing kittens need food formulated to meet growth requirements.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0688.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-13 (cat #247)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-13/</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0135.webp&quot; alt=&quot;Tiny paws demand immediate head scratches.&quot; width=&quot;737&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Tiny paws demand immediate head scratches.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Longcat is long. Scholarship concluded. &lt;em&gt;Further research would be redundant.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0135.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-14 (cat #183)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-14/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-14/</guid>
-      <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0183.webp&quot; alt=&quot;Paperwork is best napped on.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Paperwork is best napped on.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; A displayed belly is permission for a belly rub. &lt;em&gt;It can signal trust while the vulnerable abdomen remains strictly off-limits.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0183.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
