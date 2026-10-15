@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-15 (cat #686)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-15/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-15/</guid>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0686.webp&quot; alt=&quot;Abandoned the tub for justice.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Abandoned the tub for justice.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Théophile Steinlen’s Le Chat Noir poster made a black cat an enduring image of Paris nightlife. &lt;em&gt;The stare has outlived the cabaret.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0686.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-14 (cat #688)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-14/</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0326.webp&quot; alt=&quot;Staring at you from the future.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Staring at you from the future.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Most tortoiseshell cats are female because orange and non-orange coat genes are X-linked. &lt;em&gt;The patchwork follows chromosome logistics.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0326.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-15 (cat #135)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-15/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-15/</guid>
-      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0135.webp&quot; alt=&quot;Tiny paws demand immediate head scratches.&quot; width=&quot;737&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Tiny paws demand immediate head scratches.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Longcat is long. Scholarship concluded. &lt;em&gt;Further research would be redundant.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0135.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
