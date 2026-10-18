@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-18 (cat #353)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-18/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-18/</guid>
+      <pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0353.webp&quot; alt=&quot;The cat has successfully broken this chair.&quot; width=&quot;1600&quot; height=&quot;1197&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The cat has successfully broken this chair.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a cat jumping over a coffin could wake the dead. &lt;em&gt;European funeral superstition gave cats unreasonable permissions.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0353.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-17 (cat #835)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-17/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 19 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0138.webp&quot; alt=&quot;You forgot to replace the pumpkin spice.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;You forgot to replace the pumpkin spice.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cats do not recognize their names. &lt;em&gt;Studies show cats can distinguish the sound pattern of their own names.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0138.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-18 (cat #714)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-18/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-18/</guid>
-      <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0714.webp&quot; alt=&quot;engineering at its absolute worst&quot; width=&quot;738&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;engineering at its absolute worst&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Larry holds the official title Chief Mouser to the Cabinet Office in Britain. &lt;em&gt;Government continuity now includes scheduled naps.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0714.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
