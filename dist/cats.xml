@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-19 (cat #348)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-19/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-19/</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0348.webp&quot; alt=&quot;The Royal Guard of Streaming.&quot; width=&quot;1127&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Royal Guard of Streaming.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; A curled sleeping posture reduces exposed surface area. &lt;em&gt;The heat budget has entered compact mode.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0348.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-18 (cat #353)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-18/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0749.webp&quot; alt=&quot;I have seen things you cannot imagine.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I have seen things you cannot imagine.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Fresh, clean water should remain available even when a cat eats wet food. &lt;em&gt;The beverage station stays open.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0749.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-19 (cat #138)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-19/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-19/</guid>
-      <pubDate>Sat, 19 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0138.webp&quot; alt=&quot;You forgot to replace the pumpkin spice.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;You forgot to replace the pumpkin spice.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cats do not recognize their names. &lt;em&gt;Studies show cats can distinguish the sound pattern of their own names.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0138.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
