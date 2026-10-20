@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-20 (cat #742)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-20/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-20/</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0742.webp&quot; alt=&quot;I am here. Give me the fish.&quot; width=&quot;1600&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am here. Give me the fish.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cats can see in complete darkness. &lt;em&gt;Their low-light vision is excellent, but it still requires some light.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0742.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-19 (cat #348)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-19/</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0091.webp&quot; alt=&quot;Carrot dreams are the best kind.&quot; width=&quot;719&quot; height=&quot;892&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Carrot dreams are the best kind.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a black cat near a bride promises a fortunate marriage. &lt;em&gt;Wedding folklore gave the cat an unofficial planning role.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0091.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-20 (cat #749)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-20/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-20/</guid>
-      <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0749.webp&quot; alt=&quot;I have seen things you cannot imagine.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I have seen things you cannot imagine.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Fresh, clean water should remain available even when a cat eats wet food. &lt;em&gt;The beverage station stays open.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0749.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
