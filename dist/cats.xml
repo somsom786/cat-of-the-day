@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-21 (cat #720)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-21/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-21/</guid>
+      <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0720.webp&quot; alt=&quot;I&amp;#x27;m the only one allowed to lick.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I&amp;#x27;m the only one allowed to lick.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Somewhere inside this loaf, a cat is ignoring you. &lt;em&gt;The location remains classified.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0720.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-20 (cat #742)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-20/</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0889.webp&quot; alt=&quot;Cat filing a formal complaint with gravity.&quot; width=&quot;785&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Cat filing a formal complaint with gravity.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Kittens in one litter can have different fathers. &lt;em&gt;The family tree may require several branches.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0889.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-21 (cat #91)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-21/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-21/</guid>
-      <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0091.webp&quot; alt=&quot;Carrot dreams are the best kind.&quot; width=&quot;719&quot; height=&quot;892&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Carrot dreams are the best kind.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a black cat near a bride promises a fortunate marriage. &lt;em&gt;Wedding folklore gave the cat an unofficial planning role.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0091.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
