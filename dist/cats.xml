@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-24 (cat #331)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-24/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-24/</guid>
+      <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0331.webp&quot; alt=&quot;A celestial light show.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A celestial light show.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; T. S. Eliot’s Old Possum poems supplied cats with elaborate secret names and occupations. &lt;em&gt;The private bureaucracy finally reached print.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0331.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-23 (cat #787)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-23/</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0088.webp&quot; alt=&quot;Eyes like that demand compensation.&quot; width=&quot;1600&quot; height=&quot;1019&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Eyes like that demand compensation.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Whiskers help detect nearby objects and air movement. &lt;em&gt;Close-range navigation remains operational in the dark.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0088.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-24 (cat #277)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-24/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-24/</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0277.webp&quot; alt=&quot;Staring directly at your soul.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Staring directly at your soul.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Backward-facing keratin papillae give a cat’s tongue its rough surface. &lt;em&gt;The washcloth has hooks.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0277.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
