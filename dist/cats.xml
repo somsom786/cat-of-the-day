@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-26 (cat #875)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-26/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-26/</guid>
+      <pubDate>Mon, 26 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0875.webp&quot; alt=&quot;I am judging your nap.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am judging your nap.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Blep detected. Seriousness levels approaching zero. &lt;em&gt;The face has lost containment.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0875.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-25 (cat #910)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-25/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 27 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0193.webp&quot; alt=&quot;My product review is a disaster.&quot; width=&quot;768&quot; height=&quot;1024&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;My product review is a disaster.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Moving toys can trigger stalking and pouncing more effectively than motionless ones. &lt;em&gt;The prey must respect production values.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0193.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-26 (cat #294)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-26/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-26/</guid>
-      <pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0294.webp&quot; alt=&quot;I have a plan. It involves you.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I have a plan. It involves you.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Dog food is suitable as a cat’s long-term diet. &lt;em&gt;Cats have species-specific nutrient needs that dog food may not meet.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0294.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
