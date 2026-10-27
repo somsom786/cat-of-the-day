@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-27 (cat #382)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-27/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-27/</guid>
+      <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0382.webp&quot; alt=&quot;Customer service has officially stopped helping.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Customer service has officially stopped helping.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Strong hind limbs provide much of a cat’s jumping power. &lt;em&gt;The rear launch system is fully armed.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0382.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-26 (cat #875)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-26/</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0976.webp&quot; alt=&quot;I calculate my worth now.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I calculate my worth now.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a cat entering a Russian home first finds the safest sleeping place. &lt;em&gt;Housewarming lore lets the cat conduct the first inspection.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0976.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-27 (cat #193)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-27/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-27/</guid>
-      <pubDate>Sun, 27 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0193.webp&quot; alt=&quot;My product review is a disaster.&quot; width=&quot;768&quot; height=&quot;1024&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;My product review is a disaster.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Moving toys can trigger stalking and pouncing more effectively than motionless ones. &lt;em&gt;The prey must respect production values.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0193.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
