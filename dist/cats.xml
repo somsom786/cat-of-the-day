@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-10-30 (cat #951)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-10-30/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-30/</guid>
+      <pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0951.webp&quot; alt=&quot;System failure. Please retry in five minutes.&quot; width=&quot;1242&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;System failure. Please retry in five minutes.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a cat may serve as a witch’s familiar spirit. &lt;em&gt;A European folklore role, not the cat’s actual employment.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0951.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-29 (cat #934)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-29/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0867.webp&quot; alt=&quot;Stop staring at my belly. I&amp;#x27;m shy.&quot; width=&quot;916&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Stop staring at my belly. I&amp;#x27;m shy.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Dilated pupils can reflect dim light or emotional arousal. &lt;em&gt;Context matters. The eyes refuse to explain further.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0867.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-09-30 (cat #964)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-09-30/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-09-30/</guid>
-      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0964.webp&quot; alt=&quot;I look like a tie-wearing villain.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I look like a tie-wearing villain.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Japan’s maneki-neko figurine raises a paw to beckon luck or customers. &lt;em&gt;Retail strategy: wave forever, nap never.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0964.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
