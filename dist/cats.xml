@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-01 (cat #134)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-01/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-01/</guid>
+      <pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0134.webp&quot; alt=&quot;This is how you prove your dominance.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;This is how you prove your dominance.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Scratching helps remove worn outer claw sheaths. &lt;em&gt;The manicure is structural.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0134.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-10-31 (cat #687)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-10-31/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 03 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0504.webp&quot; alt=&quot;The mastermind behind the pink glow.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The mastermind behind the pink glow.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; A fish-only diet is complete nutrition for cats. &lt;em&gt;Cats require a balanced range of nutrients that one ingredient cannot reliably provide.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0504.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-02 (cat #841)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-02/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-02/</guid>
-      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0841.webp&quot; alt=&quot;The sink clogged three minutes ago.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The sink clogged three minutes ago.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Purring is not limited to happiness; cats may also purr when stressed or unwell. &lt;em&gt;The motor has more than one setting.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0841.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
