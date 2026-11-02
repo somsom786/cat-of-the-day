@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-02 (cat #130)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-02/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-02/</guid>
+      <pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0130.webp&quot; alt=&quot;System rebooting. Please do not disturb.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;System rebooting. Please do not disturb.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Crunchy food automatically cleans every cat’s teeth. &lt;em&gt;Ordinary kibble is not a substitute for dental assessment or appropriate dental care.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0130.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-01 (cat #134)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-01/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 04 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0262.webp&quot; alt=&quot;The rug is currently under siege.&quot; width=&quot;900&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The rug is currently under siege.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Simon of HMS Amethyst received the Dickin Medal after the Yangtze Incident. &lt;em&gt;A ship’s cat became a decorated veteran and remained unimpressed.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0262.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-03 (cat #504)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-03/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-03/</guid>
-      <pubDate>Sat, 03 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0504.webp&quot; alt=&quot;The mastermind behind the pink glow.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The mastermind behind the pink glow.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; A fish-only diet is complete nutrition for cats. &lt;em&gt;Cats require a balanced range of nutrients that one ingredient cannot reliably provide.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0504.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
