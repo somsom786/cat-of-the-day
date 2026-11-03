@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-03 (cat #157)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-03/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-03/</guid>
+      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0157.webp&quot; alt=&quot;The shrubbery judges your landscaping.&quot; width=&quot;833&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The shrubbery judges your landscaping.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Bubastis in the Nile Delta was the principal cult center of Bastet. &lt;em&gt;A whole city placed the cat goddess on the org chart.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0157.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-02 (cat #130)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-02/</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0119.webp&quot; alt=&quot;Requests a new manager immediately.&quot; width=&quot;737&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Requests a new manager immediately.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Domestic cats usually have vertical slit-shaped pupils. &lt;em&gt;The aperture is built for dramatic close-ups.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0119.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-04 (cat #262)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-04/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-04/</guid>
-      <pubDate>Sun, 04 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0262.webp&quot; alt=&quot;The rug is currently under siege.&quot; width=&quot;900&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The rug is currently under siege.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Simon of HMS Amethyst received the Dickin Medal after the Yangtze Incident. &lt;em&gt;A ship’s cat became a decorated veteran and remained unimpressed.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0262.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
