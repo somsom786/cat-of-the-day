@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-04 (cat #346)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-04/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-04/</guid>
+      <pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0346.webp&quot; alt=&quot;I am a furry rug for you.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am a furry rug for you.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Cats may choose warm resting places because their thermoneutral range is warmer than ours. &lt;em&gt;The sunbeam is an environmental setting.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0346.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-03 (cat #157)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-03/</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0601.webp&quot; alt=&quot;I am a human-shaped pillow.&quot; width=&quot;1290&quot; height=&quot;1544&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am a human-shaped pillow.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Cats change sleeping positions to conserve or release body heat. &lt;em&gt;Tight cinnamon roll in winter; long noodle when warm.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0601.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-05 (cat #119)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-05/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-05/</guid>
-      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0119.webp&quot; alt=&quot;Requests a new manager immediately.&quot; width=&quot;737&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Requests a new manager immediately.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Domestic cats usually have vertical slit-shaped pupils. &lt;em&gt;The aperture is built for dramatic close-ups.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0119.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
