@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-05 (cat #929)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-05/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-05/</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0929.webp&quot; alt=&quot;A minor celestial alignment.&quot; width=&quot;1600&quot; height=&quot;900&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A minor celestial alignment.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Trills and chirps commonly appear in greetings or attention-seeking. &lt;em&gt;A polite little modem connecting.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0929.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-04 (cat #346)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-04/</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0689.webp&quot; alt=&quot;The tackle is a fail.&quot; width=&quot;901&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The tackle is a fail.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Rubbing can be both an affectionate interaction and a way to deposit scent. &lt;em&gt;You have been greeted and labeled.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0689.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-06 (cat #601)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-06/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-06/</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0601.webp&quot; alt=&quot;I am a human-shaped pillow.&quot; width=&quot;1290&quot; height=&quot;1544&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am a human-shaped pillow.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Cats change sleeping positions to conserve or release body heat. &lt;em&gt;Tight cinnamon roll in winter; long noodle when warm.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0601.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
