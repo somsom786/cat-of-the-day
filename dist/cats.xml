@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-06 (cat #652)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-06/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-06/</guid>
+      <pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0652.webp&quot; alt=&quot;Party hat is mandatory.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Party hat is mandatory.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Every orange cat is male. &lt;em&gt;Orange is sex-linked, so males are common, but orange females absolutely exist.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0652.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-05 (cat #929)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-05/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0420.webp&quot; alt=&quot;I will destroy your life today.&quot; width=&quot;717&quot; height=&quot;391&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I will destroy your life today.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Toy movement away from a cat can resemble fleeing prey. &lt;em&gt;The ribbon understands stage direction.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0420.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-07 (cat #689)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-07/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-07/</guid>
-      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0689.webp&quot; alt=&quot;The tackle is a fail.&quot; width=&quot;901&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The tackle is a fail.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Rubbing can be both an affectionate interaction and a way to deposit scent. &lt;em&gt;You have been greeted and labeled.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0689.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
