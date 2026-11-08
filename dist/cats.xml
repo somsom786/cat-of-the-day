@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-08 (cat #745)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-08/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-08/</guid>
+      <pubDate>Sun, 08 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0745.webp&quot; alt=&quot;Documentary footage of a murder.&quot; width=&quot;778&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Documentary footage of a murder.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Personal space is a rule for other people. &lt;em&gt;Cat access remains unrestricted.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0745.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-07 (cat #565)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-07/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0790.webp&quot; alt=&quot;The look of pure betrayal.&quot; width=&quot;757&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The look of pure betrayal.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Letting a cat catch a toy can complete the play sequence. &lt;em&gt;The hunter requires a successful quarterly result.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0790.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-09 (cat #814)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-09/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-09/</guid>
-      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0814.webp&quot; alt=&quot;The soup is already cold.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The soup is already cold.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; A cat’s flexible spine contributes to long strides and rapid body rotation. &lt;em&gt;The chassis bends where ours files complaints.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0814.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
