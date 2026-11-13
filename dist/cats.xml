@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-13 (cat #730)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-13/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-13/</guid>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0730.webp&quot; alt=&quot;This is my new couch.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;This is my new couch.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say feeding the cat well before a Norwegian wedding brings sunshine. &lt;em&gt;Wedding-weather folklore accepts payment in dinner.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0730.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-12 (cat #892)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-12/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0686.webp&quot; alt=&quot;Abandoned the tub for justice.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Abandoned the tub for justice.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Théophile Steinlen’s Le Chat Noir poster made a black cat an enduring image of Paris nightlife. &lt;em&gt;The stare has outlived the cabaret.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0686.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-14 (cat #688)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-14/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-14/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0688.webp&quot; alt=&quot;Betraying the red beanbag.&quot; width=&quot;750&quot; height=&quot;1334&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Betraying the red beanbag.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Kittens can eat any adult cat food and grow normally. &lt;em&gt;Growing kittens need food formulated to meet growth requirements.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0688.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
