@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-15 (cat #519)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-15/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-15/</guid>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0519.webp&quot; alt=&quot;I see you. You&amp;#x27;re in the chair.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I see you. You&amp;#x27;re in the chair.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Artist Louis Wain became famous for drawings of increasingly humanlike cats. &lt;em&gt;Victorian cats obtained clothes, jobs, and social problems.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0519.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-14 (cat #658)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-14/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0835.webp&quot; alt=&quot;buffering... please wait.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;buffering... please wait.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a French matagot rewards a household that feeds it properly. &lt;em&gt;A magical-black-cat legend with strict hospitality terms.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0835.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-16 (cat #691)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-16/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-16/</guid>
-      <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0691.webp&quot; alt=&quot;My food bowl is an emergency.&quot; width=&quot;1600&quot; height=&quot;1201&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;My food bowl is an emergency.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Friendly cats may greet by touching noses. &lt;em&gt;A tiny diplomatic summit.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0691.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
