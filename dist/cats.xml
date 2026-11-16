@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-16 (cat #358)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-16/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-16/</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0358.webp&quot; alt=&quot;Stop looking at me with your eyes.&quot; width=&quot;1125&quot; height=&quot;1122&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Stop looking at me with your eyes.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Palmerston served as Chief Mouser at Britain’s Foreign Office. &lt;em&gt;Diplomacy gained a tuxedo department.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0358.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-15 (cat #519)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-15/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0353.webp&quot; alt=&quot;The cat has successfully broken this chair.&quot; width=&quot;1600&quot; height=&quot;1197&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The cat has successfully broken this chair.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a cat jumping over a coffin could wake the dead. &lt;em&gt;European funeral superstition gave cats unreasonable permissions.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0353.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-17 (cat #835)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-17/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-17/</guid>
-      <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0835.webp&quot; alt=&quot;buffering... please wait.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;buffering... please wait.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a French matagot rewards a household that feeds it properly. &lt;em&gt;A magical-black-cat legend with strict hospitality terms.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0835.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
