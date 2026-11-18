@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-18 (cat #104)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-18/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-18/</guid>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0104.webp&quot; alt=&quot;Gravity is a clear violation of contract.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Gravity is a clear violation of contract.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cats steal a sleeping baby’s breath. &lt;em&gt;This old superstition is not biology; safe infant sleep still means keeping pets out of the sleep space.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0104.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-17 (cat #632)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-17/</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0742.webp&quot; alt=&quot;I am here. Give me the fish.&quot; width=&quot;1600&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am here. Give me the fish.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cats can see in complete darkness. &lt;em&gt;Their low-light vision is excellent, but it still requires some light.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0742.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-19 (cat #348)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-19/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-19/</guid>
-      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0348.webp&quot; alt=&quot;The Royal Guard of Streaming.&quot; width=&quot;1127&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Royal Guard of Streaming.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; A curled sleeping posture reduces exposed surface area. &lt;em&gt;The heat budget has entered compact mode.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0348.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
