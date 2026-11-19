@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-19 (cat #500)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-19/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-19/</guid>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0500.webp&quot; alt=&quot;The plan is chaos.&quot; width=&quot;987&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The plan is chaos.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say dreaming of a cat warns of deceit nearby. &lt;em&gt;Dream books blamed the sleeping cat for waking suspicions.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0500.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-18 (cat #104)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-18/</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0720.webp&quot; alt=&quot;I&amp;#x27;m the only one allowed to lick.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I&amp;#x27;m the only one allowed to lick.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Somewhere inside this loaf, a cat is ignoring you. &lt;em&gt;The location remains classified.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0720.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-20 (cat #742)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-20/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-20/</guid>
-      <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0742.webp&quot; alt=&quot;I am here. Give me the fish.&quot; width=&quot;1600&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am here. Give me the fish.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cats can see in complete darkness. &lt;em&gt;Their low-light vision is excellent, but it still requires some light.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0742.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
