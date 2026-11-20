@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-20 (cat #692)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-20/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-20/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0692.webp&quot; alt=&quot;System error: cat.exe failed to load.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;System error: cat.exe failed to load.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Cats always land on their feet. &lt;em&gt;The righting reflex needs time and cannot make every fall safe.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0692.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-19 (cat #500)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-19/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0880.webp&quot; alt=&quot;stuck in a corner of the couch&quot; width=&quot;750&quot; height=&quot;1334&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;stuck in a corner of the couch&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; The braincell connected. Maximum speed followed. &lt;em&gt;No steering update was included.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0880.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-21 (cat #720)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-21/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-21/</guid>
-      <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0720.webp&quot; alt=&quot;I&amp;#x27;m the only one allowed to lick.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I&amp;#x27;m the only one allowed to lick.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Somewhere inside this loaf, a cat is ignoring you. &lt;em&gt;The location remains classified.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0720.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
