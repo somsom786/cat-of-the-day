@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-23 (cat #400)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-23/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-23/</guid>
+      <pubDate>Mon, 23 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0400.webp&quot; alt=&quot;The black hole stares with intent.&quot; width=&quot;1066&quot; height=&quot;596&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The black hole stares with intent.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Household management has rejected your seating request. &lt;em&gt;The chair remains occupied.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0400.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-22 (cat #651)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-22/</link>
@@ -238,14 +246,6 @@
       <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0910.webp&quot; alt=&quot;I&amp;#x27;m a professional window climber.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I&amp;#x27;m a professional window climber.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Coat color alone does not reliably determine a cat’s personality. &lt;em&gt;Orange allegations remain anecdotal.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0910.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-24 (cat #331)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-24/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-24/</guid>
-      <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0331.webp&quot; alt=&quot;A celestial light show.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A celestial light show.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; T. S. Eliot’s Old Possum poems supplied cats with elaborate secret names and occupations. &lt;em&gt;The private bureaucracy finally reached print.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0331.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
