@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-24 (cat #547)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-24/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-24/</guid>
+      <pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0547.webp&quot; alt=&quot;I am not a rug.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am not a rug.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Egyptian artisans made cat-shaped amulets in materials including faience and bronze. &lt;em&gt;Pocket-sized divine supervision was available.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0547.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-23 (cat #400)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-23/</link>
@@ -238,14 +246,6 @@
       <pubDate>Mon, 26 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0875.webp&quot; alt=&quot;I am judging your nap.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am judging your nap.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Blep detected. Seriousness levels approaching zero. &lt;em&gt;The face has lost containment.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0875.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-25 (cat #910)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-25/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-25/</guid>
-      <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0910.webp&quot; alt=&quot;I&amp;#x27;m a professional window climber.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I&amp;#x27;m a professional window climber.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Coat color alone does not reliably determine a cat’s personality. &lt;em&gt;Orange allegations remain anecdotal.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0910.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
