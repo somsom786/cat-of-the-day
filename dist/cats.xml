@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-25 (cat #954)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-25/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-25/</guid>
+      <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0954.webp&quot; alt=&quot;Historical treason in fur.&quot; width=&quot;1067&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Historical treason in fur.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; Thai manuscripts called Tamra Maew describe auspicious and inauspicious cat types. &lt;em&gt;Historic cat classification arrived with poetry and omens.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0954.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-24 (cat #547)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-24/</link>
@@ -238,14 +246,6 @@
       <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0382.webp&quot; alt=&quot;Customer service has officially stopped helping.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Customer service has officially stopped helping.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Strong hind limbs provide much of a cat’s jumping power. &lt;em&gt;The rear launch system is fully armed.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0382.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-26 (cat #875)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-26/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-26/</guid>
-      <pubDate>Mon, 26 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0875.webp&quot; alt=&quot;I am judging your nap.&quot; width=&quot;1600&quot; height=&quot;1200&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I am judging your nap.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; Blep detected. Seriousness levels approaching zero. &lt;em&gt;The face has lost containment.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0875.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
