@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-26 (cat #859)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-26/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-26/</guid>
+      <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0859.webp&quot; alt=&quot;He stole the raw chicken.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;He stole the raw chicken.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; A stray cat has lived with people, while a feral cat may have had little human socialization. &lt;em&gt;The labels describe history, not moral character.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0859.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-25 (cat #954)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-25/</link>
@@ -238,14 +246,6 @@
       <pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0510.webp&quot; alt=&quot;I saw you stealing my snacks.&quot; width=&quot;640&quot; height=&quot;469&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I saw you stealing my snacks.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; System update adds one unnecessary scream. &lt;em&gt;Patch cannot be rolled back.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0510.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-27 (cat #382)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-27/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-27/</guid>
-      <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0382.webp&quot; alt=&quot;Customer service has officially stopped helping.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Customer service has officially stopped helping.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;FACT:&lt;/strong&gt; Strong hind limbs provide much of a cat’s jumping power. &lt;em&gt;The rear launch system is fully armed.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0382.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
