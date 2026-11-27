@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-27 (cat #290)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-27/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-27/</guid>
+      <pubDate>Fri, 27 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0290.webp&quot; alt=&quot;Grooming before a heist.&quot; width=&quot;1200&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Grooming before a heist.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; A warm, dry nose proves a cat has a fever. &lt;em&gt;Nose moisture and temperature vary; they are not reliable stand-alone diagnostics.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0290.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-26 (cat #859)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-26/</link>
@@ -238,14 +246,6 @@
       <pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0934.webp&quot; alt=&quot;Customer service is now strictly offline.&quot; width=&quot;720&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Customer service is now strictly offline.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; In Norse mythology, the goddess Freyja rides in a chariot drawn by cats. &lt;em&gt;Divine transport chose maximum softness and minimum compliance.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0934.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-28 (cat #510)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-28/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-28/</guid>
-      <pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0510.webp&quot; alt=&quot;I saw you stealing my snacks.&quot; width=&quot;640&quot; height=&quot;469&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I saw you stealing my snacks.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MEME:&lt;/strong&gt; System update adds one unnecessary scream. &lt;em&gt;Patch cannot be rolled back.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0510.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
