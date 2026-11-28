@@ -5,8 +5,16 @@
     <link>https://cat-of-the-day.pages.dev/</link>
     <description>A new cat every single day. No exceptions.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://cat-of-the-day.pages.dev/cats.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cat of the Day -- 2026-11-28 (cat #176)</title>
+      <link>https://cat-of-the-day.pages.dev/cat/2026-11-28/</link>
+      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-11-28/</guid>
+      <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0176.webp&quot; alt=&quot;Demands a higher quality snack.&quot; width=&quot;960&quot; height=&quot;1280&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Demands a higher quality snack.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;MYTH:&lt;/strong&gt; Calico is a cat breed. &lt;em&gt;Calico describes a coat color pattern found across multiple breeds and mixed-breed cats.&lt;/em&gt;&lt;/p&gt;</description>
+      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0176.webp" type="image/webp" length="0"/>
+    </item>
     <item>
       <title>Cat of the Day -- 2026-11-27 (cat #290)</title>
       <link>https://cat-of-the-day.pages.dev/cat/2026-11-27/</link>
@@ -238,14 +246,6 @@
       <pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0951.webp&quot; alt=&quot;System failure. Please retry in five minutes.&quot; width=&quot;1242&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;System failure. Please retry in five minutes.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;RUMOR:&lt;/strong&gt; They say a cat may serve as a witch’s familiar spirit. &lt;em&gt;A European folklore role, not the cat’s actual employment.&lt;/em&gt;&lt;/p&gt;</description>
       <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0951.webp" type="image/webp" length="0"/>
-    </item>
-    <item>
-      <title>Cat of the Day -- 2026-10-29 (cat #934)</title>
-      <link>https://cat-of-the-day.pages.dev/cat/2026-10-29/</link>
-      <guid isPermaLink="true">https://cat-of-the-day.pages.dev/cat/2026-10-29/</guid>
-      <pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;img src=&quot;https://cat-of-the-day.pages.dev/img/full/cat-0934.webp&quot; alt=&quot;Customer service is now strictly offline.&quot; width=&quot;720&quot; height=&quot;1600&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Customer service is now strictly offline.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;LORE:&lt;/strong&gt; In Norse mythology, the goddess Freyja rides in a chariot drawn by cats. &lt;em&gt;Divine transport chose maximum softness and minimum compliance.&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://cat-of-the-day.pages.dev/img/thumb/cat-0934.webp" type="image/webp" length="0"/>
     </item>
   </channel>
 </rss>
